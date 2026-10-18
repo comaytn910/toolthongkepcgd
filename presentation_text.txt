@@ -1,0 +1,294 @@
+Hướng dẫn triển khai Hệ thống nhập liệu PCGD, XMC 2026
+body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        /* Tỷ lệ khung hình chuẩn 16:9 của slide thuyết trình */
+        .slide-aspect-ratio {
+            aspect-ratio: 16 / 9;
+            max-height: 85vh;
+            width: 100%;
+        }
+
+        /* Hiệu ứng chuyển động slide mượt mà */
+        .slide-container {
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        }
+
+        .slide-hidden {
+            display: none !important;
+            opacity: 0;
+            transform: scale(0.98);
+        }
+
+        .slide-active {
+            display: flex !important;
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* Tối ưu hóa khoảng cách dòng tiếng Việt để không bao giờ bị dính dấu */
+        p, li, span, h1, h2, h3 {
+            line-height: 1.6 !important;
+        }
+
+        /* Thẩm mỹ thanh cuộn trong các danh sách */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #14b8a6;
+            border-radius: 10px;
+        }
+
+        /* Các lớp cấu hình cho khu vực zoom tương tác của Slide 9 */
+        .infographic-viewport {
+            transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+            transform-origin: center center;
+        }
+
+        .zoom-all { transform: scale(1) translate(0, 0); }
+        .zoom-top { transform: scale(1.6) translate(0, 18%); }
+        .zoom-middle { transform: scale(1.6) translate(0, 0%); }
+        .zoom-bottom { transform: scale(1.6) translate(0, -18%); }
+THÁI NGUYÊN
+Tài liệu tập huấn PCGD & XMC năm 2026
+Trước
+Slide 1 / 10
+Sở Giáo dục và Đào tạo
+Tỉnh Thái Nguyên
+Tài liệu chính thức
+Tài liệu hướng dẫn trực quan
+TRIỂN KHAI HỆ THỐNG NHẬP LIỆU
+PHỔ CẬP GIÁO DỤC, XÓA MÙ CHỮ
+Giải pháp tối ưu hóa dữ liệu, đồng bộ hóa tự động quy mô toàn tỉnh năm 2026.
+Hội nghị triển khai công tác PCGD, XMC năm 2026
+Tháng 07/2026
+Mục tiêu cốt lõi
+02 / 10
+MỤC TIÊU TRIỂN KHAI HỆ THỐNG
+Quản lý tập trung
+Lưu trữ tập trung và thống nhất dữ liệu toàn tỉnh Thái Nguyên trên nền tảng đám mây.
+Gmail công vụ riêng biệt
+Mỗi xã/phường sử dụng chính xác 01 hòm thư Gmail công vụ được phân quyền quản lý.
+Thống nhất biểu mẫu
+Chuẩn hóa cấu trúc bảng biểu, tránh tình trạng sai lệch hoặc tự ý thay đổi cột số liệu.
+Tổng hợp tự động
+Sử dụng Google Apps Script để tự động đồng bộ và hiển thị số liệu theo thời gian thực.
+Sở Giáo dục và Đào tạo Thái Nguyên
+Năm học 2025 - 2026
+Phân tích nhu cầu
+03 / 10
+VÌ SAO XÂY DỰNG HỆ THỐNG?
+Khắc phục triệt để rủi ro phân tán
+Dữ liệu lưu trữ rời rạc dễ dẫn đến thất lạc hoặc chồng chéo các phiên bản báo cáo.
+Bảo mật đa tầng, phân quyền chặt chẽ
+Chỉ có tài khoản được cấp quyền mới có thể chỉnh sửa dữ liệu của từng đơn vị.
+Rút ngắn 90% thời gian tổng hợp số liệu
+Loại bỏ quy trình xuất báo cáo giấy hoặc file Excel thủ công gửi qua các kênh mạng xã hội.
+HIỆU QUẢ VƯỢT TRỘI
+Tự động hóa kết nối và làm mới dữ liệu biểu đồ phân tích trên Dashboard toàn tỉnh.
+Sở Giáo dục và Đào tạo Thái Nguyên
+Năm học 2025 - 2026
+Kiến trúc tổng thể
+04 / 10
+MÔ HÌNH HỆ THỐNG ĐỒNG BỘ
+CẤP CƠ SỞ
+92 Xã / Phường
+Sử dụng Google Sheets để nhập liệu số liệu chuyên biệt của đơn vị. Bảo đảm đúng hạn và chính xác.
+TRUNG TÂM XỬ LÝ
+Google Apps Script
+Tự động truy xuất, xác thực, và quét dữ liệu định kỳ, chuyển tiếp trực tiếp về trung tâm.
+CẤP ĐIỀU HÀNH
+Sở GD&ĐT & Dashboard
+Theo dõi tiến độ, kiểm duyệt tổng quan và xuất trực tiếp báo cáo thống kê chính xác toàn tỉnh.
+Sở Giáo dục và Đào tạo Thái Nguyên
+Năm học 2025 - 2026
+Sổ tay vận hành
+05 / 10
+QUY TRÌNH NHẬP LIỆU CHUẨN
+Đăng nhập Gmail công vụ
+Mở thư mục đơn vị
+Mở đúng biểu mẫu
+Nhập số liệu chính xác
+Kiểm tra & rà soát kỹ
+Hoàn thành & Báo cáo
+Sở tự động tổng hợp
+Sở Giáo dục và Đào tạo Thái Nguyên
+Năm học 2025 - 2026
+Hạ tầng lưu trữ
+06 / 10
+CẤU TRÚC GOOGLE DRIVE TOÀN TỈNH
+Thư mục tổng: PCGD_2026
+Phường Bãi Bông
+Đã phân quyền
+Phường Bắc Sơn
+Đã phân quyền
+Tổng cộng 92 xã/phường...
+Quy tắc đặt tên đồng bộ
+Tất cả các thư mục con cấp cơ sở đều được phân chia rõ ràng và cấu hình tự động. Chỉ tài khoản Gmail của xã/phường đó mới có quyền xem và thao tác.
+Tuyệt đối không tự ý đổi tên thư mục của đơn vị mình để tránh mất kết nối hệ thống.
+Sở Giáo dục và Đào tạo Thái Nguyên
+Năm học 2025 - 2026
+Phân vùng nghiệp vụ
+07 / 10
+CẤU TRÚC THƯ MỤC XÃ / PHƯỜNG
+Bên trong thư mục của từng xã/phường sẽ được phân nhỏ thành các khu vực lưu trữ tương ứng với các cấp học và nghiệp vụ cụ thể để dễ dàng quản lý.
+Hệ thống phân chia ngăn nắp giúp giảm thiểu 100% tình trạng nhầm lẫn biểu mẫu giữa các cấp học.
+Danh sách thư mục thành phần:
+TRANG_CHU (Hướng dẫn chung)
+0.MN (Cấp học Mầm non)
+1.TH (Cấp học Tiểu học)
+2.THCS (Cấp học Trung học cơ sở)
+3.XMC (Chuyên đề Xóa mù chữ)
+Sở Giáo dục và Đào tạo Thái Nguyên
+Năm học 2025 - 2026
+Nguyên tắc kỷ luật
+08 / 10
+KHUYẾN NGHỊ NÊN LÀM
+Chỉ sử dụng đúng tài khoản Gmail công vụ đã đăng ký.
+Chỉ nhập số liệu vào đúng các ô được tô màu vàng.
+Kiểm tra chéo và đối chiếu kỹ lưỡng trước khi nộp.
+Liên hệ trực tiếp bộ phận hỗ trợ của Sở khi có sự cố.
+TUYỆT ĐỐI TRÁNH KHÔNG LÀM
+Không sử dụng Gmail cá nhân hoặc chưa được phân quyền.
+Không tự ý đổi tên các thẻ sheet trong file Google Sheets.
+Không tự ý xóa, thêm cột hoặc thay đổi thứ tự các ô.
+Không ước lượng, không nhập số liệu thiếu căn cứ.
+Sở Giáo dục và Đào tạo Thái Nguyên
+Năm học 2025 - 2026
+Bản đồ số hóa tương tác
+09 / 10
+Khám phá chi tiết sơ đồ hệ thống
+Chọn khu vực để hiển thị nét căng hoặc bao quát toàn cảnh sơ đồ triển khai hệ thống mà không sợ bị mờ chữ:
+Toàn cảnh sơ đồ
+Khu 1: Mục tiêu & Kiến trúc
+Khu 2: Quy trình & Thư mục
+Khu 3: Lưu ý & Chỉ số Dashboard
+Sở GD&ĐT
+Thái Nguyên
+Sở Giáo dục và Đào tạo Thái Nguyên
+Năm học 2025 - 2026
+10 / 10
+XIN TRÂN TRỌNG CẢM ƠN!
+"Điều quan trọng nhất không phải là nhập nhanh,
+mà là nhập đúng."
+Đảm bảo tiến độ hoàn thành xuất sắc và chính xác tuyệt đối cơ sở dữ liệu Phổ cập giáo dục & Xóa mù chữ tỉnh Thái Nguyên năm 2026.
+Hòm thư hỗ trợ kỹ thuật
+thuynt.phongtp@thainguyen.edu.vn
+Phòng tổ chức hành chính
+Sở GD&ĐT Thái Nguyên
+Hội nghị triển khai công tác PCGD, XMC 2026
+Tỉnh Thái Nguyên
+let currentSlide = 1;
+        const totalSlides = 10;
+
+        // Khai báo các phần tử DOM quan trọng
+        const slides = document.querySelectorAll('.slide-container');
+        const dots = document.querySelectorAll('.slide-dot');
+        const indicator = document.getElementById('slideIndicator');
+        const btnPrev = document.getElementById('btnPrev');
+        const btnNext = document.getElementById('btnNext');
+        const btnFullscreen = document.getElementById('btnFullscreen');
+        const slideDeck = document.getElementById('slideDeck');
+
+        // Hàm chuyển đổi sang slide mong muốn
+        function goToSlide(slideNum) {
+            if(slideNum < 1 || slideNum > totalSlides) return;
+            
+            // Ẩn tất cả slides cũ
+            slides.forEach(slide => {
+                slide.classList.remove('slide-active');
+                slide.classList.add('slide-hidden');
+            });
+
+            // Hiển thị slide mới
+            const targetSlide = document.getElementById('slide' + slideNum);
+            if(targetSlide) {
+                targetSlide.classList.remove('slide-hidden');
+                targetSlide.classList.add('slide-active');
+            }
+
+            // Cập nhật trạng thái các nút chấm tròn định vị
+            dots.forEach((dot, idx) => {
+                if(idx + 1 === slideNum) {
+                    dot.classList.remove('bg-slate-700');
+                    dot.classList.add('bg-teal-500', 'w-6');
+                } else {
+                    dot.classList.remove('bg-teal-500', 'w-6');
+                    dot.classList.add('bg-slate-700');
+                }
+            });
+
+            currentSlide = slideNum;
+            indicator.innerText = `Slide ${currentSlide} / ${totalSlides}`;
+            
+            // Bật/tắt nút điều hướng khi ở slide đầu/cuối
+            btnPrev.disabled = currentSlide === 1;
+            btnPrev.style.opacity = currentSlide === 1 ? '0.4' : '1';
+            btnNext.disabled = currentSlide === totalSlides;
+            btnNext.style.opacity = currentSlide === totalSlides ? '0.4' : '1';
+        }
+
+        // Sự kiện click nút bấm điều hướng
+        btnPrev.addEventListener('click', () => goToSlide(currentSlide - 1));
+        btnNext.addEventListener('click', () => goToSlide(currentSlide + 1));
+
+        // Hỗ trợ bấm phím mũi tên bàn phím cực kỳ trực quan
+        document.addEventListener('keydown', (e) => {
+            if(e.key === 'ArrowRight' || e.key === 'Space') {
+                e.preventDefault();
+                goToSlide(currentSlide + 1);
+            } else if(e.key === 'ArrowLeft') {
+                e.preventDefault();
+                goToSlide(currentSlide - 1);
+            }
+        });
+
+        // Bật/tắt chế độ xem toàn màn hình
+        btnFullscreen.addEventListener('click', () => {
+            if (!document.fullscreenElement) {
+                slideDeck.requestFullscreen().catch(err => {
+                    console.error(`Lỗi toàn màn hình: ${err.message}`);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        });
+
+        // Hàm zoom ảnh thông minh tại Slide 9
+        function zoomInfographic(level, btnElement) {
+            const viewport = document.getElementById('imgViewport');
+            const buttons = document.querySelectorAll('.zoom-opt-btn');
+            
+            // Xóa tất cả hiệu ứng zoom cũ
+            viewport.classList.remove('zoom-all', 'zoom-top', 'zoom-middle', 'zoom-bottom');
+            
+            // Áp dụng lớp phóng to mới
+            viewport.classList.add('zoom-' + level);
+            
+            // Đặt lại phong cách cho toàn bộ nút lựa chọn
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-teal-500', 'text-slate-950', 'font-bold', 'border-teal-400');
+                btn.classList.add('bg-slate-900', 'text-slate-300', 'font-semibold', 'border-slate-800');
+            });
+            
+            // Làm nổi bật nút đang được kích hoạt
+            if (btnElement) {
+                btnElement.classList.remove('bg-slate-900', 'text-slate-300', 'font-semibold', 'border-slate-800');
+                btnElement.classList.add('bg-teal-500', 'text-slate-950', 'font-bold', 'border-teal-400');
+            }
+        }
+
+        // Khởi động hiển thị slide ban đầu
+        window.onload = function() {
+            goToSlide(1);
+        };

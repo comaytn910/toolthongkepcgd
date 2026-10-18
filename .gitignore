@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Office temporary lock files
+~$*.xlsx
+~$*.xls
+
+# Temp / test files
+test_*.xlsx
+0_*_sample.json
+0_*_analysis.json
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Large backup archives
+backups/*.zip

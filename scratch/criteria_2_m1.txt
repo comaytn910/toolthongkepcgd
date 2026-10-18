@@ -1,0 +1,22 @@
+=== 01. Xã Yên Trạch - Nhập hoàn chỉnh PCGD 2026.xlsx ===
+R51: Tiêu chí | G_f=None G_v=None | H_f=None H_v=None
+R52: Bảo đảm tiêu chuẩn PCGDTH mức độ | G_f=3.0 G_v=3.0 | H_f=None H_v=None
+R53: Bảo đảm tiêu chuẩn XMC mức độ | G_f=2.0 G_v=2.0 | H_f=None H_v=None
+R54: None | G_f=SL G_v=SL | H_f=TL H_v=TL
+R55: TTN 15-18 TNTHCS | G_f==sum(N35:Y37) G_v=1289 | H_f==if(Z13<>0,round(G55/Z13*100,2),0) H_v=96.12
+R56: TTN 15-18 đã, đang học CT GDPT 
+ hoặc GDTX cấp THPT hoặc GDNN | G_f==sum(N40:Y42) G_v=1209 | H_f==if(Z13<>0,round(G56/Z13*100,2),0) H_v=90.16
+R57: TTN KT được tiếp cận GD (11-18) | G_f==sum(F12:Y12) G_v=57 | H_f==if(G57<>0,round(G57/sum(F11:W11)*100,2),0) H_v=100
+R58: Tổng số học sinh (11-18) | G_f==sum(F15:Y17,F20:Y22,F25:Y27,F30:Y32,F40:Y42) G_v=2952 | H_f==if(sum(F13:W13)<>0,round(G58/sum(F13:W13)*100,2),0) H_v=95.91
+R59: Tổng số đối tượng 18 tuổi hoàn thành chương trình GD THCS | G_f==sum(W35:Y37) G_v=275 | H_f==G59/W13 H_v=1
+=== 02. Xã Yên Thịnh - Nhập hoàn chỉnh PCGD 2026.xlsx ===
+R51: Tiêu chí | G_f=None G_v=None | H_f=None H_v=None
+R52: Bảo đảm tiêu chuẩn PCGDTH mức độ | G_f=3.0 G_v=3.0 | H_f=None H_v=None
+R53: Bảo đảm tiêu chuẩn XMC mức độ | G_f=2.0 G_v=2.0 | H_f=None H_v=None
+R54: None | G_f=SL G_v=SL | H_f=TL H_v=TL
+R55: TTN 15-18 TNTHCS | G_f==sum(N35:Y37) G_v=329 | H_f==if(Z13<>0,round(G55/Z13*100,2),0) H_v=97.92
+R56: TTN 15-18 đã, đang học CT GDPT 
+ hoặc GDTX cấp THPT hoặc GDNN | G_f==sum(N40:Y42) G_v=271 | H_f==if(Z13<>0,round(G56/Z13*100,2),0) H_v=80.65
+R57: TTN KT được tiếp cận GD (11-18) | G_f==sum(F12:Y12) G_v=3 | H_f==if(G57<>0,round(G57/sum(F11:W11)*100,2),0) H_v=100
+R58: Tổng số học sinh (11-18) | G_f=645.0 G_v=645.0 | H_f==if(sum(F13:W13)<>0,round(G58/sum(F13:W13)*100,2),0) H_v=101.26
+R59: Tổng số đối tượng 18 tuổi hoàn thành chương trình GD THCS | G_f==sum(W35:Y37) G_v=80 | H_f==G59/W13 H_v=0.987654321

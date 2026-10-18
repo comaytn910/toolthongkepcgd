@@ -1,0 +1,33 @@
+R16C4 (D16): Đi học xã/phường 
+ khác trong tỉnh
+R18C3 (C18): Xã/phường khác
+  trong tỉnh đến học
+R21C4 (D21): Đi học xã/phường 
+ khác trong tỉnh
+R23C3 (C23): Xã/phường khác 
+ trong tỉnh đến học
+R26C4 (D26): Đi học xã/phường khác 
+ trong tỉnh
+R28C3 (C28): Xã/phường khác 
+ trong tỉnh đến học
+R31C4 (D31): Đi học xã/phường khác 
+ trong tỉnh
+R33C3 (C33): Xã/phường khác 
+ trong tỉnh đến học
+R36C4 (D36): Đi học xã/phường 
+ khác trong tỉnh
+R38C3 (C38): Xã/phường khác
+  trong tỉnh đến học
+R41C4 (D41): Đi học xã/phường 
+ khác trong tỉnh
+R43C3 (C43): Xã/phường khác
+  trong tỉnh đến học
+R46C4 (D46): Đi học xã/phường khác 
+ trong tỉnh
+R48C3 (C48): Xã/phường khác 
+ trong tỉnh đến học
+R55C8 (H55): =if(Z13<>0,round(G55/Z13*100,2),0)
+R56C8 (H56): =if(Z13<>0,round(G56/Z13*100,2),0)
+R57C8 (H57): =if(G57<>0,round(G57/sum(F11:W11)*100,2),0)
+R58C8 (H58): =if(sum(F13:W13)<>0,round(G58/sum(F13:W13)*100,2),0)
+R59C8 (H59): =If(W13<>0,G59/W13,0)

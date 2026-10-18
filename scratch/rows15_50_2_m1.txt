@@ -1,0 +1,52 @@
+R15: A=Đã và đang học THCS | B=Lớp 6 | C=Số PPC | D=Tại chỗ | E=11.0 | Z==sum(N15:Y15)
+R16: A=None | B=None | C=None | D=Đi học xã/phường 
+ khác trong tỉnh | E=12.0 | Z==sum(N16:Y16)
+R17: A=None | B=None | C=None | D=Đi học tỉnh khác | E=13.0 | Z==sum(N17:Y17)
+R18: A=None | B=None | C=Xã/phường khác
+  trong tỉnh đến học | D=None | E=14.0 | Z==sum(N18:Y18)
+R19: A=None | B=None | C=Tỉnh khác đến | D=None | E=15.0 | Z==sum(N19:Y19)
+R20: A=None | B=Lớp 7 | C=Số PPC | D=Tại chỗ | E=16.0 | Z==sum(N20:Y20)
+R21: A=None | B=None | C=None | D=Đi học xã/phường 
+ khác trong tỉnh | E=17.0 | Z==sum(N21:Y21)
+R22: A=None | B=None | C=None | D=Đi học tỉnh khác | E=18.0 | Z==sum(N22:Y22)
+R23: A=None | B=None | C=Xã/phường khác 
+ trong tỉnh đến học | D=None | E=19.0 | Z==sum(N23:Y23)
+R24: A=None | B=None | C=Tỉnh khác đến | D=None | E=20.0 | Z==sum(N24:Y24)
+R25: A=None | B=Lớp 8 | C=Số PPC | D=Tại chỗ | E=21.0 | Z==sum(N25:Y25)
+R26: A=None | B=None | C=None | D=Đi học xã/phường khác 
+ trong tỉnh | E=22.0 | Z==sum(N26:Y26)
+R27: A=None | B=None | C=None | D=Đi học tỉnh khác | E=23.0 | Z==sum(N27:Y27)
+R28: A=None | B=None | C=Xã/phường khác 
+ trong tỉnh đến học | D=None | E=24.0 | Z==sum(N28:Y28)
+R29: A=None | B=None | C=Tỉnh khác đến | D=None | E=25.0 | Z==sum(N29:Y29)
+R30: A=None | B=Lớp 9 | C=Số PPC | D=Tại chỗ | E=26.0 | Z==sum(N30:Y30)
+R31: A=None | B=None | C=None | D=Đi học xã/phường khác 
+ trong tỉnh | E=27.0 | Z==sum(N31:Y31)
+R32: A=None | B=None | C=None | D=Đi học tỉnh khác | E=28.0 | Z==sum(N32:Y32)
+R33: A=None | B=None | C=Xã/phường khác 
+ trong tỉnh đến học | D=None | E=29.0 | Z==sum(N33:Y33)
+R34: A=None | B=None | C=Tỉnh khác đến | D=None | E=30.0 | Z==sum(N34:Y34)
+R35: A=None | B=TNTHCS | C=Số PPC | D=Tại chỗ | E=31.0 | Z==sum(N35:Y35)
+R36: A=None | B=None | C=None | D=Đi học xã/phường 
+ khác trong tỉnh | E=32.0 | Z==sum(N36:Y36)
+R37: A=None | B=None | C=None | D=Đi học tỉnh khác | E=33.0 | Z==sum(N37:Y37)
+R38: A=None | B=None | C=Xã/phường khác
+  trong tỉnh đến học | D=None | E=34.0 | Z==sum(N38:Y38)
+R39: A=None | B=None | C=Tỉnh khác đến | D=None | E=35.0 | Z==sum(N39:Y39)
+R40: A=Đã và đang học CT GDPT
+  hoặc GDTX cấp THPT hoặc GDNN | B=None | C=Số PPC | D=Tại chỗ | E=36.0 | Z==sum(N40:Y40)
+R41: A=None | B=None | C=None | D=Đi học xã/phường 
+ khác trong tỉnh | E=37.0 | Z==sum(N41:Y41)
+R42: A=None | B=None | C=None | D=Đi học tỉnh khác | E=38.0 | Z==sum(N42:Y42)
+R43: A=None | B=None | C=Xã/phường khác
+  trong tỉnh đến học | D=None | E=39.0 | Z==sum(N43:Y43)
+R44: A=None | B=None | C=Tỉnh khác đến | D=None | E=40.0 | Z==sum(N44:Y44)
+R45: A=Bỏ học 
+ và học khác | B=None | C=Số PPC | D=Tại chỗ | E=41.0 | Z==sum(N45:Y45)
+R46: A=None | B=None | C=None | D=Đi học xã/phường khác 
+ trong tỉnh | E=42.0 | Z==sum(N46:Y46)
+R47: A=None | B=None | C=None | D=Đi học tỉnh khác | E=43.0 | Z==sum(N47:Y47)
+R48: A=None | B=None | C=Xã/phường khác 
+ trong tỉnh đến học | D=None | E=44.0 | Z==sum(N48:Y48)
+R49: A=None | B=None | C=Tỉnh khác đến | D=None | E=45.0 | Z==sum(N49:Y49)
+R50: A=None | B=None | C=None | D=None | E=None | Z=None

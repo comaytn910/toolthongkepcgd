@@ -1,0 +1,370 @@
+[
+  {
+    "stt": 1,
+    "raw_name": "01. Xã Yên Trạch"
+  },
+  {
+    "stt": 2,
+    "raw_name": "02. Xã Yên Thịnh"
+  },
+  {
+    "stt": 3,
+    "raw_name": "03. Xã Yên Phong"
+  },
+  {
+    "stt": 4,
+    "raw_name": "04. Xã Yên Bình"
+  },
+  {
+    "stt": 5,
+    "raw_name": "05. Xã Xuân Dương"
+  },
+  {
+    "stt": 6,
+    "raw_name": "06. Xã Vô Tranh"
+  },
+  {
+    "stt": 7,
+    "raw_name": "07. Xã Võ Nhai"
+  },
+  {
+    "stt": 8,
+    "raw_name": "08. Xã Vĩnh Thông"
+  },
+  {
+    "stt": 9,
+    "raw_name": "09. Xã Vạn Phú"
+  },
+  {
+    "stt": 10,
+    "raw_name": "10. Xã Văn Lăng"
+  },
+  {
+    "stt": 11,
+    "raw_name": "11. Xã Văn Lang"
+  },
+  {
+    "stt": 12,
+    "raw_name": "12. Xã Văn Hán"
+  },
+  {
+    "stt": 13,
+    "raw_name": "13. Xã Trung Hội"
+  },
+  {
+    "stt": 14,
+    "raw_name": "14. Xã Tràng Xá"
+  },
+  {
+    "stt": 15,
+    "raw_name": "15. Xã Trần Phú"
+  },
+  {
+    "stt": 16,
+    "raw_name": "16. Xã Trại Cau"
+  },
+  {
+    "stt": 17,
+    "raw_name": "17. Xã Thượng Quan"
+  },
+  {
+    "stt": 18,
+    "raw_name": "18. Xã Thượng Minh"
+  },
+  {
+    "stt": 19,
+    "raw_name": "19. Xã Thanh Thịnh"
+  },
+  {
+    "stt": 20,
+    "raw_name": "20. Xã Thanh Mai"
+  },
+  {
+    "stt": 21,
+    "raw_name": "21. Xã Thành Công"
+  },
+  {
+    "stt": 22,
+    "raw_name": "22. Xã Thần Sa"
+  },
+  {
+    "stt": 23,
+    "raw_name": "23. Xã Tân Thành"
+  },
+  {
+    "stt": 24,
+    "raw_name": "24. Xã Tân Kỳ"
+  },
+  {
+    "stt": 25,
+    "raw_name": "25. Xã Tân Khánh"
+  },
+  {
+    "stt": 26,
+    "raw_name": "26. Xã Tân Cương"
+  },
+  {
+    "stt": 27,
+    "raw_name": "27. Xã Sảng Mộc"
+  },
+  {
+    "stt": 28,
+    "raw_name": "28. Xã Quang Sơn"
+  },
+  {
+    "stt": 29,
+    "raw_name": "29. Xã Quảng Bạch"
+  },
+  {
+    "stt": 30,
+    "raw_name": "30. Xã Quân Chu"
+  },
+  {
+    "stt": 31,
+    "raw_name": "31. Xã Phượng Tiến"
+  },
+  {
+    "stt": 32,
+    "raw_name": "32. Xã Phúc Lộc"
+  },
+  {
+    "stt": 33,
+    "raw_name": "33. Xã Phú Xuyên"
+  },
+  {
+    "stt": 34,
+    "raw_name": "34. Xã Phủ Thông"
+  },
+  {
+    "stt": 35,
+    "raw_name": "35. Xã Phú Thịnh"
+  },
+  {
+    "stt": 36,
+    "raw_name": "36. Xã Phú Lương"
+  },
+  {
+    "stt": 37,
+    "raw_name": "37. Xã Phú Lạc"
+  },
+  {
+    "stt": 38,
+    "raw_name": "38. Xã Phú Đình"
+  },
+  {
+    "stt": 39,
+    "raw_name": "39. Xã Phú Bình"
+  },
+  {
+    "stt": 40,
+    "raw_name": "40. Xã Phong Quang"
+  },
+  {
+    "stt": 41,
+    "raw_name": "41. Xã Nghinh Tường"
+  },
+  {
+    "stt": 42,
+    "raw_name": "42. Xã Nghiên Loan"
+  },
+  {
+    "stt": 43,
+    "raw_name": "43. Xã Nghĩa Tá"
+  },
+  {
+    "stt": 44,
+    "raw_name": "44. Xã Ngân Sơn"
+  },
+  {
+    "stt": 45,
+    "raw_name": "45. Xã Nam Hòa"
+  },
+  {
+    "stt": 46,
+    "raw_name": "46. Xã Nam Cường"
+  },
+  {
+    "stt": 47,
+    "raw_name": "47. Xã Na Rì"
+  },
+  {
+    "stt": 48,
+    "raw_name": "48. Xã Nà Phặc"
+  },
+  {
+    "stt": 49,
+    "raw_name": "49. Xã Lam Vỹ"
+  },
+  {
+    "stt": 50,
+    "raw_name": "50. Xã La Hiên"
+  },
+  {
+    "stt": 51,
+    "raw_name": "51. Xã La Bằng"
+  },
+  {
+    "stt": 52,
+    "raw_name": "52. Xã Kim Phượng"
+  },
+  {
+    "stt": 53,
+    "raw_name": "53. Xã Kha Sơn"
+  },
+  {
+    "stt": 54,
+    "raw_name": "54. Xã Hợp Thành"
+  },
+  {
+    "stt": 55,
+    "raw_name": "55. Xã Hiệp Lực"
+  },
+  {
+    "stt": 56,
+    "raw_name": "56. Xã Đức Lương"
+  },
+  {
+    "stt": 57,
+    "raw_name": "57. Xã Đồng Phúc"
+  },
+  {
+    "stt": 58,
+    "raw_name": "58. Xã Đồng Hỷ"
+  },
+  {
+    "stt": 59,
+    "raw_name": "59. Xã Định Hóa"
+  },
+  {
+    "stt": 60,
+    "raw_name": "60. Xã Điềm Thụy"
+  },
+  {
+    "stt": 61,
+    "raw_name": "61. Xã Dân Tiến"
+  },
+  {
+    "stt": 62,
+    "raw_name": "62. Xã Đại Từ"
+  },
+  {
+    "stt": 63,
+    "raw_name": "63. Xã Đại Phúc"
+  },
+  {
+    "stt": 64,
+    "raw_name": "64. Xã Cường Lợi"
+  },
+  {
+    "stt": 65,
+    "raw_name": "65. Xã Côn Minh"
+  },
+  {
+    "stt": 66,
+    "raw_name": "66. Xã Chợ Rã"
+  },
+  {
+    "stt": 67,
+    "raw_name": "67. Xã Chợ Mới"
+  },
+  {
+    "stt": 68,
+    "raw_name": "68. Xã Chợ Đồn"
+  },
+  {
+    "stt": 69,
+    "raw_name": "69. Xã Cao Minh"
+  },
+  {
+    "stt": 70,
+    "raw_name": "70. Xã Cẩm Giàng"
+  },
+  {
+    "stt": 71,
+    "raw_name": "71. Xã Bình Yên"
+  },
+  {
+    "stt": 72,
+    "raw_name": "72. Xã Bình Thành"
+  },
+  {
+    "stt": 73,
+    "raw_name": "73. Xã Bằng Vân"
+  },
+  {
+    "stt": 74,
+    "raw_name": "74. Xã Bằng Thành"
+  },
+  {
+    "stt": 75,
+    "raw_name": "75. Xã Bạch Thông"
+  },
+  {
+    "stt": 76,
+    "raw_name": "76. Xã Ba Bể"
+  },
+  {
+    "stt": 77,
+    "raw_name": "77. Xã An Khánh"
+  },
+  {
+    "stt": 78,
+    "raw_name": "78. Phường Vạn Xuân"
+  },
+  {
+    "stt": 79,
+    "raw_name": "79. Phường Trung Thành"
+  },
+  {
+    "stt": 80,
+    "raw_name": "80. Phường Tích Lương"
+  },
+  {
+    "stt": 81,
+    "raw_name": "81. Phường Sông Công"
+  },
+  {
+    "stt": 82,
+    "raw_name": "82. Phường Quyết Thắng"
+  },
+  {
+    "stt": 83,
+    "raw_name": "83. Phường Quan Triều"
+  },
+  {
+    "stt": 84,
+    "raw_name": "84. Phường Phúc Thuận"
+  },
+  {
+    "stt": 85,
+    "raw_name": "85. Phường Phổ Yên"
+  },
+  {
+    "stt": 86,
+    "raw_name": "86. Phường Phan Đình Phùng"
+  },
+  {
+    "stt": 87,
+    "raw_name": "87. Phường Linh Sơn"
+  },
+  {
+    "stt": 88,
+    "raw_name": "88. Phường Gia Sàng"
+  },
+  {
+    "stt": 89,
+    "raw_name": "89. Phường Đức Xuân"
+  },
+  {
+    "stt": 90,
+    "raw_name": "90. Phường Bách Quang"
+  },
+  {
+    "stt": 91,
+    "raw_name": "91. Phường Bắc Kạn"
+  },
+  {
+    "stt": 92,
+    "raw_name": "92. Phường Bá Xuyên"
+  }
+]

@@ -1,0 +1,1560 @@
+[
+  {
+    "sheet": "ĐỐI_SOÁT",
+    "title": "BÁO CÁO ĐỐI SOÁT DỮ LIỆU PCGD-XMC NĂM 2026",
+    "real_range": "A1:O71",
+    "real_min_row": 1,
+    "real_max_row": 71,
+    "real_min_col": 1,
+    "real_max_col": 15,
+    "val_count": 905,
+    "formula_count": 53,
+    "number_count": 196,
+    "header_rows": [
+      5,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      11,
+      12,
+      13,
+      15,
+      16
+    ],
+    "sample_formulas": [
+      [
+        "H10",
+        "="
+      ],
+      [
+        "H11",
+        "="
+      ],
+      [
+        "H12",
+        "="
+      ],
+      [
+        "H13",
+        "="
+      ],
+      [
+        "H14",
+        "="
+      ]
+    ]
+  },
+  {
+    "sheet": "TỔNG_QUAN",
+    "title": "TỔNG QUAN VÀ KIỂM TRA NHANH PCGD-XMC NĂM 2026",
+    "real_range": "A1:J52",
+    "real_min_row": 1,
+    "real_max_row": 52,
+    "real_min_col": 1,
+    "real_max_col": 10,
+    "val_count": 334,
+    "formula_count": 0,
+    "number_count": 117,
+    "header_rows": [
+      5,
+      10,
+      11
+    ],
+    "total_rows": [
+      5,
+      15
+    ],
+    "sample_formulas": []
+  },
+  {
+    "sheet": "0.M1",
+    "title": "THỐNG KÊ TRẺ EM MẦM NON THEO ĐỘ TUỔI",
+    "real_range": "A1:K40",
+    "real_min_row": 1,
+    "real_max_row": 40,
+    "real_min_col": 1,
+    "real_max_col": 11,
+    "val_count": 133,
+    "formula_count": 28,
+    "number_count": 34,
+    "header_rows": [
+      4,
+      6,
+      8
+    ],
+    "total_rows": [
+      3,
+      5,
+      8
+    ],
+    "sample_formulas": [
+      [
+        "K5",
+        "=sum(D5:I5)"
+      ],
+      [
+        "K6",
+        "=sum(D6:I6)"
+      ],
+      [
+        "K7",
+        "=sum(D7:I7)"
+      ],
+      [
+        "K8",
+        "=sum(D8:I8)"
+      ],
+      [
+        "K9",
+        "=sum(D9:I9)"
+      ]
+    ]
+  },
+  {
+    "sheet": "0.M2",
+    "title": "THỐNG KÊ TIÊU CHUẨN, ĐIỀU KIỆN PHỔ CẬP GIÁO DỤC MẦM NON CHO TRẺ EM MẪU GIÁO (THEO TỪNG XÃ)",
+    "real_range": "A1:V9",
+    "real_min_row": 1,
+    "real_max_row": 9,
+    "real_min_col": 1,
+    "real_max_col": 22,
+    "val_count": 64,
+    "formula_count": 6,
+    "number_count": 19,
+    "header_rows": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "total_rows": [
+      5
+    ],
+    "sample_formulas": [
+      [
+        "G8",
+        "=H8+I8"
+      ],
+      [
+        "L8",
+        "=if(J8<>\"\",round(K8/J8*100,2),0)"
+      ],
+      [
+        "R8",
+        "=if(Q8<>\"\",round(Q8/P8*100,2),0)"
+      ],
+      [
+        "G9",
+        "=H9+I9"
+      ],
+      [
+        "L9",
+        "=if(J9<>\"\",round(K9/J9*100,2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "0.M3",
+    "title": "THỐNG KÊ ĐỘI NGŨ CÁN BỘ QUẢN LÝ, GIÁO VIÊN, NHÂN VIÊN",
+    "real_range": "A1:S73",
+    "real_min_row": 1,
+    "real_max_row": 73,
+    "real_min_col": 1,
+    "real_max_col": 19,
+    "val_count": 393,
+    "formula_count": 0,
+    "number_count": 47,
+    "header_rows": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "total_rows": [
+      5,
+      6
+    ],
+    "sample_formulas": []
+  },
+  {
+    "sheet": "0.M4",
+    "title": "Thời điểm : tháng    năm : 202…",
+    "real_range": "A1:X14",
+    "real_min_row": 1,
+    "real_max_row": 14,
+    "real_min_col": 1,
+    "real_max_col": 24,
+    "val_count": 121,
+    "formula_count": 38,
+    "number_count": 25,
+    "header_rows": [
+      4,
+      5,
+      6,
+      10
+    ],
+    "total_rows": [
+      4,
+      5
+    ],
+    "sample_formulas": [
+      [
+        "C13",
+        "=C9+C11"
+      ],
+      [
+        "D13",
+        "=D9+D11"
+      ],
+      [
+        "E13",
+        "=E9+E11"
+      ],
+      [
+        "F13",
+        "=F9+F11"
+      ],
+      [
+        "H13",
+        "=H9+H11"
+      ]
+    ]
+  },
+  {
+    "sheet": "0.M5",
+    "title": "THỐNG KÊ TÌNH HÌNH TÀI CHÍNH",
+    "real_range": "A1:J38",
+    "real_min_row": 1,
+    "real_max_row": 38,
+    "real_min_col": 1,
+    "real_max_col": 10,
+    "val_count": 101,
+    "formula_count": 0,
+    "number_count": 12,
+    "header_rows": [
+      5,
+      7
+    ],
+    "total_rows": [
+      5
+    ],
+    "sample_formulas": []
+  },
+  {
+    "sheet": "0.M6",
+    "title": "BÁO CÁO THỐNG KÊ ĐỐI TƯỢNG KHUYẾT TẬT",
+    "real_range": "A2:M13",
+    "real_min_row": 2,
+    "real_max_row": 13,
+    "real_min_col": 1,
+    "real_max_col": 13,
+    "val_count": 38,
+    "formula_count": 7,
+    "number_count": 12,
+    "header_rows": [
+      5,
+      6
+    ],
+    "total_rows": [
+      5,
+      6
+    ],
+    "sample_formulas": [
+      [
+        "C7",
+        "=sum(D7:K7)"
+      ],
+      [
+        "C8",
+        "=sum(D8:K8)"
+      ],
+      [
+        "C9",
+        "=sum(D9:K9)"
+      ],
+      [
+        "C10",
+        "=sum(D10:K10)"
+      ],
+      [
+        "C11",
+        "=sum(D11:K11)"
+      ]
+    ]
+  },
+  {
+    "sheet": "0.M7",
+    "title": "SỔ THEO DÕI PHỔ CẬP GIÁO DỤC MẦM NON",
+    "real_range": "A3:P50",
+    "real_min_row": 3,
+    "real_max_row": 50,
+    "real_min_col": 1,
+    "real_max_col": 16,
+    "val_count": 42,
+    "formula_count": 0,
+    "number_count": 27,
+    "header_rows": [
+      8
+    ],
+    "total_rows": [
+      50
+    ],
+    "sample_formulas": []
+  },
+  {
+    "sheet": "1.M1",
+    "title": "THỐNG KÊ TRẺ EM 6 ĐẾN 14 TUỔI PHỔ CẬP GIÁO DỤC VÀ GIÁO DỤC BẮT BUỘC ĐỐI VỚI TIỂU HỌC",
+    "real_range": "A2:AA63",
+    "real_min_row": 2,
+    "real_max_row": 63,
+    "real_min_col": 1,
+    "real_max_col": 27,
+    "val_count": 334,
+    "formula_count": 163,
+    "number_count": 87,
+    "header_rows": [
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      8,
+      11
+    ],
+    "sample_formulas": [
+      [
+        "K8",
+        "=sum(F8:J8)"
+      ],
+      [
+        "P8",
+        "=sum(L8:O8)"
+      ],
+      [
+        "K9",
+        "=sum(F9:J9)"
+      ],
+      [
+        "P9",
+        "=sum(L9:O9)"
+      ],
+      [
+        "K10",
+        "=sum(F10:J10)"
+      ]
+    ]
+  },
+  {
+    "sheet": "1.M2",
+    "title": "Thời điểm:  Ngày  tháng năm 2026",
+    "real_range": "A2:AG35",
+    "real_min_row": 2,
+    "real_max_row": 35,
+    "real_min_col": 1,
+    "real_max_col": 33,
+    "val_count": 213,
+    "formula_count": 109,
+    "number_count": 53,
+    "header_rows": [
+      4,
+      5,
+      6,
+      8
+    ],
+    "total_rows": [
+      5,
+      8,
+      30
+    ],
+    "sample_formulas": [
+      [
+        "C8",
+        "=sum(C9:C29)"
+      ],
+      [
+        "D8",
+        "=sum(D9:D29)"
+      ],
+      [
+        "E8",
+        "=sum(E9:E29)"
+      ],
+      [
+        "F8",
+        "=sum(F9:F29)"
+      ],
+      [
+        "G8",
+        "=sum(G9:G29)"
+      ]
+    ]
+  },
+  {
+    "sheet": "1.M3",
+    "title": "THỐNG KÊ CƠ SỞ VẬT CHẤT PHỔ CẬP GIÁO DỤC VÀ GIÁO DỤC BẮT BUỘC ĐỐI VỚI TIỂU HỌC",
+    "real_range": "A1:AC101",
+    "real_min_row": 1,
+    "real_max_row": 101,
+    "real_min_col": 1,
+    "real_max_col": 29,
+    "val_count": 292,
+    "formula_count": 120,
+    "number_count": 122,
+    "header_rows": [
+      4,
+      5,
+      6,
+      8
+    ],
+    "total_rows": [
+      5,
+      8
+    ],
+    "sample_formulas": [
+      [
+        "C8",
+        "=sum(C9:C17)"
+      ],
+      [
+        "D8",
+        "=sum(D9:D17)"
+      ],
+      [
+        "E8",
+        "=sum(E9:E17)"
+      ],
+      [
+        "F8",
+        "=sum(F9:F17)"
+      ],
+      [
+        "G8",
+        "=sum(G9:G17)"
+      ]
+    ]
+  },
+  {
+    "sheet": "1.M4",
+    "title": "KẾT QUẢ PHỔ CẬP GIÁO DỤC VÀ GIÁO DỤC BẮT BUỘC ĐỐI VỚI TIỂU HỌC",
+    "real_range": "A1:U116",
+    "real_min_row": 1,
+    "real_max_row": 116,
+    "real_min_col": 1,
+    "real_max_col": 21,
+    "val_count": 81,
+    "formula_count": 15,
+    "number_count": 32,
+    "header_rows": [
+      4,
+      6,
+      8
+    ],
+    "total_rows": [
+      6,
+      116
+    ],
+    "sample_formulas": [
+      [
+        "D8",
+        "='1.M1'!K14+'1.M1'!P14"
+      ],
+      [
+        "E8",
+        "='1.M1'!K11+'1.M1'!P11"
+      ],
+      [
+        "F8",
+        "='1.M1'!F58"
+      ],
+      [
+        "G8",
+        "='1.M1'!G58"
+      ],
+      [
+        "H8",
+        "='1.M1'!F59"
+      ]
+    ]
+  },
+  {
+    "sheet": "1.M5",
+    "title": "THỐNG KÊ ĐỐI TƯỢNG KHUYẾT TẬT CẤP TIỂU HỌC",
+    "real_range": "A3:N17",
+    "real_min_row": 3,
+    "real_max_row": 17,
+    "real_min_col": 1,
+    "real_max_col": 14,
+    "val_count": 64,
+    "formula_count": 19,
+    "number_count": 28,
+    "header_rows": [
+      6,
+      7
+    ],
+    "total_rows": [
+      6,
+      7
+    ],
+    "sample_formulas": [
+      [
+        "C8",
+        "=sum(D8:K8)"
+      ],
+      [
+        "C9",
+        "=sum(D9:K9)"
+      ],
+      [
+        "C10",
+        "=sum(D10:K10)"
+      ],
+      [
+        "C11",
+        "=sum(D11:K11)"
+      ],
+      [
+        "C12",
+        "=sum(D12:K12)"
+      ]
+    ]
+  },
+  {
+    "sheet": "1.M6",
+    "title": "SỐ LIỆU HỌC SINH CỦA XÃ, PHƯỜNG ĐANG HỌC TẠI XÃ/PHƯỜNG NGOÀI (TRONG TỈNH) VÀ TỈNH/THÀNH PHỐ NGOÀI",
+    "real_range": "A2:AR49",
+    "real_min_row": 2,
+    "real_max_row": 49,
+    "real_min_col": 1,
+    "real_max_col": 44,
+    "val_count": 215,
+    "formula_count": 135,
+    "number_count": 19,
+    "header_rows": [
+      5,
+      6
+    ],
+    "total_rows": [
+      27,
+      48,
+      49
+    ],
+    "sample_formulas": [
+      [
+        "AR8",
+        "=sum(C8:AQ8)"
+      ],
+      [
+        "AR9",
+        "=sum(C9:AQ9)"
+      ],
+      [
+        "AR10",
+        "=sum(C10:AQ10)"
+      ],
+      [
+        "AR20",
+        "=sum(C20:AQ20)"
+      ],
+      [
+        "AR21",
+        "=sum(C21:AQ21)"
+      ]
+    ]
+  },
+  {
+    "sheet": "1.M7",
+    "title": "Trường học",
+    "real_range": "A2:AR68",
+    "real_min_row": 2,
+    "real_max_row": 68,
+    "real_min_col": 1,
+    "real_max_col": 44,
+    "val_count": 302,
+    "formula_count": 184,
+    "number_count": 57,
+    "header_rows": [
+      5,
+      6,
+      7
+    ],
+    "total_rows": [
+      7,
+      34,
+      68
+    ],
+    "sample_formulas": [
+      [
+        "C7",
+        "=C34+C68"
+      ],
+      [
+        "D7",
+        "=D34+D68"
+      ],
+      [
+        "E7",
+        "=E34+E68"
+      ],
+      [
+        "F7",
+        "=F34+F68"
+      ],
+      [
+        "G7",
+        "=G34+G68"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M1",
+    "title": "THỐNG KÊ THANH THIẾU NIÊN PHỔ CẬP GIÁO DỤC TRUNG HỌC CƠ SỞ",
+    "real_range": "A1:Z59",
+    "real_min_row": 1,
+    "real_max_row": 59,
+    "real_min_col": 1,
+    "real_max_col": 26,
+    "val_count": 214,
+    "formula_count": 60,
+    "number_count": 61,
+    "header_rows": [
+      10
+    ],
+    "total_rows": [
+      7,
+      10,
+      58,
+      59
+    ],
+    "sample_formulas": [
+      [
+        "Z7",
+        "=sum(N7:W7)"
+      ],
+      [
+        "Z8",
+        "=sum(N8:W8)"
+      ],
+      [
+        "Z9",
+        "=sum(N9:W9)"
+      ],
+      [
+        "Z10",
+        "=sum(N10:W10)"
+      ],
+      [
+        "Z11",
+        "=sum(N11:W11)"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M2",
+    "title": "BIỂU TỔNG HỢP KẾT QUẢ HUY ĐỘNG PHỔ CẬP GIÁO DỤC TRUNG HỌC CƠ SỞ",
+    "real_range": "A1:W48",
+    "real_min_row": 1,
+    "real_max_row": 48,
+    "real_min_col": 1,
+    "real_max_col": 23,
+    "val_count": 313,
+    "formula_count": 215,
+    "number_count": 39,
+    "header_rows": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      7
+    ],
+    "sample_formulas": [
+      [
+        "E9",
+        "=if(C9<>0,round(D9/C9*100,2),0)"
+      ],
+      [
+        "J9",
+        "=if(F9<>0,round(I9/F9*100,2),0)"
+      ],
+      [
+        "M9",
+        "=if(K9<>0,round(L9/K9*100,2),0)"
+      ],
+      [
+        "Q9",
+        "=if(N9<>0,round((P9+O9)/N9*100,2),0)"
+      ],
+      [
+        "V9",
+        "=if(R9<>0,round((U9/R9*100),2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M3",
+    "title": "THỐNG KÊ PHỔ CẬP GIÁO DỤC TRUNG HỌC CƠ SỞ",
+    "real_range": "A1:S46",
+    "real_min_row": 1,
+    "real_max_row": 46,
+    "real_min_col": 1,
+    "real_max_col": 19,
+    "val_count": 218,
+    "formula_count": 128,
+    "number_count": 62,
+    "header_rows": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      4,
+      5,
+      46
+    ],
+    "sample_formulas": [
+      [
+        "J7",
+        "=if(H7<>0,round(I7/(H7)*100,2),0)"
+      ],
+      [
+        "L7",
+        "=IF(H7<>0,ROUND(K7/H7*100,2),0)"
+      ],
+      [
+        "P7",
+        "=if(and(N7=0,O7=0),0,if(N7<>0,round(O7/N7*100,2),0))"
+      ],
+      [
+        "J8",
+        "=if(H8<>0,round(I8/(H8)*100,2),0)"
+      ],
+      [
+        "L8",
+        "=IF(H8<>0,ROUND(K8/H8*100,2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M4",
+    "title": "THỐNG KÊ CƠ SỞ VẬT CHẤT PHỔ CẬP GIÁO DỤC TRUNG HỌC CƠ SỞ",
+    "real_range": "A1:X12",
+    "real_min_row": 1,
+    "real_max_row": 12,
+    "real_min_col": 1,
+    "real_max_col": 24,
+    "val_count": 86,
+    "formula_count": 22,
+    "number_count": 28,
+    "header_rows": [
+      4,
+      5,
+      6
+    ],
+    "total_rows": [
+      12
+    ],
+    "sample_formulas": [
+      [
+        "C12",
+        "=sum(C8:C11)"
+      ],
+      [
+        "D12",
+        "=sum(D8:D11)"
+      ],
+      [
+        "E12",
+        "=sum(E8:E11)"
+      ],
+      [
+        "F12",
+        "=sum(F8:F11)"
+      ],
+      [
+        "G12",
+        "=sum(G8:G11)"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M5",
+    "title": "Hạng trường",
+    "real_range": "A1:AQ17",
+    "real_min_row": 1,
+    "real_max_row": 17,
+    "real_min_col": 1,
+    "real_max_col": 43,
+    "val_count": 147,
+    "formula_count": 37,
+    "number_count": 47,
+    "header_rows": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "total_rows": [
+      4,
+      12
+    ],
+    "sample_formulas": [
+      [
+        "F12",
+        "=sum(F8:F11)"
+      ],
+      [
+        "G12",
+        "=sum(G8:G11)"
+      ],
+      [
+        "H12",
+        "=sum(H8:H11)"
+      ],
+      [
+        "I12",
+        "=sum(I8:I11)"
+      ],
+      [
+        "J12",
+        "=sum(J8:J11)"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M6",
+    "title": "THỐNG KÊ ĐỐI TƯỢNG KHUYẾT TẬT CẤP THCS",
+    "real_range": "A2:M14",
+    "real_min_row": 2,
+    "real_max_row": 14,
+    "real_min_col": 1,
+    "real_max_col": 13,
+    "val_count": 44,
+    "formula_count": 11,
+    "number_count": 16,
+    "header_rows": [
+      4,
+      5
+    ],
+    "total_rows": [
+      4,
+      5,
+      14
+    ],
+    "sample_formulas": [
+      [
+        "C14",
+        "=sum(C6:C13)"
+      ],
+      [
+        "D14",
+        "=sum(D6:D13)"
+      ],
+      [
+        "E14",
+        "=sum(E6:E13)"
+      ],
+      [
+        "F14",
+        "=sum(F6:F13)"
+      ],
+      [
+        "G14",
+        "=sum(G6:G13)"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M7",
+    "title": "Trường cấp THCS",
+    "real_range": "A1:AM40",
+    "real_min_row": 1,
+    "real_max_row": 40,
+    "real_min_col": 1,
+    "real_max_col": 39,
+    "val_count": 181,
+    "formula_count": 125,
+    "number_count": 0,
+    "header_rows": [
+      4,
+      5
+    ],
+    "total_rows": [
+      21,
+      39
+    ],
+    "sample_formulas": [
+      [
+        "AM7",
+        "=SUM(C7:AL7)"
+      ],
+      [
+        "AM8",
+        "=SUM(C8:AL8)"
+      ],
+      [
+        "AM9",
+        "=SUM(C9:AL9)"
+      ],
+      [
+        "AM10",
+        "=SUM(C10:AL10)"
+      ],
+      [
+        "AM11",
+        "=SUM(C11:AL11)"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M8",
+    "title": "SỐ LIỆU HỌC SINH XÃ/PHƯỜNG NGOÀI (TRONG TỈNH) VÀ TỈNH/THÀNH PHỐ NGOÀI ĐANG HỌC TẠI ĐỊA PHƯƠNG",
+    "real_range": "A2:AM39",
+    "real_min_row": 2,
+    "real_max_row": 39,
+    "real_min_col": 1,
+    "real_max_col": 39,
+    "val_count": 196,
+    "formula_count": 140,
+    "number_count": 0,
+    "header_rows": [
+      5,
+      6
+    ],
+    "total_rows": [
+      39
+    ],
+    "sample_formulas": [
+      [
+        "AM8",
+        "=sum(C8:AL8)"
+      ],
+      [
+        "AM9",
+        "=sum(C9:AL9)"
+      ],
+      [
+        "AM10",
+        "=sum(C10:AL10)"
+      ],
+      [
+        "AM11",
+        "=sum(C11:AL11)"
+      ],
+      [
+        "AM12",
+        "=sum(C12:AL12)"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M9",
+    "title": "BIỂU TỔNG HỢP KẾT QUẢ HUY ĐỘNG PHỔ CẬP GIÁO DỤC TRUNG HỌC",
+    "real_range": "A2:V48",
+    "real_min_row": 2,
+    "real_max_row": 48,
+    "real_min_col": 1,
+    "real_max_col": 22,
+    "val_count": 304,
+    "formula_count": 254,
+    "number_count": 22,
+    "header_rows": [
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      6,
+      7,
+      48
+    ],
+    "sample_formulas": [
+      [
+        "F9",
+        "=if(D9<>\"\",round(E9/D9*100,2),0)"
+      ],
+      [
+        "K9",
+        "=if(I9<>\"\",round(J9/I9*100,2),0)"
+      ],
+      [
+        "O9",
+        "=D9"
+      ],
+      [
+        "T9",
+        "=if(O9<>0,round(R9/O9*100,2),0)"
+      ],
+      [
+        "U9",
+        "=if(O9<>\"\",round(S9/O9*100,2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "2.M10",
+    "title": "BIỂU TỔNG HỢP HIỆU QUẢ PHỔ CẬP GIÁO DỤC TRUNG HỌC",
+    "real_range": "A2:T47",
+    "real_min_row": 2,
+    "real_max_row": 47,
+    "real_min_col": 1,
+    "real_max_col": 20,
+    "val_count": 222,
+    "formula_count": 174,
+    "number_count": 20,
+    "header_rows": [
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      5,
+      6,
+      47
+    ],
+    "sample_formulas": [
+      [
+        "H8",
+        "=if(D8<>\"\",round(sum(E8:G8)/D8*100,2),0)"
+      ],
+      [
+        "K8",
+        "=if(I8<>0,round(J8/I8*100,2),0)"
+      ],
+      [
+        "N8",
+        "=if(L8<>0,round(M8/L8*100,2),0)"
+      ],
+      [
+        "T8",
+        "=if(R8<>0,round(S8/R8*100,2),0)"
+      ],
+      [
+        "H9",
+        "=if(D9<>\"\",round(sum(E9:G9)/D9*100,2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "3.M1",
+    "title": "THỐNG KÊ ĐẠT CHUẨN XÓA MÙ CHỮ",
+    "real_range": "A2:G48",
+    "real_min_row": 2,
+    "real_max_row": 48,
+    "real_min_col": 1,
+    "real_max_col": 7,
+    "val_count": 103,
+    "formula_count": 83,
+    "number_count": 7,
+    "header_rows": [
+      4,
+      5
+    ],
+    "total_rows": [
+      5,
+      46
+    ],
+    "sample_formulas": [
+      [
+        "E7",
+        "=if(C7<>0, round((D7/C7)*100,2),0)"
+      ],
+      [
+        "G7",
+        "=if(F7<>0, round((F7/C7)*100,2),0)"
+      ],
+      [
+        "E8",
+        "=if(C8<>0, round((D8/C8)*100,2),0)"
+      ],
+      [
+        "G8",
+        "=if(F8<>0, round((F8/C8)*100,2),0)"
+      ],
+      [
+        "E9",
+        "=if(C9<>0, round((D9/C9)*100,2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "3.M2",
+    "title": "THỐNG KÊ ĐẠT CHUẨN XÓA MÙ CHỮ",
+    "real_range": "A2:G49",
+    "real_min_row": 2,
+    "real_max_row": 49,
+    "real_min_col": 1,
+    "real_max_col": 7,
+    "val_count": 103,
+    "formula_count": 83,
+    "number_count": 7,
+    "header_rows": [
+      5,
+      6
+    ],
+    "total_rows": [
+      6,
+      47
+    ],
+    "sample_formulas": [
+      [
+        "E8",
+        "=if(C8<>0, round((D8/C8)*100,2),0)"
+      ],
+      [
+        "G8",
+        "=if(F8<>0, round((F8/C8)*100,2),0)"
+      ],
+      [
+        "E9",
+        "=if(C9<>0, round((D9/C9)*100,2),0)"
+      ],
+      [
+        "G9",
+        "=if(F9<>0, round((F9/C9)*100,2),0)"
+      ],
+      [
+        "E10",
+        "=if(C10<>0, round((D10/C10)*100,2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "3.M3",
+    "title": "THỐNG KÊ ĐẠT CHUẨN XÓA MÙ CHỮ",
+    "real_range": "A2:G49",
+    "real_min_row": 2,
+    "real_max_row": 49,
+    "real_min_col": 1,
+    "real_max_col": 7,
+    "val_count": 103,
+    "formula_count": 83,
+    "number_count": 7,
+    "header_rows": [
+      5,
+      6
+    ],
+    "total_rows": [
+      6,
+      47
+    ],
+    "sample_formulas": [
+      [
+        "E8",
+        "=if(C8<>0, round((D8/C8)*100,2),0)"
+      ],
+      [
+        "G8",
+        "=if(F8<>0, round((F8/C8)*100,2),0)"
+      ],
+      [
+        "E9",
+        "=if(C9<>0, round((D9/C9)*100,2),0)"
+      ],
+      [
+        "G9",
+        "=if(F9<>0, round((F9/C9)*100,2),0)"
+      ],
+      [
+        "E10",
+        "=if(C10<>0, round((D10/C10)*100,2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "3.M4",
+    "title": "THỐNG KÊ HIỆN TRẠNG MÙ CHỮ MỨC 1",
+    "real_range": "A2:O48",
+    "real_min_row": 2,
+    "real_max_row": 48,
+    "real_min_col": 1,
+    "real_max_col": 15,
+    "val_count": 203,
+    "formula_count": 168,
+    "number_count": 15,
+    "header_rows": [
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      7
+    ],
+    "sample_formulas": [
+      [
+        "H9",
+        "=if(C9<>0,round((G9/C9*100),2),0)"
+      ],
+      [
+        "J9",
+        "=if(I9<>0,round((I9/G9*100),2),0)"
+      ],
+      [
+        "L9",
+        "=if(K9<>0,round((K9/G9*100),2),0)"
+      ],
+      [
+        "N9",
+        "=if(M9<>0,round((M9/K9*100),2),0)"
+      ],
+      [
+        "H10",
+        "=if(C10<>0,round((G10/C10*100),2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "3.M5",
+    "title": "THỐNG KÊ HIỆN TRẠNG MÙ CHỮ MỨC 1",
+    "real_range": "A2:O47",
+    "real_min_row": 2,
+    "real_max_row": 47,
+    "real_min_col": 1,
+    "real_max_col": 15,
+    "val_count": 242,
+    "formula_count": 168,
+    "number_count": 54,
+    "header_rows": [
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      6
+    ],
+    "sample_formulas": [
+      [
+        "H8",
+        "=if(C8<>0,round((G8/C8*100),2),0)"
+      ],
+      [
+        "J8",
+        "=if(I8<>0,round((I8/G8*100),2),0)"
+      ],
+      [
+        "L8",
+        "=if(K8<>0,round((K8/G8*100),2),0)"
+      ],
+      [
+        "N8",
+        "=if(M8<>0,round((M8/K8*100),2),0)"
+      ],
+      [
+        "H9",
+        "=if(C9<>0,round((G9/C9*100),2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "3.M6",
+    "title": "THỐNG KÊ HIỆN TRẠNG MÙ CHỮ MỨC 1",
+    "real_range": "A2:O47",
+    "real_min_row": 2,
+    "real_max_row": 47,
+    "real_min_col": 1,
+    "real_max_col": 15,
+    "val_count": 203,
+    "formula_count": 168,
+    "number_count": 15,
+    "header_rows": [
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      6
+    ],
+    "sample_formulas": [
+      [
+        "H8",
+        "=if(C8<>0,round((G8/C8*100),2),0)"
+      ],
+      [
+        "J8",
+        "=if(I8<>0,round((I8/G8*100),2),0)"
+      ],
+      [
+        "L8",
+        "=if(K8<>0,round((K8/G8*100),2),0)"
+      ],
+      [
+        "N8",
+        "=if(M8<>0,round((M8/K8*100),2),0)"
+      ],
+      [
+        "H9",
+        "=if(C9<>0,round((G9/C9*100),2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "3.M7",
+    "title": "THỐNG KÊ HIỆN TRẠNG MÙ CHỮ MỨC 2",
+    "real_range": "A3:N48",
+    "real_min_row": 3,
+    "real_max_row": 48,
+    "real_min_col": 1,
+    "real_max_col": 14,
+    "val_count": 199,
+    "formula_count": 165,
+    "number_count": 14,
+    "header_rows": [
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      7
+    ],
+    "sample_formulas": [
+      [
+        "H9",
+        "=if(C9<>0,round((G9/C9*100),2),0)"
+      ],
+      [
+        "J9",
+        "=if(I9<>0,round((I9/G9*100),2),0)"
+      ],
+      [
+        "L9",
+        "=if(K9<>0,round((K9/G9*100),2),0)"
+      ],
+      [
+        "N9",
+        "=if(M9<>0,round((M9/K9*100),2),0)"
+      ],
+      [
+        "H10",
+        "=if(C10<>0,round((G10/C10*100),2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "3.M8",
+    "title": "THỐNG KÊ HIỆN TRẠNG MÙ CHỮ MỨC 2",
+    "real_range": "A2:N47",
+    "real_min_row": 2,
+    "real_max_row": 47,
+    "real_min_col": 1,
+    "real_max_col": 14,
+    "val_count": 198,
+    "formula_count": 165,
+    "number_count": 14,
+    "header_rows": [
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      6
+    ],
+    "sample_formulas": [
+      [
+        "H8",
+        "=if(C8<>0,round((G8/C8*100),2),0)"
+      ],
+      [
+        "J8",
+        "=if(I8<>0,round((I8/G8*100),2),0)"
+      ],
+      [
+        "L8",
+        "=if(K8<>0,round((K8/G8*100),2),0)"
+      ],
+      [
+        "N8",
+        "=if(M8<>0,round((M8/K8*100),2),0)"
+      ],
+      [
+        "H9",
+        "=if(C9<>0,round((G9/C9*100),2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "3.M9",
+    "title": "THỐNG KÊ HIỆN TRẠNG MÙ CHỮ MỨC 2",
+    "real_range": "A2:N47",
+    "real_min_row": 2,
+    "real_max_row": 47,
+    "real_min_col": 1,
+    "real_max_col": 14,
+    "val_count": 198,
+    "formula_count": 165,
+    "number_count": 14,
+    "header_rows": [
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      6
+    ],
+    "sample_formulas": [
+      [
+        "H8",
+        "=if(C8<>0,round((G8/C8*100),2),0)"
+      ],
+      [
+        "J8",
+        "=if(I8<>0,round((I8/G8*100),2),0)"
+      ],
+      [
+        "L8",
+        "=if(K8<>0,round((K8/G8*100),2),0)"
+      ],
+      [
+        "N8",
+        "=if(M8<>0,round((M8/K8*100),2),0)"
+      ],
+      [
+        "H9",
+        "=if(C9<>0,round((G9/C9*100),2),0)"
+      ]
+    ]
+  },
+  {
+    "sheet": "CAU_HINH_DOI_SOAT",
+    "title": "Mã quy tắc",
+    "real_range": "A1:Q63",
+    "real_min_row": 1,
+    "real_max_row": 63,
+    "real_min_col": 1,
+    "real_max_col": 17,
+    "val_count": 1071,
+    "formula_count": 301,
+    "number_count": 124,
+    "header_rows": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "sample_formulas": [
+      [
+        "H2",
+        "=IFERROR(IF(COUNT('0.M1'!G11,'0.M1'!H11)<2,\"\",SUM('0.M1'!G11,'0.M1'!H11)),\"#LỖI NGUỒN\")"
+      ],
+      [
+        "I2",
+        "="
+      ],
+      [
+        "K2",
+        "=IFERROR(IF(COUNT('0.M2'!J8)=1,'0.M2'!J8,IF(OR('0.M2'!J8=\"\",'0.M2'!J8=\"-\"),\"\",\"#KHÔNG PHẢI SỐ\")),\"#LỖI NGUỒN\")"
+      ],
+      [
+        "M2",
+        "=IFERROR(IF(COUNT(H2,K2)=2,H2-K2,\"\"),\"#LỖI NGUỒN\")"
+      ],
+      [
+        "Q2",
+        "=IFERROR(__xludf.DUMMYFUNCTION(\"IF(C2<>\"\"BẬT\"\",\"\"CHƯA ÁP DỤNG\"\",IFERROR(IF(OR(NOT(ISNUMBER(L2)),L2<0),\"\"SAI CẤU HÌNH\"\",IF(OR(LEFT(TO_TEXT(H2),1)=\"\"#\"\",LEFT(TO_TEXT(K2),1)=\"\"#\"\"),\"\"LỖI NGUỒN/CÔNG THỨC\"\",IF(COUNT(H2,K2)<>2,\"\"CHƯA ĐỦ DỮ LIỆU\"\",IF(OR(H2<0,K2<0),\"\"GIÁ TRỊ ÂM\"\",IF(I2=\"\"=\"\",IF\"&\"(ABS(H2-K2)<=L2,\"\"KHỚP\"\",\"\"CHÊNH LỆCH\"\"),IF(I2=\"\"<=\"\",IF(H2<=K2+L2,\"\"HỢP LÝ\"\",\"\"VƯỢT NGƯỠNG\"\"),IF(I2=\"\">=\"\",IF(H2+L2>=K2,\"\"HỢP LÝ\"\",\"\"THẤP HƠN NGƯỠNG\"\"),\"\"SAI CẤU HÌNH\"\"))))))),\"\"LỖI NGUỒN/CÔNG THỨC\"\"))\"),\"CHƯA ĐỦ DỮ LIỆU\")"
+      ]
+    ]
+  },
+  {
+    "sheet": "DS_SAO_LUU_20261012_180009_1147",
+    "title": "Mã quy tắc",
+    "real_range": "A1:Q63",
+    "real_min_row": 1,
+    "real_max_row": 63,
+    "real_min_col": 1,
+    "real_max_col": 17,
+    "val_count": 1071,
+    "formula_count": 301,
+    "number_count": 124,
+    "header_rows": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_rows": [
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "sample_formulas": [
+      [
+        "H2",
+        "=IFERROR(IF(COUNT('0.M1'!G11,'0.M1'!H11)<2,\"\",SUM('0.M1'!G11,'0.M1'!H11)),\"#LỖI NGUỒN\")"
+      ],
+      [
+        "I2",
+        "="
+      ],
+      [
+        "K2",
+        "=IFERROR(IF(COUNT('0.M2'!J8)=1,'0.M2'!J8,IF(OR('0.M2'!J8=\"\",'0.M2'!J8=\"-\"),\"\",\"#KHÔNG PHẢI SỐ\")),\"#LỖI NGUỒN\")"
+      ],
+      [
+        "M2",
+        "=IFERROR(IF(COUNT(H2,K2)=2,H2-K2,\"\"),\"#LỖI NGUỒN\")"
+      ],
+      [
+        "Q2",
+        "=IFERROR(__xludf.DUMMYFUNCTION(\"IF(C2<>\"\"BẬT\"\",\"\"CHƯA ÁP DỤNG\"\",IFERROR(IF(OR(NOT(ISNUMBER(L2)),L2<0),\"\"SAI CẤU HÌNH\"\",IF(OR(LEFT(TO_TEXT(H2),1)=\"\"#\"\",LEFT(TO_TEXT(K2),1)=\"\"#\"\"),\"\"LỖI NGUỒN/CÔNG THỨC\"\",IF(COUNT(H2,K2)<>2,\"\"CHƯA ĐỦ DỮ LIỆU\"\",IF(OR(H2<0,K2<0),\"\"GIÁ TRỊ ÂM\"\",IF(I2=\"\"=\"\",IF\"&\"(ABS(H2-K2)<=L2,\"\"KHỚP\"\",\"\"CHÊNH LỆCH\"\"),IF(I2=\"\"<=\"\",IF(H2<=K2+L2,\"\"HỢP LÝ\"\",\"\"VƯỢT NGƯỠNG\"\"),IF(I2=\"\">=\"\",IF(H2+L2>=K2,\"\"HỢP LÝ\"\",\"\"THẤP HƠN NGƯỠNG\"\"),\"\"SAI CẤU HÌNH\"\"))))))),\"\"LỖI NGUỒN/CÔNG THỨC\"\"))\"),\"CHƯA ĐỦ DỮ LIỆU\")"
+      ]
+    ]
+  }
+]

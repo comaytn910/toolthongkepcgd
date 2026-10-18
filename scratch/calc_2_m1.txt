@@ -1,0 +1,12 @@
+01. Xã Yên Trạch - Nhập hoàn chỉnh PCGD 2026.xlsx:
+  G55=1289.0 (source: 1289), H55=96.12% (source: 96.12)
+  G56=1209.0 (source: 1209), H56=90.16% (source: 90.16)
+  G57=57.0 (source: 57), Denom57=57.0, H57=100.0% (source: 100)
+  G58=2952.0 (source: 2952), Denom58=3078, H58=95.91% (source: 95.91)
+  G59=275.0 (source: 275), W13=275, H59=100.0% (source: 1)
+02. Xã Yên Thịnh - Nhập hoàn chỉnh PCGD 2026.xlsx:
+  G55=329.0 (source: 329), H55=97.92% (source: 97.92)
+  G56=271.0 (source: 271), H56=80.65% (source: 80.65)
+  G57=3.0 (source: 3), Denom57=3.0, H57=100.0% (source: 100)
+  G58=568.0 (source: 645.0), Denom58=637, H58=89.17% (source: 101.26)
+  G59=80.0 (source: 80), W13=81, H59=98.77% (source: 0.987654321)

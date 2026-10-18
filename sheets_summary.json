@@ -1,0 +1,335 @@
+[
+  {
+    "sheet": "ĐỐI_SOÁT",
+    "max_row": 71,
+    "max_col": 15,
+    "title_cell_A1": "BÁO CÁO ĐỐI SOÁT DỮ LIỆU PCGD-XMC NĂM 2026",
+    "title_cell_A2": "Đơn vị/File: MẪU CHUẨN - PCGD 2026(ok)",
+    "title_cell_A3": "KẾT LUẬN: CHƯA ĐỦ DỮ LIỆU",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "TỔNG_QUAN",
+    "max_row": 60,
+    "max_col": 10,
+    "title_cell_A1": "TỔNG QUAN VÀ KIỂM TRA NHANH PCGD-XMC NĂM 2026",
+    "title_cell_A2": "Đơn vị: MẪU CHUẨN - PCGD 2026(ok)",
+    "title_cell_A3": "TRẠNG THÁI CHUNG: CHƯA HOÀN THÀNH",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "0.M1",
+    "max_row": 1002,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "Năm sinh",
+    "title_cell_A4": "Độ tuổi"
+  },
+  {
+    "sheet": "0.M2",
+    "max_row": 994,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": "TT"
+  },
+  {
+    "sheet": "0.M3",
+    "max_row": 1010,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": "TT"
+  },
+  {
+    "sheet": "0.M4",
+    "max_row": 984,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": "TT"
+  },
+  {
+    "sheet": "0.M5",
+    "max_row": 223,
+    "max_col": 12,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "0.M6",
+    "max_row": 220,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "0.M7",
+    "max_row": 244,
+    "max_col": 16,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "1.M1",
+    "max_row": 1001,
+    "max_col": 27,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "1.M2",
+    "max_row": 837,
+    "max_col": 33,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "Thời điểm:  Ngày  tháng năm 2026",
+    "title_cell_A4": "TT"
+  },
+  {
+    "sheet": "1.M3",
+    "max_row": 300,
+    "max_col": 45,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "1.M4",
+    "max_row": 314,
+    "max_col": 21,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": "TT"
+  },
+  {
+    "sheet": "1.M5",
+    "max_row": 215,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "1.M6",
+    "max_row": 239,
+    "max_col": 64,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "1.M7",
+    "max_row": 265,
+    "max_col": 64,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "2.M1",
+    "max_row": 999,
+    "max_col": 40,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "2.M2",
+    "max_row": 1020,
+    "max_col": 28,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": "TT"
+  },
+  {
+    "sheet": "2.M3",
+    "max_row": 1020,
+    "max_col": 27,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": "TT"
+  },
+  {
+    "sheet": "2.M4",
+    "max_row": 983,
+    "max_col": 35,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "2.M5",
+    "max_row": 995,
+    "max_col": 54,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "TT",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "2.M6",
+    "max_row": 987,
+    "max_col": 22,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": "Năm sinh"
+  },
+  {
+    "sheet": "2.M7",
+    "max_row": 1026,
+    "max_col": 130,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": "TT"
+  },
+  {
+    "sheet": "2.M8",
+    "max_row": 1015,
+    "max_col": 121,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "2.M9",
+    "max_row": 1018,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "2.M10",
+    "max_row": 1022,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "3.M1",
+    "max_row": 1024,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": "TT"
+  },
+  {
+    "sheet": "3.M2",
+    "max_row": 1027,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "3.M3",
+    "max_row": 1019,
+    "max_col": 26,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "3.M4",
+    "max_row": 1024,
+    "max_col": 34,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "3.M5",
+    "max_row": 1024,
+    "max_col": 34,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "3.M6",
+    "max_row": 1024,
+    "max_col": 34,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "3.M7",
+    "max_row": 1001,
+    "max_col": 34,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "3.M8",
+    "max_row": 1001,
+    "max_col": 34,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "3.M9",
+    "max_row": 1006,
+    "max_col": 34,
+    "title_cell_A1": "",
+    "title_cell_A2": "",
+    "title_cell_A3": "",
+    "title_cell_A4": ""
+  },
+  {
+    "sheet": "CAU_HINH_DOI_SOAT",
+    "max_row": 63,
+    "max_col": 17,
+    "title_cell_A1": "STT",
+    "title_cell_A2": "1.0",
+    "title_cell_A3": "2.0",
+    "title_cell_A4": "3.0"
+  },
+  {
+    "sheet": "DS_SAO_LUU_20261012_180009_1147",
+    "max_row": 63,
+    "max_col": 17,
+    "title_cell_A1": "STT",
+    "title_cell_A2": "1.0",
+    "title_cell_A3": "2.0",
+    "title_cell_A4": "3.0"
+  }
+]

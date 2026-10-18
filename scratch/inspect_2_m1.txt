@@ -1,0 +1,73 @@
+--- ROWS 4 to 10 ---
+R4: {}
+R5: {'A': 'Năm sinh', 'E': 1.0, 'F': 2015.0, 'H': 2014.0, 'J': 2013.0, 'L': 2012.0, 'N': 2011.0, 'Q': 2010.0, 'T': 2009.0, 'W': 2008.0, 'Z': 'Tổng \n (15-18)'}
+R6: {'A': 'Độ tuổi', 'E': 2.0, 'F': 11.0, 'H': 12.0, 'J': 13.0, 'L': 14.0, 'N': 15.0, 'Q': 16.0, 'T': 17.0, 'W': 18.0}
+R7: {'A': 'Tổng số', 'E': 3.0, 'F': 455.0, 'H': 439.0, 'J': 383.0, 'L': 494.0, 'N': 370.0, 'Q': 375.0, 'T': 350.0, 'W': 284.0, 'Z': '=sum(N7:W7)'}
+R8: {'A': 'Nữ', 'E': 4.0, 'F': 225.0, 'H': 210.0, 'J': 178.0, 'L': 239.0, 'N': 227.0, 'Q': 182.0, 'T': 173.0, 'W': 131.0, 'Z': '=sum(N8:W8)'}
+R9: {'A': 'Dân tộc', 'E': 5.0, 'F': 405.0, 'H': 392.0, 'J': 344.0, 'L': 432.0, 'N': 170.0, 'Q': 324.0, 'T': 315.0, 'W': 252.0, 'Z': '=sum(N9:W9)'}
+R10: {'A': 'Khuyết tật', 'C': 'Tổng số', 'E': 6.0, 'F': 8.0, 'H': 14.0, 'J': 3.0, 'L': 9.0, 'N': 12.0, 'Q': 11.0, 'T': 6.0, 'W': 9.0, 'Z': '=sum(N10:W10)'}
+
+--- ROWS 11 to 50 ---
+R11: TT=None | Có khả năng HT | Z==sum(N11:W11)
+R12: TT=None | Tiếp cận GD | Z==sum(N12:W12)
+R13: TT=None | None | Z==Z7-Z10
+R14: TT=None | None | Z=None
+R15: TT=Lớp 6 | Số PPC | Z==sum(N15:Y15)
+R16: TT=None | None | Z==sum(N16:Y16)
+R17: TT=None | None | Z==sum(N17:Y17)
+R18: TT=None | Xã/phường khác
+  trong tỉnh đến học | Z==sum(N18:Y18)
+R19: TT=None | Tỉnh khác đến | Z==sum(N19:Y19)
+R20: TT=Lớp 7 | Số PPC | Z==sum(N20:Y20)
+R21: TT=None | None | Z==sum(N21:Y21)
+R22: TT=None | None | Z==sum(N22:Y22)
+R23: TT=None | Xã/phường khác 
+ trong tỉnh đến học | Z==sum(N23:Y23)
+R24: TT=None | Tỉnh khác đến | Z==sum(N24:Y24)
+R25: TT=Lớp 8 | Số PPC | Z==sum(N25:Y25)
+R26: TT=None | None | Z==sum(N26:Y26)
+R27: TT=None | None | Z==sum(N27:Y27)
+R28: TT=None | Xã/phường khác 
+ trong tỉnh đến học | Z==sum(N28:Y28)
+R29: TT=None | Tỉnh khác đến | Z==sum(N29:Y29)
+R30: TT=Lớp 9 | Số PPC | Z==sum(N30:Y30)
+R31: TT=None | None | Z==sum(N31:Y31)
+R32: TT=None | None | Z==sum(N32:Y32)
+R33: TT=None | Xã/phường khác 
+ trong tỉnh đến học | Z==sum(N33:Y33)
+R34: TT=None | Tỉnh khác đến | Z==sum(N34:Y34)
+R35: TT=TNTHCS | Số PPC | Z==sum(N35:Y35)
+R36: TT=None | None | Z==sum(N36:Y36)
+R37: TT=None | None | Z==sum(N37:Y37)
+R38: TT=None | Xã/phường khác
+  trong tỉnh đến học | Z==sum(N38:Y38)
+R39: TT=None | Tỉnh khác đến | Z==sum(N39:Y39)
+R40: TT=None | Số PPC | Z==sum(N40:Y40)
+R41: TT=None | None | Z==sum(N41:Y41)
+R42: TT=None | None | Z==sum(N42:Y42)
+R43: TT=None | Xã/phường khác
+  trong tỉnh đến học | Z==sum(N43:Y43)
+R44: TT=None | Tỉnh khác đến | Z==sum(N44:Y44)
+R45: TT=None | Số PPC | Z==sum(N45:Y45)
+R46: TT=None | None | Z==sum(N46:Y46)
+R47: TT=None | None | Z==sum(N47:Y47)
+R48: TT=None | Xã/phường khác 
+ trong tỉnh đến học | Z==sum(N48:Y48)
+R49: TT=None | Tỉnh khác đến | Z==sum(N49:Y49)
+R50: TT=None | None | Z=None
+
+--- ROWS 51 to 65 ---
+R51: {'A': 'Tiêu chí'}
+R52: {'A': 'Bảo đảm tiêu chuẩn PCGDTH mức độ', 'G': 3.0}
+R53: {'A': 'Bảo đảm tiêu chuẩn XMC mức độ', 'G': 2.0}
+R54: {'G': 'SL', 'H': 'TL'}
+R55: {'A': 'TTN 15-18 TNTHCS', 'G': '=sum(N35:Y37)', 'H': '=if(Z13<>0,round(G55/Z13*100,2),0)'}
+R56: {'A': 'TTN 15-18 đã, đang học CT GDPT \n hoặc GDTX cấp THPT hoặc GDNN', 'G': '=sum(N40:Y42)', 'H': '=if(Z13<>0,round(G56/Z13*100,2),0)'}
+R57: {'A': 'TTN KT được tiếp cận GD (11-18)', 'G': '=sum(F12:Y12)', 'H': '=if(G57<>0,round(G57/sum(F11:W11)*100,2),0)'}
+R58: {'A': 'Tổng số học sinh (11-18)', 'G': '=sum(F15:Y17,F20:Y22,F25:Y27,F30:Y32,F40:Y42)', 'H': '=if(sum(F13:W13)<>0,round(G58/sum(F13:W13)*100,2),0)'}
+R59: {'A': 'Tổng số đối tượng 18 tuổi hoàn thành chương trình GD THCS', 'G': '=sum(W35:Y37)', 'H': '=G59/W13'}
+R60: {}
+R61: {}
+R62: {}
+R63: {}
+R64: {}
