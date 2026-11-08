@@ -1,0 +1,26 @@
+[
+  {
+    "name": "43_43. Xã Nghĩa Tá - Nhập hoàn chỉnh PCGD 2026",
+    "S": 401.0,
+    "T": 23.0,
+    "U_src": 423.0,
+    "U_calc": 424.0,
+    "diff": 1.0
+  },
+  {
+    "name": "70_70. Xã Cẩm Giàng - Nhập hoàn chỉnh PCGD 2026",
+    "S": 547.0,
+    "T": 49.0,
+    "U_src": 547.0,
+    "U_calc": 596.0,
+    "diff": 49.0
+  },
+  {
+    "name": "86_86. Phường Phan Đình Phùng - Nhập hoàn chỉnh PCGD 2026",
+    "S": 5667.0,
+    "T": 686.0,
+    "U_src": 6372.0,
+    "U_calc": 6353.0,
+    "diff": -19.0
+  }
+]

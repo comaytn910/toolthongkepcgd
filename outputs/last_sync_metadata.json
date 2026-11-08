@@ -1,0 +1,476 @@
+{
+  "last_sync_time": "2026-10-29 19:18:51",
+  "last_sync_timestamp": 1793276331.741272,
+  "source_file_count": 92,
+  "latest_source_mtime": 1792341460.0,
+  "latest_source_mtime_str": "2026-10-18 23:37:40",
+  "summary": {
+    "total_communes": 92,
+    "total_sheets": 33,
+    "master_file": "outputs/SO_CAI_TONG_HOP_PCGD_2026_THAI_NGUYEN.xlsx",
+    "audit_file": "outputs/BAO_CAO_DOI_SOAT_63_QUY_TAC_PCGD_2026.xlsx",
+    "status": "ALL_SHEETS_SYNCED_100%"
+  },
+  "files_snapshot": {
+    "01_01. Xã Yên Trạch - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2438713,
+      "mtime": 1792341018.0,
+      "mtime_str": "2026-10-18 23:30:18"
+    },
+    "02_02. Xã Yên Thịnh - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2241751,
+      "mtime": 1792341018.0,
+      "mtime_str": "2026-10-18 23:30:18"
+    },
+    "03_03. Xã Yên Phong - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2700428,
+      "mtime": 1792341018.0,
+      "mtime_str": "2026-10-18 23:30:18"
+    },
+    "04_04. Xã Yên Bình - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2239428,
+      "mtime": 1792341018.0,
+      "mtime_str": "2026-10-18 23:30:18"
+    },
+    "05_05. Xã Xuân Dương - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2318258,
+      "mtime": 1792341018.0,
+      "mtime_str": "2026-10-18 23:30:18"
+    },
+    "06_06. Xã Vô Tranh - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2472538,
+      "mtime": 1792341018.0,
+      "mtime_str": "2026-10-18 23:30:18"
+    },
+    "07_07. Xã Võ Nhai - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2377268,
+      "mtime": 1792341044.0,
+      "mtime_str": "2026-10-18 23:30:44"
+    },
+    "08_08. Xã Vĩnh Thông - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2322535,
+      "mtime": 1792341044.0,
+      "mtime_str": "2026-10-18 23:30:44"
+    },
+    "09_09. Xã Vạn Phú - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2665760,
+      "mtime": 1792341044.0,
+      "mtime_str": "2026-10-18 23:30:44"
+    },
+    "10_10. Xã Văn Lăng - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2320052,
+      "mtime": 1792341044.0,
+      "mtime_str": "2026-10-18 23:30:44"
+    },
+    "11_11. Xã Văn Lang - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2280128,
+      "mtime": 1792341044.0,
+      "mtime_str": "2026-10-18 23:30:44"
+    },
+    "12_12. Xã Văn Hán - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2671263,
+      "mtime": 1792341044.0,
+      "mtime_str": "2026-10-18 23:30:44"
+    },
+    "13_13. Xã Trung Hội - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2397801,
+      "mtime": 1792341066.0,
+      "mtime_str": "2026-10-18 23:31:06"
+    },
+    "14_14. Xã Tràng Xá - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2343814,
+      "mtime": 1792341066.0,
+      "mtime_str": "2026-10-18 23:31:06"
+    },
+    "15_15. Xã Trần Phú - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2297881,
+      "mtime": 1792341066.0,
+      "mtime_str": "2026-10-18 23:31:06"
+    },
+    "16_16. Xã Trại Cau - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2320504,
+      "mtime": 1792341066.0,
+      "mtime_str": "2026-10-18 23:31:06"
+    },
+    "17_17. Xã Thượng Quan - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2256378,
+      "mtime": 1792341066.0,
+      "mtime_str": "2026-10-18 23:31:06"
+    },
+    "18_18. Xã Thượng Minh - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2253410,
+      "mtime": 1792341066.0,
+      "mtime_str": "2026-10-18 23:31:06"
+    },
+    "19_19. Xã Thanh Thịnh - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2338665,
+      "mtime": 1792341090.0,
+      "mtime_str": "2026-10-18 23:31:30"
+    },
+    "20_20. Xã Thanh Mai - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2223469,
+      "mtime": 1792341090.0,
+      "mtime_str": "2026-10-18 23:31:30"
+    },
+    "21_21. Xã Thành Công - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2305860,
+      "mtime": 1792341090.0,
+      "mtime_str": "2026-10-18 23:31:30"
+    },
+    "22_22. Xã Thần Sa - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2263155,
+      "mtime": 1792341090.0,
+      "mtime_str": "2026-10-18 23:31:30"
+    },
+    "23_23. Xã Tân Thành - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2385173,
+      "mtime": 1792341090.0,
+      "mtime_str": "2026-10-18 23:31:30"
+    },
+    "24_24. Xã Tân Kỳ - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2332717,
+      "mtime": 1792341090.0,
+      "mtime_str": "2026-10-18 23:31:30"
+    },
+    "25_25. Xã Tân Khánh - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2314669,
+      "mtime": 1792341120.0,
+      "mtime_str": "2026-10-18 23:32:00"
+    },
+    "26_26. Xã Tân Cương - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2431096,
+      "mtime": 1792341120.0,
+      "mtime_str": "2026-10-18 23:32:00"
+    },
+    "27_27. Xã Sảng Mộc - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2082891,
+      "mtime": 1792341120.0,
+      "mtime_str": "2026-10-18 23:32:00"
+    },
+    "28_28. Xã Quang Sơn - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2299408,
+      "mtime": 1792341120.0,
+      "mtime_str": "2026-10-18 23:32:00"
+    },
+    "29_29. Xã Quảng Bạch - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2296338,
+      "mtime": 1792341120.0,
+      "mtime_str": "2026-10-18 23:32:00"
+    },
+    "30_30. Xã Quân Chu- Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2250269,
+      "mtime": 1792341120.0,
+      "mtime_str": "2026-10-18 23:32:00"
+    },
+    "31_31. Xã Phượng Tiến - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2274144,
+      "mtime": 1792341144.0,
+      "mtime_str": "2026-10-18 23:32:24"
+    },
+    "32_32. Xã Phúc Lộc - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2282649,
+      "mtime": 1792341144.0,
+      "mtime_str": "2026-10-18 23:32:24"
+    },
+    "33_33. Xã Phú Xuyên - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2360181,
+      "mtime": 1792341144.0,
+      "mtime_str": "2026-10-18 23:32:24"
+    },
+    "34_34. Xã Phủ Thông - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2309029,
+      "mtime": 1792341144.0,
+      "mtime_str": "2026-10-18 23:32:24"
+    },
+    "35_35. Xã Phú Thịnh - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2645667,
+      "mtime": 1792341144.0,
+      "mtime_str": "2026-10-18 23:32:24"
+    },
+    "36_36. Xã Phú Lương - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2485217,
+      "mtime": 1792341144.0,
+      "mtime_str": "2026-10-18 23:32:24"
+    },
+    "37_37. Xã Phú Lạc - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2294007,
+      "mtime": 1792341168.0,
+      "mtime_str": "2026-10-18 23:32:48"
+    },
+    "38_38. Xã Phú Đình - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2320380,
+      "mtime": 1792341168.0,
+      "mtime_str": "2026-10-18 23:32:48"
+    },
+    "39_39. Xã Phú Bình - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2588760,
+      "mtime": 1792341168.0,
+      "mtime_str": "2026-10-18 23:32:48"
+    },
+    "40_40. Xã Phong Quang - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2278766,
+      "mtime": 1792341168.0,
+      "mtime_str": "2026-10-18 23:32:48"
+    },
+    "41_41. Xã Nghinh Tường - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2390292,
+      "mtime": 1792341168.0,
+      "mtime_str": "2026-10-18 23:32:48"
+    },
+    "42_42. Xã Nghiên Loan - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2304222,
+      "mtime": 1792341168.0,
+      "mtime_str": "2026-10-18 23:32:48"
+    },
+    "43_43. Xã Nghĩa Tá - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2339428,
+      "mtime": 1792341194.0,
+      "mtime_str": "2026-10-18 23:33:14"
+    },
+    "44_44. Xã Ngân Sơn - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2306385,
+      "mtime": 1792341194.0,
+      "mtime_str": "2026-10-18 23:33:14"
+    },
+    "45_45. Xã Nam Hòa - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2226020,
+      "mtime": 1792341194.0,
+      "mtime_str": "2026-10-18 23:33:14"
+    },
+    "46_46. Xã Nam Cường - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2267342,
+      "mtime": 1792341194.0,
+      "mtime_str": "2026-10-18 23:33:14"
+    },
+    "47_47. Xã Na Rì - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2346017,
+      "mtime": 1792341194.0,
+      "mtime_str": "2026-10-18 23:33:14"
+    },
+    "48_48. Xã Nà Phặc - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2430145,
+      "mtime": 1792341194.0,
+      "mtime_str": "2026-10-18 23:33:14"
+    },
+    "49_49. Xã Lam Vỹ - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2285818,
+      "mtime": 1792341214.0,
+      "mtime_str": "2026-10-18 23:33:34"
+    },
+    "50_50. Xã La Hiên - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2325418,
+      "mtime": 1792341214.0,
+      "mtime_str": "2026-10-18 23:33:34"
+    },
+    "51_51. Xã La Bằng - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2420150,
+      "mtime": 1792341214.0,
+      "mtime_str": "2026-10-18 23:33:34"
+    },
+    "52_52. Xã Kim Phượng - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2265443,
+      "mtime": 1792341214.0,
+      "mtime_str": "2026-10-18 23:33:34"
+    },
+    "53_53. Xã Kha Sơn - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2720391,
+      "mtime": 1792341214.0,
+      "mtime_str": "2026-10-18 23:33:34"
+    },
+    "54_54. Xã Hợp Thành - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2335570,
+      "mtime": 1792341214.0,
+      "mtime_str": "2026-10-18 23:33:34"
+    },
+    "55_55. Xã Hiệp Lực - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2291127,
+      "mtime": 1792341238.0,
+      "mtime_str": "2026-10-18 23:33:58"
+    },
+    "56_56. Xã Đức Lương - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2470583,
+      "mtime": 1792341238.0,
+      "mtime_str": "2026-10-18 23:33:58"
+    },
+    "57_57. Xã Đồng Phúc - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2661607,
+      "mtime": 1792341238.0,
+      "mtime_str": "2026-10-18 23:33:58"
+    },
+    "58_58. Xã Đồng Hỷ - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2388888,
+      "mtime": 1792341238.0,
+      "mtime_str": "2026-10-18 23:33:58"
+    },
+    "59_59. Xã Định Hóa - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2316910,
+      "mtime": 1792341238.0,
+      "mtime_str": "2026-10-18 23:33:58"
+    },
+    "60_60. Xã Điềm Thụy - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2502725,
+      "mtime": 1792341238.0,
+      "mtime_str": "2026-10-18 23:33:58"
+    },
+    "61_61. Xã Dân Tiến - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2363513,
+      "mtime": 1792341350.0,
+      "mtime_str": "2026-10-18 23:35:50"
+    },
+    "62_62. Xã Đại Từ - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2433054,
+      "mtime": 1792341350.0,
+      "mtime_str": "2026-10-18 23:35:50"
+    },
+    "63_63. Xã Đại Phúc - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2526041,
+      "mtime": 1792341350.0,
+      "mtime_str": "2026-10-18 23:35:50"
+    },
+    "64_64. Xã Cường Lợi - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2211751,
+      "mtime": 1792341350.0,
+      "mtime_str": "2026-10-18 23:35:50"
+    },
+    "65_65. Xã Côn Minh - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2286495,
+      "mtime": 1792341350.0,
+      "mtime_str": "2026-10-18 23:35:50"
+    },
+    "66_66. Xã Chợ Rã - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2317123,
+      "mtime": 1792341350.0,
+      "mtime_str": "2026-10-18 23:35:50"
+    },
+    "67_67. Xã Chợ Mới - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2334372,
+      "mtime": 1792341374.0,
+      "mtime_str": "2026-10-18 23:36:14"
+    },
+    "68_68. Xã Chợ Đồn - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2352522,
+      "mtime": 1792341374.0,
+      "mtime_str": "2026-10-18 23:36:14"
+    },
+    "69_69. Xã Cao Minh - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2338813,
+      "mtime": 1792341374.0,
+      "mtime_str": "2026-10-18 23:36:14"
+    },
+    "70_70. Xã Cẩm Giàng - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2239013,
+      "mtime": 1792341374.0,
+      "mtime_str": "2026-10-18 23:36:14"
+    },
+    "71_71. Xã Bình Yên - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2520580,
+      "mtime": 1792341374.0,
+      "mtime_str": "2026-10-18 23:36:14"
+    },
+    "72_72. Xã Bình Thành - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2378572,
+      "mtime": 1792341374.0,
+      "mtime_str": "2026-10-18 23:36:14"
+    },
+    "73_73. Xã Bằng Vân - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2316701,
+      "mtime": 1792341400.0,
+      "mtime_str": "2026-10-18 23:36:40"
+    },
+    "74_74. Xã Bằng Thành - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2382381,
+      "mtime": 1792341400.0,
+      "mtime_str": "2026-10-18 23:36:40"
+    },
+    "75_75. Xã Bạch Thông - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2272472,
+      "mtime": 1792341400.0,
+      "mtime_str": "2026-10-18 23:36:40"
+    },
+    "76_76. Xã Ba Bể - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2268376,
+      "mtime": 1792341400.0,
+      "mtime_str": "2026-10-18 23:36:40"
+    },
+    "77_77. Xã An Khánh - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2408851,
+      "mtime": 1792341400.0,
+      "mtime_str": "2026-10-18 23:36:40"
+    },
+    "78_78. Phường Vạn Xuân - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2222411,
+      "mtime": 1792341400.0,
+      "mtime_str": "2026-10-18 23:36:40"
+    },
+    "79_79. Phường Trung Thành - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2561602,
+      "mtime": 1792341424.0,
+      "mtime_str": "2026-10-18 23:37:04"
+    },
+    "80_80. Phường Tích Lương - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2508528,
+      "mtime": 1792341424.0,
+      "mtime_str": "2026-10-18 23:37:04"
+    },
+    "81_81. Phường Sông Công - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2309197,
+      "mtime": 1792341424.0,
+      "mtime_str": "2026-10-18 23:37:04"
+    },
+    "82_82. Phường Quyết Thắng - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2527956,
+      "mtime": 1792341424.0,
+      "mtime_str": "2026-10-18 23:37:04"
+    },
+    "83_83. Phường Quan Triều - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2714268,
+      "mtime": 1792341424.0,
+      "mtime_str": "2026-10-18 23:37:04"
+    },
+    "84_84. Phường Phúc Thuận - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2418357,
+      "mtime": 1792341424.0,
+      "mtime_str": "2026-10-18 23:37:04"
+    },
+    "85_85. Phường Phổ Yên - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2510898,
+      "mtime": 1792341450.0,
+      "mtime_str": "2026-10-18 23:37:30"
+    },
+    "86_86. Phường Phan Đình Phùng - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2933550,
+      "mtime": 1792341450.0,
+      "mtime_str": "2026-10-18 23:37:30"
+    },
+    "87_87. Phường Linh Sơn - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2585622,
+      "mtime": 1792341450.0,
+      "mtime_str": "2026-10-18 23:37:30"
+    },
+    "88_88. Phường Gia Sàng - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2465716,
+      "mtime": 1792341450.0,
+      "mtime_str": "2026-10-18 23:37:30"
+    },
+    "89_89. Phường Đức Xuân - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2397193,
+      "mtime": 1792341450.0,
+      "mtime_str": "2026-10-18 23:37:30"
+    },
+    "90_90. Phường Bách Quang - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2486500,
+      "mtime": 1792341450.0,
+      "mtime_str": "2026-10-18 23:37:30"
+    },
+    "91_91. Phường Bắc Kạn - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2413668,
+      "mtime": 1792341460.0,
+      "mtime_str": "2026-10-18 23:37:40"
+    },
+    "92_92. Phường Bá Xuyên - Nhập hoàn chỉnh PCGD 2026.xlsx": {
+      "size": 2433776,
+      "mtime": 1792341460.0,
+      "mtime_str": "2026-10-18 23:37:40"
+    }
+  }
+}

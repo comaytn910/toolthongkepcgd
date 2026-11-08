@@ -1,0 +1,969 @@
+{
+  "total_cells": 27540,
+  "max_row": 1020,
+  "max_col": 27,
+  "rows": {
+    "1": {
+      "F": {
+        "val": "THỐNG KÊ PHỔ CẬP GIÁO DỤC TRUNG HỌC CƠ SỞ",
+        "formula": null
+      },
+      "Q": {
+        "val": "Mẫu: THCS-02",
+        "formula": null
+      }
+    },
+    "3": {
+      "D": {
+        "val": "TTN 11 - 18 tuổi",
+        "formula": null
+      },
+      "I": {
+        "val": "TTN 15-18 tuổi TNTHCS",
+        "formula": null
+      },
+      "N": {
+        "val": "Trẻ khuyết tật",
+        "formula": null
+      },
+      "Q": {
+        "val": "Điều kiện  bảo đảm",
+        "formula": null
+      }
+    },
+    "4": {
+      "A": {
+        "val": "TT",
+        "formula": null
+      },
+      "B": {
+        "val": "Tổ/thôn/xóm",
+        "formula": null
+      },
+      "C": {
+        "val": "Số trường có cấp THCS",
+        "formula": null
+      },
+      "D": {
+        "val": "Tổng số",
+        "formula": null
+      },
+      "E": {
+        "val": "Khuyết tật",
+        "formula": null
+      },
+      "F": {
+        "val": "Đạt chuẩn GDTH mức độ",
+        "formula": null
+      },
+      "G": {
+        "val": "Đạt chuẩn XMC mức độ",
+        "formula": null
+      },
+      "H": {
+        "val": "Tổng số PPC",
+        "formula": null
+      },
+      "I": {
+        "val": "Tổng số TNTHCS",
+        "formula": null
+      },
+      "J": {
+        "val": "Tỷ lệ\n (%)",
+        "formula": null
+      },
+      "K": {
+        "val": "TTN 15-18 tuổi đã và đang học CT GDPT\n  hoặc GDTX cấp THPT hoặc GDNN",
+        "formula": null
+      },
+      "M": {
+        "val": "Tổng số",
+        "formula": null
+      },
+      "O": {
+        "val": "Có khả năng HT",
+        "formula": null
+      },
+      "Q": {
+        "val": "Đội ngũ GV-NV",
+        "formula": null
+      },
+      "R": {
+        "val": "CSVC TBDH",
+        "formula": null
+      },
+      "S": {
+        "val": "Đạt chuẩn PC THCS ",
+        "formula": null
+      }
+    },
+    "5": {
+      "K": {
+        "val": "Tổng số",
+        "formula": null
+      },
+      "L": {
+        "val": "Tỷ lệ",
+        "formula": null
+      },
+      "N": {
+        "val": "Số lượng",
+        "formula": null
+      },
+      "O": {
+        "val": "Tiếp cận GD",
+        "formula": null
+      },
+      "P": {
+        "val": "Tỷ lệ (%)",
+        "formula": null
+      }
+    },
+    "6": {
+      "A": {
+        "val": "1.0",
+        "formula": null
+      },
+      "B": {
+        "val": "2.0",
+        "formula": null
+      },
+      "C": {
+        "val": "3.0",
+        "formula": null
+      },
+      "D": {
+        "val": "4.0",
+        "formula": null
+      },
+      "E": {
+        "val": "5.0",
+        "formula": null
+      },
+      "F": {
+        "val": "6.0",
+        "formula": null
+      },
+      "G": {
+        "val": "7.0",
+        "formula": null
+      },
+      "H": {
+        "val": "8.0",
+        "formula": null
+      },
+      "I": {
+        "val": "9.0",
+        "formula": null
+      },
+      "J": {
+        "val": "10.0",
+        "formula": null
+      },
+      "K": {
+        "val": "11.0",
+        "formula": null
+      },
+      "L": {
+        "val": "12.0",
+        "formula": null
+      },
+      "M": {
+        "val": "13.0",
+        "formula": null
+      },
+      "N": {
+        "val": "14.0",
+        "formula": null
+      },
+      "O": {
+        "val": "15.0",
+        "formula": null
+      },
+      "P": {
+        "val": "16.0",
+        "formula": null
+      },
+      "Q": {
+        "val": "17.0",
+        "formula": null
+      },
+      "R": {
+        "val": "18.0",
+        "formula": null
+      },
+      "S": {
+        "val": "19.0",
+        "formula": null
+      }
+    },
+    "7": {
+      "A": {
+        "val": "1.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H7<>0,round(I7/(H7)*100,2),0)",
+        "formula": "=if(H7<>0,round(I7/(H7)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H7<>0,ROUND(K7/H7*100,2),0)",
+        "formula": "=IF(H7<>0,ROUND(K7/H7*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N7=0,O7=0),0,if(N7<>0,round(O7/N7*100,2),0))",
+        "formula": "=if(and(N7=0,O7=0),0,if(N7<>0,round(O7/N7*100,2),0))"
+      }
+    },
+    "8": {
+      "A": {
+        "val": "2.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H8<>0,round(I8/(H8)*100,2),0)",
+        "formula": "=if(H8<>0,round(I8/(H8)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H8<>0,ROUND(K8/H8*100,2),0)",
+        "formula": "=IF(H8<>0,ROUND(K8/H8*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N8=0,O8=0),0,if(N8<>0,round(O8/N8*100,2),0))",
+        "formula": "=if(and(N8=0,O8=0),0,if(N8<>0,round(O8/N8*100,2),0))"
+      }
+    },
+    "9": {
+      "A": {
+        "val": "3.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H9<>0,round(I9/(H9)*100,2),0)",
+        "formula": "=if(H9<>0,round(I9/(H9)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H9<>0,ROUND(K9/H9*100,2),0)",
+        "formula": "=IF(H9<>0,ROUND(K9/H9*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N9=0,O9=0),0,if(N9<>0,round(O9/N9*100,2),0))",
+        "formula": "=if(and(N9=0,O9=0),0,if(N9<>0,round(O9/N9*100,2),0))"
+      }
+    },
+    "10": {
+      "A": {
+        "val": "4.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H10<>0,round(I10/(H10)*100,2),0)",
+        "formula": "=if(H10<>0,round(I10/(H10)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H10<>0,ROUND(K10/H10*100,2),0)",
+        "formula": "=IF(H10<>0,ROUND(K10/H10*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N10=0,O10=0),0,if(N10<>0,round(O10/N10*100,2),0))",
+        "formula": "=if(and(N10=0,O10=0),0,if(N10<>0,round(O10/N10*100,2),0))"
+      }
+    },
+    "11": {
+      "A": {
+        "val": "5.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H11<>0,round(I11/(H11)*100,2),0)",
+        "formula": "=if(H11<>0,round(I11/(H11)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H11<>0,ROUND(K11/H11*100,2),0)",
+        "formula": "=IF(H11<>0,ROUND(K11/H11*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N11=0,O11=0),0,if(N11<>0,round(O11/N11*100,2),0))",
+        "formula": "=if(and(N11=0,O11=0),0,if(N11<>0,round(O11/N11*100,2),0))"
+      }
+    },
+    "12": {
+      "A": {
+        "val": "6.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H12<>0,round(I12/(H12)*100,2),0)",
+        "formula": "=if(H12<>0,round(I12/(H12)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H12<>0,ROUND(K12/H12*100,2),0)",
+        "formula": "=IF(H12<>0,ROUND(K12/H12*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N12=0,O12=0),0,if(N12<>0,round(O12/N12*100,2),0))",
+        "formula": "=if(and(N12=0,O12=0),0,if(N12<>0,round(O12/N12*100,2),0))"
+      }
+    },
+    "13": {
+      "A": {
+        "val": "7.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H13<>0,round(I13/(H13)*100,2),0)",
+        "formula": "=if(H13<>0,round(I13/(H13)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H13<>0,ROUND(K13/H13*100,2),0)",
+        "formula": "=IF(H13<>0,ROUND(K13/H13*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N13=0,O13=0),0,if(N13<>0,round(O13/N13*100,2),0))",
+        "formula": "=if(and(N13=0,O13=0),0,if(N13<>0,round(O13/N13*100,2),0))"
+      }
+    },
+    "14": {
+      "A": {
+        "val": "8.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H14<>0,round(I14/(H14)*100,2),0)",
+        "formula": "=if(H14<>0,round(I14/(H14)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H14<>0,ROUND(K14/H14*100,2),0)",
+        "formula": "=IF(H14<>0,ROUND(K14/H14*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N14=0,O14=0),0,if(N14<>0,round(O14/N14*100,2),0))",
+        "formula": "=if(and(N14=0,O14=0),0,if(N14<>0,round(O14/N14*100,2),0))"
+      }
+    },
+    "15": {
+      "A": {
+        "val": "9.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H15<>0,round(I15/(H15)*100,2),0)",
+        "formula": "=if(H15<>0,round(I15/(H15)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H15<>0,ROUND(K15/H15*100,2),0)",
+        "formula": "=IF(H15<>0,ROUND(K15/H15*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N15=0,O15=0),0,if(N15<>0,round(O15/N15*100,2),0))",
+        "formula": "=if(and(N15=0,O15=0),0,if(N15<>0,round(O15/N15*100,2),0))"
+      }
+    },
+    "16": {
+      "A": {
+        "val": "10.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H16<>0,round(I16/(H16)*100,2),0)",
+        "formula": "=if(H16<>0,round(I16/(H16)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H16<>0,ROUND(K16/H16*100,2),0)",
+        "formula": "=IF(H16<>0,ROUND(K16/H16*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N16=0,O16=0),0,if(N16<>0,round(O16/N16*100,2),0))",
+        "formula": "=if(and(N16=0,O16=0),0,if(N16<>0,round(O16/N16*100,2),0))"
+      }
+    },
+    "17": {
+      "A": {
+        "val": "11.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H17<>0,round(I17/(H17)*100,2),0)",
+        "formula": "=if(H17<>0,round(I17/(H17)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H17<>0,ROUND(K17/H17*100,2),0)",
+        "formula": "=IF(H17<>0,ROUND(K17/H17*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N17=0,O17=0),0,if(N17<>0,round(O17/N17*100,2),0))",
+        "formula": "=if(and(N17=0,O17=0),0,if(N17<>0,round(O17/N17*100,2),0))"
+      }
+    },
+    "18": {
+      "A": {
+        "val": "12.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H18<>0,round(I18/(H18)*100,2),0)",
+        "formula": "=if(H18<>0,round(I18/(H18)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H18<>0,ROUND(K18/H18*100,2),0)",
+        "formula": "=IF(H18<>0,ROUND(K18/H18*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N18=0,O18=0),0,if(N18<>0,round(O18/N18*100,2),0))",
+        "formula": "=if(and(N18=0,O18=0),0,if(N18<>0,round(O18/N18*100,2),0))"
+      }
+    },
+    "19": {
+      "A": {
+        "val": "13.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H19<>0,round(I19/(H19)*100,2),0)",
+        "formula": "=if(H19<>0,round(I19/(H19)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H19<>0,ROUND(K19/H19*100,2),0)",
+        "formula": "=IF(H19<>0,ROUND(K19/H19*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N19=0,O19=0),0,if(N19<>0,round(O19/N19*100,2),0))",
+        "formula": "=if(and(N19=0,O19=0),0,if(N19<>0,round(O19/N19*100,2),0))"
+      }
+    },
+    "20": {
+      "A": {
+        "val": "14.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H20<>0,round(I20/(H20)*100,2),0)",
+        "formula": "=if(H20<>0,round(I20/(H20)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H20<>0,ROUND(K20/H20*100,2),0)",
+        "formula": "=IF(H20<>0,ROUND(K20/H20*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N20=0,O20=0),0,if(N20<>0,round(O20/N20*100,2),0))",
+        "formula": "=if(and(N20=0,O20=0),0,if(N20<>0,round(O20/N20*100,2),0))"
+      }
+    },
+    "21": {
+      "A": {
+        "val": "15.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H21<>0,round(I21/(H21)*100,2),0)",
+        "formula": "=if(H21<>0,round(I21/(H21)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H21<>0,ROUND(K21/H21*100,2),0)",
+        "formula": "=IF(H21<>0,ROUND(K21/H21*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N21=0,O21=0),0,if(N21<>0,round(O21/N21*100,2),0))",
+        "formula": "=if(and(N21=0,O21=0),0,if(N21<>0,round(O21/N21*100,2),0))"
+      }
+    },
+    "22": {
+      "A": {
+        "val": "16.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H22<>0,round(I22/(H22)*100,2),0)",
+        "formula": "=if(H22<>0,round(I22/(H22)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H22<>0,ROUND(K22/H22*100,2),0)",
+        "formula": "=IF(H22<>0,ROUND(K22/H22*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N22=0,O22=0),0,if(N22<>0,round(O22/N22*100,2),0))",
+        "formula": "=if(and(N22=0,O22=0),0,if(N22<>0,round(O22/N22*100,2),0))"
+      }
+    },
+    "23": {
+      "A": {
+        "val": "17.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H23<>0,round(I23/(H23)*100,2),0)",
+        "formula": "=if(H23<>0,round(I23/(H23)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H23<>0,ROUND(K23/H23*100,2),0)",
+        "formula": "=IF(H23<>0,ROUND(K23/H23*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N23=0,O23=0),0,if(N23<>0,round(O23/N23*100,2),0))",
+        "formula": "=if(and(N23=0,O23=0),0,if(N23<>0,round(O23/N23*100,2),0))"
+      }
+    },
+    "24": {
+      "A": {
+        "val": "18.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H24<>0,round(I24/(H24)*100,2),0)",
+        "formula": "=if(H24<>0,round(I24/(H24)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H24<>0,ROUND(K24/H24*100,2),0)",
+        "formula": "=IF(H24<>0,ROUND(K24/H24*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N24=0,O24=0),0,if(N24<>0,round(O24/N24*100,2),0))",
+        "formula": "=if(and(N24=0,O24=0),0,if(N24<>0,round(O24/N24*100,2),0))"
+      }
+    },
+    "25": {
+      "A": {
+        "val": "19.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H25<>0,round(I25/(H25)*100,2),0)",
+        "formula": "=if(H25<>0,round(I25/(H25)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H25<>0,ROUND(K25/H25*100,2),0)",
+        "formula": "=IF(H25<>0,ROUND(K25/H25*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N25=0,O25=0),0,if(N25<>0,round(O25/N25*100,2),0))",
+        "formula": "=if(and(N25=0,O25=0),0,if(N25<>0,round(O25/N25*100,2),0))"
+      }
+    },
+    "26": {
+      "A": {
+        "val": "20.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H26<>0,round(I26/(H26)*100,2),0)",
+        "formula": "=if(H26<>0,round(I26/(H26)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H26<>0,ROUND(K26/H26*100,2),0)",
+        "formula": "=IF(H26<>0,ROUND(K26/H26*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N26=0,O26=0),0,if(N26<>0,round(O26/N26*100,2),0))",
+        "formula": "=if(and(N26=0,O26=0),0,if(N26<>0,round(O26/N26*100,2),0))"
+      }
+    },
+    "27": {
+      "A": {
+        "val": "21.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H27<>0,round(I27/(H27)*100,2),0)",
+        "formula": "=if(H27<>0,round(I27/(H27)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H27<>0,ROUND(K27/H27*100,2),0)",
+        "formula": "=IF(H27<>0,ROUND(K27/H27*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N27=0,O27=0),0,if(N27<>0,round(O27/N27*100,2),0))",
+        "formula": "=if(and(N27=0,O27=0),0,if(N27<>0,round(O27/N27*100,2),0))"
+      }
+    },
+    "28": {
+      "A": {
+        "val": "22.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H28<>0,round(I28/(H28)*100,2),0)",
+        "formula": "=if(H28<>0,round(I28/(H28)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H28<>0,ROUND(K28/H28*100,2),0)",
+        "formula": "=IF(H28<>0,ROUND(K28/H28*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N28=0,O28=0),0,if(N28<>0,round(O28/N28*100,2),0))",
+        "formula": "=if(and(N28=0,O28=0),0,if(N28<>0,round(O28/N28*100,2),0))"
+      }
+    },
+    "29": {
+      "A": {
+        "val": "23.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H29<>0,round(I29/(H29)*100,2),0)",
+        "formula": "=if(H29<>0,round(I29/(H29)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H29<>0,ROUND(K29/H29*100,2),0)",
+        "formula": "=IF(H29<>0,ROUND(K29/H29*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N29=0,O29=0),0,if(N29<>0,round(O29/N29*100,2),0))",
+        "formula": "=if(and(N29=0,O29=0),0,if(N29<>0,round(O29/N29*100,2),0))"
+      }
+    },
+    "30": {
+      "A": {
+        "val": "24.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H30<>0,round(I30/(H30)*100,2),0)",
+        "formula": "=if(H30<>0,round(I30/(H30)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H30<>0,ROUND(K30/H30*100,2),0)",
+        "formula": "=IF(H30<>0,ROUND(K30/H30*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N30=0,O30=0),0,if(N30<>0,round(O30/N30*100,2),0))",
+        "formula": "=if(and(N30=0,O30=0),0,if(N30<>0,round(O30/N30*100,2),0))"
+      }
+    },
+    "31": {
+      "A": {
+        "val": "25.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H31<>0,round(I31/(H31)*100,2),0)",
+        "formula": "=if(H31<>0,round(I31/(H31)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H31<>0,ROUND(K31/H31*100,2),0)",
+        "formula": "=IF(H31<>0,ROUND(K31/H31*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N31=0,O31=0),0,if(N31<>0,round(O31/N31*100,2),0))",
+        "formula": "=if(and(N31=0,O31=0),0,if(N31<>0,round(O31/N31*100,2),0))"
+      }
+    },
+    "32": {
+      "A": {
+        "val": "26.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H32<>0,round(I32/(H32)*100,2),0)",
+        "formula": "=if(H32<>0,round(I32/(H32)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H32<>0,ROUND(K32/H32*100,2),0)",
+        "formula": "=IF(H32<>0,ROUND(K32/H32*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N32=0,O32=0),0,if(N32<>0,round(O32/N32*100,2),0))",
+        "formula": "=if(and(N32=0,O32=0),0,if(N32<>0,round(O32/N32*100,2),0))"
+      }
+    },
+    "33": {
+      "A": {
+        "val": "27.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H33<>0,round(I33/(H33)*100,2),0)",
+        "formula": "=if(H33<>0,round(I33/(H33)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H33<>0,ROUND(K33/H33*100,2),0)",
+        "formula": "=IF(H33<>0,ROUND(K33/H33*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N33=0,O33=0),0,if(N33<>0,round(O33/N33*100,2),0))",
+        "formula": "=if(and(N33=0,O33=0),0,if(N33<>0,round(O33/N33*100,2),0))"
+      }
+    },
+    "34": {
+      "A": {
+        "val": "28.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H34<>0,round(I34/(H34)*100,2),0)",
+        "formula": "=if(H34<>0,round(I34/(H34)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H34<>0,ROUND(K34/H34*100,2),0)",
+        "formula": "=IF(H34<>0,ROUND(K34/H34*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N34=0,O34=0),0,if(N34<>0,round(O34/N34*100,2),0))",
+        "formula": "=if(and(N34=0,O34=0),0,if(N34<>0,round(O34/N34*100,2),0))"
+      }
+    },
+    "35": {
+      "A": {
+        "val": "29.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H35<>0,round(I35/(H35)*100,2),0)",
+        "formula": "=if(H35<>0,round(I35/(H35)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H35<>0,ROUND(K35/H35*100,2),0)",
+        "formula": "=IF(H35<>0,ROUND(K35/H35*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N35=0,O35=0),0,if(N35<>0,round(O35/N35*100,2),0))",
+        "formula": "=if(and(N35=0,O35=0),0,if(N35<>0,round(O35/N35*100,2),0))"
+      }
+    },
+    "36": {
+      "A": {
+        "val": "30.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H36<>0,round(I36/(H36)*100,2),0)",
+        "formula": "=if(H36<>0,round(I36/(H36)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H36<>0,ROUND(K36/H36*100,2),0)",
+        "formula": "=IF(H36<>0,ROUND(K36/H36*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N36=0,O36=0),0,if(N36<>0,round(O36/N36*100,2),0))",
+        "formula": "=if(and(N36=0,O36=0),0,if(N36<>0,round(O36/N36*100,2),0))"
+      }
+    },
+    "37": {
+      "A": {
+        "val": "31.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H37<>0,round(I37/(H37)*100,2),0)",
+        "formula": "=if(H37<>0,round(I37/(H37)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H37<>0,ROUND(K37/H37*100,2),0)",
+        "formula": "=IF(H37<>0,ROUND(K37/H37*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N37=0,O37=0),0,if(N37<>0,round(O37/N37*100,2),0))",
+        "formula": "=if(and(N37=0,O37=0),0,if(N37<>0,round(O37/N37*100,2),0))"
+      }
+    },
+    "38": {
+      "A": {
+        "val": "32.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H38<>0,round(I38/(H38)*100,2),0)",
+        "formula": "=if(H38<>0,round(I38/(H38)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H38<>0,ROUND(K38/H38*100,2),0)",
+        "formula": "=IF(H38<>0,ROUND(K38/H38*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N38=0,O38=0),0,if(N38<>0,round(O38/N38*100,2),0))",
+        "formula": "=if(and(N38=0,O38=0),0,if(N38<>0,round(O38/N38*100,2),0))"
+      }
+    },
+    "39": {
+      "A": {
+        "val": "33.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H39<>0,round(I39/(H39)*100,2),0)",
+        "formula": "=if(H39<>0,round(I39/(H39)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H39<>0,ROUND(K39/H39*100,2),0)",
+        "formula": "=IF(H39<>0,ROUND(K39/H39*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N39=0,O39=0),0,if(N39<>0,round(O39/N39*100,2),0))",
+        "formula": "=if(and(N39=0,O39=0),0,if(N39<>0,round(O39/N39*100,2),0))"
+      }
+    },
+    "40": {
+      "A": {
+        "val": "34.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H40<>0,round(I40/(H40)*100,2),0)",
+        "formula": "=if(H40<>0,round(I40/(H40)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H40<>0,ROUND(K40/H40*100,2),0)",
+        "formula": "=IF(H40<>0,ROUND(K40/H40*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N40=0,O40=0),0,if(N40<>0,round(O40/N40*100,2),0))",
+        "formula": "=if(and(N40=0,O40=0),0,if(N40<>0,round(O40/N40*100,2),0))"
+      }
+    },
+    "41": {
+      "A": {
+        "val": "35.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H41<>0,round(I41/(H41)*100,2),0)",
+        "formula": "=if(H41<>0,round(I41/(H41)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H41<>0,ROUND(K41/H41*100,2),0)",
+        "formula": "=IF(H41<>0,ROUND(K41/H41*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N41=0,O41=0),0,if(N41<>0,round(O41/N41*100,2),0))",
+        "formula": "=if(and(N41=0,O41=0),0,if(N41<>0,round(O41/N41*100,2),0))"
+      }
+    },
+    "42": {
+      "A": {
+        "val": "36.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H42<>0,round(I42/(H42)*100,2),0)",
+        "formula": "=if(H42<>0,round(I42/(H42)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H42<>0,ROUND(K42/H42*100,2),0)",
+        "formula": "=IF(H42<>0,ROUND(K42/H42*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N42=0,O42=0),0,if(N42<>0,round(O42/N42*100,2),0))",
+        "formula": "=if(and(N42=0,O42=0),0,if(N42<>0,round(O42/N42*100,2),0))"
+      }
+    },
+    "43": {
+      "A": {
+        "val": "37.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H43<>0,round(I43/(H43)*100,2),0)",
+        "formula": "=if(H43<>0,round(I43/(H43)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H43<>0,ROUND(K43/H43*100,2),0)",
+        "formula": "=IF(H43<>0,ROUND(K43/H43*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N43=0,O43=0),0,if(N43<>0,round(O43/N43*100,2),0))",
+        "formula": "=if(and(N43=0,O43=0),0,if(N43<>0,round(O43/N43*100,2),0))"
+      }
+    },
+    "44": {
+      "A": {
+        "val": "38.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H44<>0,round(I44/(H44)*100,2),0)",
+        "formula": "=if(H44<>0,round(I44/(H44)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H44<>0,ROUND(K44/H44*100,2),0)",
+        "formula": "=IF(H44<>0,ROUND(K44/H44*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N44=0,O44=0),0,if(N44<>0,round(O44/N44*100,2),0))",
+        "formula": "=if(and(N44=0,O44=0),0,if(N44<>0,round(O44/N44*100,2),0))"
+      }
+    },
+    "45": {
+      "A": {
+        "val": "39.0",
+        "formula": null
+      },
+      "J": {
+        "val": "=if(H45<>0,round(I45/(H45)*100,2),0)",
+        "formula": "=if(H45<>0,round(I45/(H45)*100,2),0)"
+      },
+      "L": {
+        "val": "=IF(H45<>0,ROUND(K45/H45*100,2),0)",
+        "formula": "=IF(H45<>0,ROUND(K45/H45*100,2),0)"
+      },
+      "P": {
+        "val": "=if(and(N45=0,O45=0),0,if(N45<>0,round(O45/N45*100,2),0))",
+        "formula": "=if(and(N45=0,O45=0),0,if(N45<>0,round(O45/N45*100,2),0))"
+      }
+    },
+    "46": {
+      "B": {
+        "val": "Cộng",
+        "formula": null
+      },
+      "C": {
+        "val": "0.0",
+        "formula": null
+      },
+      "D": {
+        "val": "=SUM(D7:D45)",
+        "formula": "=SUM(D7:D45)"
+      },
+      "E": {
+        "val": "=SUM(E7:E45)",
+        "formula": "=SUM(E7:E45)"
+      },
+      "H": {
+        "val": "=SUM(H7:H45)",
+        "formula": "=SUM(H7:H45)"
+      },
+      "I": {
+        "val": "=SUM(I7:I45)",
+        "formula": "=SUM(I7:I45)"
+      },
+      "J": {
+        "val": "=if(H46<>0,round(I46/(H46)*100,2),0)",
+        "formula": "=if(H46<>0,round(I46/(H46)*100,2),0)"
+      },
+      "K": {
+        "val": "=SUM(K7:K45)",
+        "formula": "=SUM(K7:K45)"
+      },
+      "L": {
+        "val": "=IF(H46<>0,ROUND(K46/H46*100,2),0)",
+        "formula": "=IF(H46<>0,ROUND(K46/H46*100,2),0)"
+      },
+      "M": {
+        "val": "=SUM(M7:M45)",
+        "formula": "=SUM(M7:M45)"
+      },
+      "N": {
+        "val": "=SUM(N7:N45)",
+        "formula": "=SUM(N7:N45)"
+      },
+      "O": {
+        "val": "=SUM(O7:O45)",
+        "formula": "=SUM(O7:O45)"
+      },
+      "P": {
+        "val": "=if(and(N46=0,O46=0),0,if(N46<>0,round(O46/N46*100,2),0))",
+        "formula": "=if(and(N46=0,O46=0),0,if(N46<>0,round(O46/N46*100,2),0))"
+      },
+      "Q": {
+        "val": "0.0",
+        "formula": null
+      },
+      "R": {
+        "val": "0.0",
+        "formula": null
+      },
+      "S": {
+        "val": "0.0",
+        "formula": null
+      }
+    }
+  }
+}

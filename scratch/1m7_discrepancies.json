@@ -1,0 +1,23 @@
+[
+  {
+    "name": "41_41. Xã Nghinh Tường - Nhập hoàn chỉnh PCGD 2026",
+    "rows": {
+      "tot": 7,
+      "p1_head": 8,
+      "p1": 34,
+      "p2_head": 35,
+      "p2": 68
+    },
+    "vals": {
+      "p1_ar": 5.0,
+      "sum_p1_caq": 5.0,
+      "schools_p1_count": 1,
+      "p2_ar": 2.0,
+      "sum_p2_caq": 2.0,
+      "schools_p2_count": 1,
+      "tot_ar": 7.0,
+      "sum_tot_caq": 8.0
+    },
+    "comb_diff": 1.0
+  }
+]

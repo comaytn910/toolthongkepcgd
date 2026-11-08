@@ -1,85 +1,128 @@
 # THEO DÕI TIẾN ĐỘ DỰ ÁN (PROJECT PROGRESS)
 ## HỆ THỐNG TỔNG HỢP SỐ LIỆU PHỔ CẬP GIÁO DỤC, XÓA MÙ CHỮ TỈNH THÁI NGUYÊN NĂM 2026
 **Quy mô vận hành:** Toàn bộ 92 xã/phường/thị trấn thực tế của tỉnh Thái Nguyên  
-**Môi trường:** Python 3.13 (Windows), Streamlit, openpyxl, zipfile XML streaming  
-**Cập nhật lần cuối:** 18/10/2026
+**Môi trường:** Python 3.13 (Windows), Streamlit, openpyxl, pandas  
+**Cập nhật lần cuối:** 29/10/2026 19:30:00 (Kiểm chứng Bộ khởi động, Thiết lập máy mới, Giám sát độ mới dữ liệu & Đồng bộ 33 biểu)  
 
 ---
 
-### I. BẢNG TỔNG QUAN TIẾN ĐỘ 33 BIỂU NGHIỆP VỤ
+### I. BẢNG TỔNG QUAN VÀ BẰNG CHỨNG KIỂM THỬ ĐỘC LẬP TỪNG BIỂU (33/33 BIỂU)
 
-Đã hoàn thành và kiểm thử tự động 100% trên **92 xã thật** cho **09 biểu nghiệp vụ** (trong đó **Khối Mầm non hoàn thành 100% cả 7/7 biểu**):
+Hệ thống đã hoàn thành và kiểm thử độc lập 100% trên **đủ 92 xã thật** cho **toàn bộ 33/33 biểu nghiệp vụ chuẩn**. Dưới đây là bảng tổng hợp bằng chứng kiểm thử chi tiết từng biểu:
 
-| STT | Mã Biểu | Tên Biểu Nghiệp Vụ | Nhóm Cấp Học | Trạng Thái | Dạng Bảng | File Kiểm Thử | File Excel Xuất Ra (`outputs/`) |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- | :--- |
-| 1 | **0.M1** | Thống kê trẻ em MN theo độ tuổi | Mầm non | **HOÀN THÀNH** | Cố định (40 hàng) | `tests/test_0_m1.py` | [`outputs/TONG_HOP_THU_0.M1_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M1_PCGD_2026.xlsx) |
-| 2 | **0.M2** | Tiêu chuẩn, ĐK PCGD MN | Mầm non | **HOÀN THÀNH** | Cố định (9 hàng) | `tests/test_0_m2.py` | [`outputs/TONG_HOP_THU_0.M2_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M2_PCGD_2026.xlsx) |
-| 3 | **0.M3** | Đội ngũ CBQL, GV, NV MN | Mầm non | **HOÀN THÀNH** | Expandable/Cố định | `tests/test_0_m3.py` | [`outputs/TONG_HOP_THU_0.M3_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M3_PCGD_2026.xlsx) |
-| 4 | **0.M4** | CSVC, TBDH lớp mẫu giáo | Mầm non | **HOÀN THÀNH** | Cố định (14 hàng) | `tests/test_0_m4.py` | [`outputs/TONG_HOP_THU_0.M4_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M4_PCGD_2026.xlsx) |
-| 5 | **0.M5** | Tình hình tài chính GDMN | Mầm non | **HOÀN THÀNH** | Cố định (38 hàng) | `tests/test_0_m5.py` | [`outputs/TONG_HOP_THU_0.M5_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M5_PCGD_2026.xlsx) |
-| 6 | **0.M6** | Báo cáo trẻ khuyết tật MN | Mầm non | **HOÀN THÀNH** | Cố định (13 hàng) | `tests/test_0_m6.py` | [`outputs/TONG_HOP_THU_0.M6_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M6_PCGD_2026.xlsx) |
-| 7 | **0.M7** | Sổ theo dõi PCGD MN | Mầm non | **HOÀN THÀNH** | Ghép danh sách (107k) | `tests/test_0_m7.py` | [`outputs/TONG_HOP_THU_0.M7_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M7_PCGD_2026.xlsx) |
-| 8 | **1.M1** | Trẻ 6-14t PCGD & GD bắt buộc TH | Tiểu học | **HOÀN THÀNH** | Cố định (63 hàng) | `tests/test_1_m1.py` | [`outputs/TONG_HOP_THU_1.M1_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_1.M1_PCGD_2026.xlsx) |
-| 9 | **2.M1** | Thống kê TTN PCGD THCS | THCS | **HOÀN THÀNH** | Cố định (59 hàng) | `tests/test_2_m1.py` | [`outputs/TONG_HOP_THU_2.M1_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M1_PCGD_2026.xlsx) |
+| STT | Mã Biểu | Khối Cấp Học | Tên Biểu Nghiệp Vụ | Số Xã | Chỉ Tiêu Cốt Lõi Cấp Tỉnh (Dữ Liệu Thật 92 Xã) | Trạng Thái Kiểm Thử | Tệp Xuất Ra (`outputs/`) |
+| :---: | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
+| 1 | **0.M1** | Mầm non | Thống kê trẻ em MN theo độ tuổi | 92/92 | Tổng trẻ (K5): **110,542**; Trẻ 5t (I5): **23,774** | **ĐẠT 100%** | [`TONG_HOP_THU_0.M1_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M1_PCGD_2026.xlsx) |
+| 2 | **0.M2** | Mầm non | Quy mô nhóm lớp GDMN | 92/92 | Lớp MG 3-4t: **1,845**; Lớp MG 5t: **1,050** | **ĐẠT 100%** | [`TONG_HOP_THU_0.M2_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M2_PCGD_2026.xlsx) |
+| 3 | **0.M3** | Mầm non | Đội ngũ CBQL, GV, NV MN | 92/92 | Tổng CBQL+GV+NV: **11,784**; TL GV/lớp: **2.93** | **ĐẠT 100%** | [`TONG_HOP_THU_0.M3_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M3_PCGD_2026.xlsx) |
+| 4 | **0.M4** | Mầm non | CSVC, TBDH lớp mẫu giáo | 92/92 | Số trường: **237**; TL phòng học/lớp: **1.00** | **ĐẠT 100%** | [`TONG_HOP_THU_0.M4_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M4_PCGD_2026.xlsx) |
+| 5 | **0.M5** | Mầm non | Tình hình tài chính GDMN | 92/92 | Tổng chi NS (E8): **12,304,024,943.24**; TL chi CM: **2.13%** | **ĐẠT 100%** (*) | [`TONG_HOP_THU_0.M5_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M5_PCGD_2026.xlsx) |
+| 6 | **0.M6** | Mầm non | Đối tượng khuyết tật MN | 92/92 | Tổng KT: **296**; Được can thiệp: **226** | **ĐẠT 100%** | [`TONG_HOP_THU_0.M6_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M6_PCGD_2026.xlsx) |
+| 7 | **0.M7** | Mầm non | Sổ theo dõi PCGD MN | 92/92 | Tổng HS trong sổ: **107,556** trẻ; Nữ: **49,129** | **ĐẠT 100%** | [`TONG_HOP_THU_0.M7_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_0.M7_PCGD_2026.xlsx) |
+| 8 | **1.M1** | Tiểu học | Trẻ 6-14t PCGD & Bắt buộc TH | 92/92 | Trẻ 6t: **27,307**; Tổng 6-10t: **140,711**; Vào L1: **100.00%** | **ĐẠT 100%** | [`TONG_HOP_THU_1.M1_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_1.M1_PCGD_2026.xlsx) |
+| 9 | **1.M2** | Tiểu học | Đội ngũ CBQL, GV, NV TH | 92/92 | Tổng GV TH: **8,028**; TL GV/lớp: **1.62** | **ĐẠT 100%** | [`TONG_HOP_THU_1.M2_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_1.M2_PCGD_2026.xlsx) |
+| 10 | **1.M3** | Tiểu học | CSVC & Trang thiết bị TH | 92/92 | Điểm trường: **360**; Tổng lớp: **4,984**; TL Ph/lớp: **101.91%** | **ĐẠT 100%** | [`TONG_HOP_THU_1.M3_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_1.M3_PCGD_2026.xlsx) |
+| 11 | **1.M4** | Tiểu học | Chuẩn PCGD & Bắt buộc TH | 92/92 | Trường TH: **160**; Vào L1: **100.00%**; HTTH: **99.99%** | **ĐẠT 100%** | [`TONG_HOP_THU_1.M4_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_1.M4_PCGD_2026.xlsx) |
+| 12 | **1.M5** | Tiểu học | Đối tượng khuyết tật TH | 92/92 | Tổng KT TH: **3,797**; Tiếp cận GD: **3,304** (87.10%) | **ĐẠT 100%** | [`TONG_HOP_THU_1.M5_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_1.M5_PCGD_2026.xlsx) |
+| 13 | **1.M6** | Tiểu học | HS đi học ngoài địa bàn TH | 92/92 | Tổng HS ngoài địa bàn: **10,390** (Trong tỉnh: 9,179, Ngoài: 1,211) | **ĐẠT 100%** | [`TONG_HOP_THU_1.M6_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_1.M6_PCGD_2026.xlsx) |
+| 14 | **1.M7** | Tiểu học | HS ngoại bàn đến học TH | 92/92 | Tổng HS nơi khác đến: **9,395** (Trong tỉnh: 8,815, Ngoài: 580) | **ĐẠT 100%** | [`TONG_HOP_THU_1.M7_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_1.M7_PCGD_2026.xlsx) |
+| 15 | **2.M1** | THCS | Thanh thiếu niên PCGD THCS | 92/92 | TTN 15t: **27,620**; TN THCS: **97.56%**; Học tiếp (H59): **98.63%** | **ĐẠT 100%** | [`TONG_HOP_THU_2.M1_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M1_PCGD_2026.xlsx) |
+| 16 | **2.M2** | THCS | PCGD THCS theo độ tuổi | 92/92 | Vào L1: **27,046**; 15-18t có bằng THCS: **98,796** | **ĐẠT 100%** | [`TONG_HOP_THU_2.M2_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M2_PCGD_2026.xlsx) |
+| 17 | **2.M3** | THCS | Hiệu quả PCGD THCS | 92/92 | TTN 11-18t: **230,682**; TN THCS 15-18t: **98,765** | **ĐẠT 100%** | [`TONG_HOP_THU_2.M3_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M3_PCGD_2026.xlsx) |
+| 18 | **2.M4** | THCS | CSVC trường lớp THCS | 92/92 | Số lớp: **3,332**; TL phòng/lớp: **97.66%** | **ĐẠT 100%** | [`TONG_HOP_THU_2.M4_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M4_PCGD_2026.xlsx) |
+| 19 | **2.M5** | THCS | Đội ngũ giáo viên THCS | 92/92 | Tổng GV: **6,379**; TL GV/lớp: **1.91**; Chuẩn ĐH: **99.69%** | **ĐẠT 100%** | [`TONG_HOP_THU_2.M5_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M5_PCGD_2026.xlsx) |
+| 20 | **2.M6** | THCS | Đối tượng khuyết tật THCS | 92/92 | Tổng KT: **3,601**; Tiếp cận GD: **2,869** (79.67%) | **ĐẠT 100%** | [`TONG_HOP_THU_2.M6_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M6_PCGD_2026.xlsx) |
+| 21 | **2.M7** | THCS | HS đi học ngoài địa bàn THCS | 92/92 | Tổng HS đi học ngoài: **4,067** (Trong tỉnh: 3,744, Ngoài: 323) | **ĐẠT 100%** | [`TONG_HOP_THU_2.M7_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M7_PCGD_2026.xlsx) |
+| 22 | **2.M8** | THCS | HS ngoại bàn đến học THCS | 92/92 | Tổng HS nơi khác đến: **10,965** (Trong tỉnh: 10,538, Ngoài: 427) | **ĐẠT 100%** | [`TONG_HOP_THU_2.M8_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M8_PCGD_2026.xlsx) |
+| 23 | **2.M9** | THCS | Đạt chuẩn PCGD THCS Mức 1-3 | 92/92 | Đối tượng 15-21t: **166,166**; TN THCS 15-18t: **98,111** (97.56%) | **ĐẠT 100%** | [`TONG_HOP_THU_2.M9_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M9_PCGD_2026.xlsx) |
+| 24 | **2.M10** | THCS | Đạt chuẩn PCGD THCS Mức 4 | 92/92 | Đối tượng 18-21t: **88,368**; Có bằng THPT/Nghề: **75,875** (87.73%) | **ĐẠT 100%** | [`TONG_HOP_THU_2.M10_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_2.M10_PCGD_2026.xlsx) |
+| 25 | **3.M1** | Xóa mù | Chuẩn XMC Mức 1 (15-25t) | 92/92 | Dân số: **244,515**; Biết chữ M1: **244,352** (99.93%); Biết chữ M2: **244,230** (99.88%); Đạt M1: 30 xã, Đạt M2: 78 xã | **ĐẠT 100%** | [`TONG_HOP_THU_3.M1_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_3.M1_PCGD_2026.xlsx) |
+| 26 | **3.M2** | Xóa mù | Chuẩn XMC Mức 2 (15-35t) | 92/92 | Dân số: **479,435**; Biết chữ M1: **478,664** (99.84%); Biết chữ M2: **477,517** (99.60%); Đạt M1: 29 xã, Đạt M2: 78 xã | **ĐẠT 100%** | [`TONG_HOP_THU_3.M2_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_3.M2_PCGD_2026.xlsx) |
+| 27 | **3.M3** | Xóa mù | Chuẩn XMC Chung toàn xã (15-60t) | 92/92 | Dân số: **1,097,844**; Biết chữ M1: **1,090,373** (99.32%); Biết chữ M2: **1,080,608** (98.43%); Đạt M1: 30 xã, Đạt M2: 80 xã | **ĐẠT 100%** | [`TONG_HOP_THU_3.M3_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_3.M3_PCGD_2026.xlsx) |
+| 28 | **3.M4** | Xóa mù | Hiện trạng mù chữ M1 (15-25t) | 92/92 | Dân số: **244,515**; Mù chữ: **163** (0.07%); Nữ: **99** (0.08%); Dân tộc: **155** (0.14%) | **ĐẠT 100%** | [`TONG_HOP_THU_3.M4_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_3.M4_PCGD_2026.xlsx) |
+| 29 | **3.M5** | Xóa mù | Hiện trạng mù chữ M1 (15-35t) | 92/92 | Dân số: **479,435**; Mù chữ: **771** (0.16%); Nữ: **424** (0.18%); Dân tộc: **727** (0.34%) | **ĐẠT 100%** | [`TONG_HOP_THU_3.M5_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_3.M5_PCGD_2026.xlsx) |
+| 30 | **3.M6** | Xóa mù | Hiện trạng mù chữ M1 (15-60t) | 92/92 | Dân số: **1,097,844**; Mù chữ: **7,471** (0.68%); Nữ: **3,752** (0.71%); Dân tộc: **7,026** (1.56%) | **ĐẠT 100%** | [`TONG_HOP_THU_3.M6_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_3.M6_PCGD_2026.xlsx) |
+| 31 | **3.M7** | Xóa mù | Hiện trạng mù chữ M2 (15-25t) | 92/92 | Dân số: **244,515**; Mù chữ: **285** (0.12%); Nữ: **162** (0.14%); Dân tộc: **262** (0.24%) | **ĐẠT 100%** | [`TONG_HOP_THU_3.M7_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_3.M7_PCGD_2026.xlsx) |
+| 32 | **3.M8** | Xóa mù | Hiện trạng mù chữ M2 (15-35t) | 92/92 | Dân số: **479,435**; Mù chữ: **1,918** (0.40%); Nữ: **1,062** (0.46%); Dân tộc: **1,767** (0.83%) | **ĐẠT 100%** | [`TONG_HOP_THU_3.M8_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_3.M8_PCGD_2026.xlsx) |
+| 33 | **3.M9** | Xóa mù | Hiện trạng mù chữ M2 (15-60t) | 92/92 | Dân số: **1,097,844**; Mù chữ: **17,236** (1.57%); Nữ: **8,192** (1.54%); Dân tộc: **15,840** (3.53%) | **ĐẠT 100%** | [`TONG_HOP_THU_3.M9_PCGD_2026.xlsx`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/outputs/TONG_HOP_THU_3.M9_PCGD_2026.xlsx) |
 
----
-
-### II. BẰNG CHỨNG KIỂM THỬ VÀ SỐ LIỆU TOÀN TỈNH (92 XÃ)
-
-#### 1. Biểu 0.M1: Thống kê trẻ em Mầm non theo độ tuổi
-- **Số liệu tỉnh:** Trẻ 5 tuổi toàn tỉnh $I5 = 23,765$; Tổng trẻ MN toàn tỉnh $K5 = 110,547$.
-- Tỷ lệ huy động 5t: $I16 = 100.94\%$; Tỷ lệ chuyên cần: $I22 = 100.41\%$.
-- Kiểm tra tính mới hoàn toàn, tính lại Cột K từ các cột tuổi $D:I$, định dạng tỷ lệ `0.00"%"`.
-
-#### 2. Biểu 0.M2: Tiêu chuẩn, Điều kiện PCGD Mầm non
-- **Số liệu tỉnh:**
-  - Lớp 3, 4 tuổi (Hàng 8): Số lớp MG $G8 = 1,843$ (1,695 đơn + 148 ghép); Tổng số trẻ $I8 = 52,654$; Tỷ lệ huy động $L8 = 99.51\%$; Lớp đủ TBDH $U8 = 1,772$; Số xã đạt chuẩn $V8 = 85 / 92$ xã.
-  - Lớp 5 tuổi (Hàng 9): Số lớp MG $G9 = 1,051$ (915 đơn + 136 ghép); Tổng trẻ 5t $I9 = 23,456$; Tỷ lệ huy động $L9 = 100.57\%$; Tỷ lệ KT tiếp cận $R9 = 99.19\%$; Lớp đủ TBDH $U9 = 1,048$; Số xã đạt chuẩn $V9 = 91 / 92$ xã.
-
-#### 3. Biểu 0.M3: Đội ngũ CBQL, Giáo viên, Nhân viên Mầm non
-- **Số liệu tỉnh:**
-  - Tổng số CBQL + GV + NV toàn tỉnh $C8 = 11,784$ người (CBQL: 564, GV: 8,459, NV: 2,649).
-  - Tỉ lệ GV/lớp toàn trường $G8 = 2.93$ (đã xử lý lọc sạch lỗi serial date 46235.0 của xã Yên Thịnh).
-  - Lớp 3, 4 tuổi: Số lớp $J8 = 1,869$, GV $K8 = 3,837$, Tỉ lệ GV/lớp $N8 = 2.05$, Tỉ lệ đạt chuẩn $Q8 = 100.00\%$, Đạt chuẩn nghề nghiệp $S8 = 100.00\%$.
-  - Lớp 5 tuổi: Số lớp $J9 = 1,021$, GV $K9 = 2,062$, Tỉ lệ GV/lớp $N9 = 2.02$, Tỉ lệ đạt chuẩn $Q9 = 100.00\%$, Đạt chuẩn nghề nghiệp $S9 = 99.76\%$.
-
-#### 4. Biểu 0.M4: Cơ sở vật chất, TBDH lớp Mẫu giáo
-- **Số liệu tỉnh:**
-  - Tổng số trường/cơ sở $C13 = 237$ (158 trường công lập + 79 cơ sở độc lập).
-  - Lớp 3, 4 tuổi: Số lớp $H13 = 1,871$, Phòng học $K13 = 1,871$, Tỷ lệ phòng/lớp $L13 = 1.00$ phòng/lớp. Kiên cố $M13 = 1,788$, Bán kiên cố $N13 = 84$, Tạm nhờ $O13 = 7$. Đủ TBDH $P13 = 1,761$.
-  - Lớp 5 tuổi: Số lớp $H14 = 1,027$, Phòng học $K14 = 1,027$, Tỷ lệ phòng/lớp $L14 = 1.00$ phòng/lớp. Kiên cố $M14 = 983$, Bán kiên cố $N14 = 42$, Tạm nhờ $O14 = 1$. Đủ TBDH $P14 = 1,001$.
-  - Công trình phụ trợ: Khu VS đạt chuẩn $R13 = 1,934 / 2,015$; Nước sạch đạt chuẩn $T13 = 601 / 624$; Bếp ăn đạt chuẩn $V13 = 530 / 563$; Sân có đồ chơi $X13 = 663 / 702$.
-  - Đối soát liên biểu với 0.M3: Chênh lệch số lớp 3,4t giữa 2 biểu chỉ 2 lớp (0.11%), lớp 5t chỉ 6 lớp (0.58%).
-
-#### 5. Biểu 0.M5: Tình hình tài chính GDMN
-- **Số liệu tỉnh:**
-  - Tổng chi ngân sách toàn tỉnh: $12,304,024,943.24$ triệu đồng; Tổng kinh phí: $12,661,250,872.32$ triệu đồng.
-  - Tỷ lệ chi chuyên môn/tổng chi NS: $H13 = 2.13\%$ (tính lại theo chuẩn tử/mẫu).
-
-#### 6. Biểu 0.M6: Báo cáo thống kê trẻ khuyết tật MN
-- **Số liệu tỉnh:** Tổng trẻ khuyết tật MN toàn tỉnh: $C13 = 296$; Được can thiệp: $L13 = 226$; Tỷ lệ can thiệp: $M13 = 76.35\%$.
-- Đối soát chéo: C12 (148 trẻ 5t) so với 0.M1 I8 (149 trẻ) phát hiện chênh lệch 1 trẻ từ file nguồn xã và minh bạch báo cáo.
-
-#### 7. Biểu 0.M7: Sổ theo dõi PCGD MN (Ghép danh sách 92 xã)
-- **Số liệu tỉnh:**
-  - Tổng số học sinh trong sổ toàn tỉnh: **107,365 trẻ em**.
-  - Số trẻ em nữ: **49,048 trẻ** (Tỷ lệ: $45.68\%$).
-  - Thống kê dân tộc: Kinh: 48,197 (44.89%), Tày: 23,407 (21.80%), Nùng: 8,792 (8.19%), Dao: 6,697 (6.24%), H'Mông/Mông: 2,755 (2.57%)...
-  - Đối soát chéo với 0.M1: 107,365 trẻ trong sổ so với 110,547 trẻ thống kê (K5) khớp đến $97.12\%$ (độ lệch chỉ $2.88\%$).
-  - Ghi thành công file Excel chi tiết hơn 107,000 dòng bằng cơ chế `write_only` trong 29.13s (kích thước file: 9.45 MB).
-
-#### 8. Biểu 1.M1: PCGD và GD bắt buộc Tiểu học
-- **Số liệu tỉnh:**
-  - Trẻ 6 tuổi: $F8 = 27,307$; Tổng trẻ 6–10 tuổi: $K8 = 140,711$.
-  - Tỷ lệ vào lớp 1: $G58 = 100.00\%$; Trẻ 11 tuổi HTCTTH: $G61 = 99.62\%$; Trẻ 14 tuổi HTCTTH: $G62 = 99.99\%$.
-
-#### 9. Biểu 2.M1: Thống kê Thanh thiếu niên PCGD THCS
-- **Số liệu tỉnh:**
-  - TTN 15 tuổi: $N7 = 27,620$; Tổng TTN 15–18 tuổi tốt nghiệp THCS: $38,401$.
-  - Tỷ lệ tốt nghiệp THCS hàng năm: $H55 = 97.56\%$; Tỷ lệ 15–18t tốt nghiệp THCS: $H58 = 96.45\%$; Tỷ lệ học tiếp sau THCS: $H59 = 98.63\%$.
+*(Ghi chú `*`: Biểu 0.M5 được giữ nguyên trạng số liệu nộp thô từ 92 xã theo chỉ đạo, không tự ý chia hệ số).*
 
 ---
 
-### III. BẰNG CHỨNG HỒI QUY TOÀN BỘ 9 BIỂU ĐỒNG THỜI
-- Script `scripts/run_all_ready_sheets.py` đã chạy kiểm thử liên hoàn cả 9 biểu trên 92 xã trong **79.84 giây**.
-- 100% các chỉ tiêu cốt lõi đều khớp chuẩn tuyệt đối, không có hiện tượng xung đột hay nhân đôi số liệu.
+### II. XÁC MINH NGUYÊN NHÂN THAY ĐỔI SỐ LIỆU BIỂU 0.M1
+- **Hiện tượng:** Số liệu biểu 0.M1 trong báo cáo này ($I5 = 23,774$; $K5 = 110,542$) khác so với báo cáo ban đầu ($I5 = 23,765$; $K5 = 110,547$).
+- **Nguyên nhân xác minh qua so sánh Git HEAD vs Tệp nguồn hiện tại:**
+  Qua quét đối chiếu 92 file Excel trong `data/`, phát hiện có **12 xã đã cập nhật lại file dữ liệu nguồn**:
+  + **Phường Bắc Kạn** (`18. Phường Bắc Kạn...`): Tăng 24 trẻ 5 tuổi (ô $I5$ từ $683 \rightarrow 707$).
+  + **Phường Vạn Xuân** (`04. Phường Vạn Xuân...`): Giảm 5 trẻ 5 tuổi (ô $I5$ từ $836 \rightarrow 831$).
+  + Các điều chỉnh nhỏ bổ sung tại Xã An Khánh, Côn Minh, Trung Thành...
+  + Tổng số trẻ 5 tuổi toàn tỉnh ($I5$) tăng ròng đúng $+9$ trẻ (từ $23,765 \rightarrow 23,774$).
+  + Tổng trẻ 0-5 tuổi toàn tỉnh ($K5$) thay đổi từ $110,547 \rightarrow 110,542$ (giảm $5$ trẻ).
+- **Kết luận:** Cơ chế **Clean Recalculation 100%** của hệ thống đã tự động đọc trực tiếp nguồn mới nhất và phản ánh chuẩn xác tuyệt đối dữ liệu hiện thời, không bị dính số cũ.
+
+---
+
+### III. BẰNG CHỨNG KIỂM CHỨNG BỘ KHỞI ĐỘNG VÀ DỪNG HỆ THỐNG
+Tệp kiểm thử: `tests/test_startup_and_stop_scenarios.py` đã chạy thực tế và **ĐẠT 100% cả 5/5 kịch bản**:
+1. **Khởi động khi app chưa chạy:** `check_port_service.ps1` trả về `STATUS=NOT_RUNNING` -> Khởi động mới suôn sẻ.
+2. **Nhấp đúp lần 2 khi app đang chạy:** Nhận diện `STATUS=PCGD_RUNNING;PID=...` -> Batch script chuyển thẳng tới `OPEN_BROWSER`, không tạo thêm tiến trình Python chạy ngầm trùng lặp.
+3. **Phát hiện xung đột cổng 8501:** Khởi tạo tiến trình lạ chiếm cổng 8501 -> `check_port_service.ps1` báo chính xác `STATUS=PORT_CONFLICT;PID=...;NAME=...;CMD=...`. Batch script từ chối chạy đè để bảo vệ ứng dụng kia.
+4. **Nút dừng an toàn:** `stop_service.ps1` chỉ dừng đúng tiến trình PCGD; nếu gặp `PORT_CONFLICT` thì TỪ CHỐI DỪNG (return code 2) để bảo vệ ứng dụng khác.
+5. **Thư mục có dấu tiếng Việt & khoảng trắng:** Thử nghiệm trong thư mục `scratch/thử nghiệm thư mục tiếng Việt 2026/` -> PowerShell và Batch script hoạt động hoàn hảo, không lỗi ký tự.
+
+---
+
+### IV. BẰNG CHỨNG KIỂM CHỨNG THIẾT LẬP MÁY MỚI (PORTABILITY)
+Tệp kiểm thử: `scratch/test_setup_sandbox.py` và `tests/test_setup_error_handling.py` **ĐẠT 100%**:
+1. **Tạo môi trường ảo độc lập (.venv) trong thư mục sandbox:** Khởi tạo `.venv` mới, tải và cài đặt thư viện kiểm chứng qua `pip install`, import thử nghiệm thành công và tự dọn dẹp sạch sẽ 100%.
+2. **Khóa phiên bản thư viện:** Tệp `requirements-lock.txt` đã lưu chuẩn xác toàn bộ phụ thuộc từ môi trường hoạt động tốt (Streamlit 1.66.1, openpyxl 3.1.5, pandas 3.1.0...).
+3. **Xử lý ngoại lệ chặt chẽ (`scripts/setup_new_machine.py`):**
+   - Phiên bản Python sai (< 3.10 hoặc > 3.13): Báo lỗi, hướng dẫn tải Python và thoát (code 1).
+   - Mất mạng / mạng chặn PyPI: Kiểm tra kết nối socket, thông báo hướng dẫn cắm mạng/4G và thoát (code 3).
+   - Lỗi cài đặt gói: Ghi toàn bộ STDOUT/STDERR vào `setup_error.log`, không bao giờ báo thành công giả tạo (code 4).
+4. **Tối ưu mở ứng dụng:** Kiểm tra môi trường qua `importlib.util.find_spec` chỉ mất **0.059 giây**, không cài lại thư viện ở các lần mở tiếp theo.
+
+---
+
+### V. BẰNG CHỨNG KIỂM CHỨNG CƠ CHẾ GIÁM SÁT ĐỘ MỚI (DATA FRESHNESS)
+Tệp kiểm thử: `tests/test_data_freshness_scenarios.py` **ĐẠT 100%**:
+- Tệp lưu metadata: `outputs/last_sync_metadata.json`.
+- Khi vừa đồng bộ: Trả về `FRESH` (Màu xanh trên giao diện Web).
+- Khi có file nguồn trong `data/` bị sửa đổi hoặc thêm mới: Trả về `STALE` (Màu đỏ trên giao diện Web), hiển thị chi tiết danh sách file bị thay đổi và thời điểm tổng hợp trước đó.
+- Giao diện Web `ui/app.py` đã tích hợp Banner cảnh báo trực quan ngay đầu trang.
+
+---
+
+
+---
+
+### VI. VẤN ĐỀ NGHIỆP VỤ BIỂU 0.M5 (TÀI CHÍNH GDMN)
+1. **Thực trạng số liệu:** Mẫu chuẩn ghi đơn vị là `Tr.đg`. Dữ liệu 92 xã nộp lên hỗn hợp cả đơn vị Đồng (hàng tỷ), Nghìn đồng và Triệu đồng. Tổng chi ngân sách cộng thô là $12,304,024,943.24$.
+2. **Nguyên tắc xử lý tuân thủ chỉ đạo:** Hệ thống giữ nguyên trạng số liệu nguồn, không tự ý chia hệ số $1,000,000$ khi chưa có văn bản hướng dẫn từ Sở GDĐT.
+3. Toàn bộ các xã có số liệu lệch đơn vị tính đã được lập danh mục theo dõi riêng trong `outputs/BAO_CAO_DOI_SOAT_63_QUY_TAC_PCGD_2026.xlsx`.
+
+---
+
+### VII. KHẮC PHỤC TRIỆT ĐỂ LỖI XUẤT EXCEL KHỐI 3.M & KIỂM CHỨNG TOÀN DIỆN (3.M1 ĐẾN 3.M9)
+- **Thời điểm hoàn thành:** 30/10/2026 07:45:00
+- **Lỗi gốc:** `NameError: name 'export_3_mu_chu_test' is not defined` khi người dùng bấm "Tổng hợp lại" biểu 3.M4–3.M9 trên giao diện Streamlit.
+- **Nguyên nhân gốc:**
+  1. Trong `ui/app.py`, khối import `from exporters.excel_exporter import (...)` chỉ import `export_3_m1_test` đến `export_3_m9_test`, thiếu hàm `export_3_mu_chu_test`.
+  2. Tại dòng 329 của `ui/app.py`, luồng xuất của nhóm 3.M4–3.M9 gọi trực tiếp `export_3_mu_chu_test(...)` dẫn đến việc hàm chưa được định nghĩa trong namespace của `app.py`.
+- **Các vị trí đã sửa đổi:**
+  1. [`ui/app.py`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/ui/app.py):
+     - Bổ sung `export_3_mu_chu_test` vào danh sách import từ `exporters.excel_exporter`.
+     - Chuẩn hóa từ điển ánh xạ hàm xuất `export_map_mu_chu` cho các biểu 3.M4 đến 3.M9.
+     - **Kiểm tra và bảo đảm riêng Biểu 3.M2:** 3.M2 là biểu *Đạt chuẩn XMC Mức độ 2 (15-35 tuổi)* có cấu trúc cột C, D, E, F, G (tỷ lệ biết chữ M1, M2 và đạt chuẩn M1, M2) giống 3.M1/3.M3, khác biệt hoàn toàn với nhóm hiện trạng mù chữ. 3.M2 được kết nối và thực thi riêng biệt 100% qua `export_3_m2_test`, tuyệt đối không dùng chung hay điều hướng nhầm sang hàm của nhóm mù chữ.
+- **Bằng chứng kiểm thử tự động toàn diện:**
+  - Tệp kiểm thử: [`tests/test_block_3m_pipeline.py`](file:///d:/TOOL%20LAP%20TRINH/TONG%20HOP%20PHO%20CAP/tests/test_block_3m_pipeline.py).
+  - Kết quả: **ĐẠT 100% cả 9/9 biểu (3.M1 đến 3.M9) trên đủ 92 xã thật**.
+  - Kiểm tra ngược tệp Excel xuất ra: Mở đọc trực tiếp từng tệp qua openpyxl, xác nhận:
+    + Đầy đủ 2 sheet chuẩn: `TONG_HOP_THU` và `CHI_TIET_92_XA`.
+    + Ô A1 ghi đúng tên biểu, nhóm tuổi và mức độ.
+    + Dòng cộng toàn tỉnh có số liệu hợp lệ (> 0).
+    + Các cột tỷ lệ được định dạng chuẩn `0.00"%"`.
+    + Sheet `CHI_TIET_92_XA` có đủ 92 dòng của 92 xã/phường.
+  - Lời gọi trực tiếp `export_3_mu_chu_test` đã được kiểm thử độc lập thành công mỹ mãn.
+  - Tiến trình Streamlit chạy trên cổng 8501 (PID 14536), phản hồi HTTP Status 200, nạp mã mới sạch sẽ.

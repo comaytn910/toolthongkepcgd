@@ -1,0 +1,93 @@
+=========================================================================================
+  HƯỚNG DẪN VẬN HÀNH & BÀN GIAO HỆ THỐNG TỔNG HỢP PCGD - XMC NĂM 2026
+                 SỞ GIÁO DỤC VÀ ĐÀO TẠO TỈNH THÁI NGUYÊN
+=========================================================================================
+
+1. CÁCH CHẠY TRÊN MÁY TÍNH HIỆN TẠI (ĐÃ THIẾT LẬP)
+-----------------------------------------------------------------------------------------
+- Cách 1 (Nhanh nhất từ Desktop): 
+  Click đúp vào biểu tượng "HE THONG PCGD 2026 - THAI NGUYEN" ngoài màn hình Desktop.
+  
+- Cách 2 (Trong thư mục dự án):
+  Click đúp vào tệp: KHOI_DONG_HE_THONG.bat
+
+- Thời gian mở ứng dụng: Siêu tốc < 1-2 giây (hệ thống kiểm tra môi trường bằng find_spec 
+  chỉ mất 0.05 giây, tuyệt đối không cài đặt lại thư viện ở các lần mở sau).
+
+- Cơ chế bảo vệ thông minh:
+  + Nếu ứng dụng đang chạy mà nhấp đúp lần 2: Hệ thống tự nhận diện và chỉ mở thêm tab trình
+    duyệt, tuyệt đối không tạo thêm tiến trình chạy ngầm trùng lặp.
+  + Nếu cổng 8501 đang bị ứng dụng khác (không phải PCGD) chiếm dụng: Hệ thống cảnh báo lỗi
+    xung đột cổng, hiển thị Process ID/Command line của ứng dụng kia và từ chối chạy đè để bảo
+    vệ ứng dụng đang hoạt động.
+  + Hỗ trợ hoàn hảo thư mục có dấu tiếng Việt và khoảng trắng.
+
+2. CÁCH THIẾT LẬP KHI CHUYỂN SANG MÁY TÍNH MỚI
+-----------------------------------------------------------------------------------------
+LƯU Ý KỸ THUẬT QUAN TRỌNG:
+Không thể chỉ sao chép thư mục .venv từ máy này sang máy khác vì môi trường ảo của Python 
+gắn cứng đường dẫn tuyệt đối của máy gốc. Để triển khai sang máy mới, làm theo các bước sau:
+
+* Điều kiện cần trên máy mới:
+  1. Máy tính đã cài đặt Python phiên bản từ 3.10 đến 3.13 (khuyến nghị Python 3.13 chính thức).
+     Khi cài đặt Python, BẮT BUỘC đánh dấu chọn ô: [Add python.exe to PATH].
+  2. Máy tính có kết nối mạng Internet trong lần thiết lập đầu tiên để tải thư viện.
+
+* Thao tác thiết lập:
+  - Sao chép toàn bộ thư mục dự án "TONG HOP PHO CAP" sang máy mới.
+  - Click đúp vào tệp: CAI_DAT_BAN_DAU.bat
+  
+  Hệ thống sẽ tự động:
+  + Kiểm tra phiên bản Python tương thích.
+  + Tự động tạo mới môi trường ảo độc lập (.venv).
+  + Cài đặt chính xác các phiên bản thư viện đã kiểm chứng từ tệp "requirements-lock.txt"
+    (Streamlit 1.66.1, openpyxl 3.1.5, pandas 3.1.0, requests 2.34.2...).
+  + Kiểm tra thử nghiệm import các module cốt lõi.
+  + Tự động tạo biểu tượng lối tắt ngoài màn hình Desktop.
+
+* Xử lý ngoại lệ nếu gặp sự cố trong quá trình cài đặt:
+  - Nếu thiếu Python hoặc sai phiên bản: Cửa sổ thông báo lỗi rõ ràng và hướng dẫn link tải.
+  - Nếu mất mạng hoặc mạng cơ quan chặn PyPI: Thông báo hướng dẫn cắm mạng trực tiếp hoặc USB 4G.
+  - Toàn bộ chi tiết kỹ thuật của lỗi được tự động ghi vào tệp "setup_error.log".
+  - Hệ thống chỉ báo "Thành công" khi 100% các bước đều đạt yêu cầu.
+
+3. TÍNH NĂNG GIÁM SÁT ĐỘ MỚI CỦA DỮ LIỆU (DATA FRESHNESS)
+-----------------------------------------------------------------------------------------
+- Ngay đầu trang Web, hệ thống có thanh thông báo độ mới của số liệu:
+  + Biểu tượng XANH (🟢 DỮ LIỆU ĐỒNG BỘ): Kết quả đang xem và các file xuất ra khớp 100% với
+    toàn bộ file nguồn mới nhất trong thư mục "data/". Hiển thị rõ ngày giờ tổng hợp thành công gần nhất.
+  + Biểu tượng ĐỎ (🔴 CẢNH BÁO SỐ LIỆU ĐANG CŨ): Dữ liệu trong "data/" đã có xã nộp lại/sửa đổi
+    mới hơn thời điểm tổng hợp trước. Hệ thống hiển thị rõ danh sách các file đã thay đổi và 
+    khuyến nghị người dùng bấm "Tổng hợp lại" để cập nhật mới 100%.
+
+4. TẢI TÀI LIỆU CẤP TỈNH & BÁO CÁO THANH TRA
+-----------------------------------------------------------------------------------------
+Tại đầu giao diện Web có sẵn 2 nút tải nhanh:
+- [TẢI SỔ CÁI 33 BIỂU CẤP TỈNH]: Tệp "SO_CAI_TONG_HOP_PCGD_2026_THAI_NGUYEN.xlsx" (khoảng 2.2 MB)
+  chứa đầy đủ 33 biểu nghiệp vụ chuẩn cấp tỉnh của cả 4 khối (Mầm non, Tiểu học, THCS, XMC).
+- [TẢI BÁO CÁO ĐỐI SOÁT 63 QUY TẮC]: Tệp "BAO_CAO_DOI_SOAT_63_QUY_TAC_PCGD_2026.xlsx" phục vụ
+  công tác thanh kiểm tra của Sở GDĐT và Bộ GDĐT (đánh giá 62 quy tắc, ma trận 92 xã, 101 sai lệch nguồn).
+Hai tệp này luôn được tạo đồng bộ từ cùng một bộ nguồn dữ liệu mới nhất.
+
+5. CÁCH TẮT DỊCH VỤ AN TOÀN
+-----------------------------------------------------------------------------------------
+- Click đúp vào tệp: DUNG_HE_THONG.bat
+- Hoặc chọn số [5] trong bảng điều khiển KHOI_DONG_HE_THONG.bat.
+- Cơ chế an toàn: Hệ thống chỉ dừng duy nhất tiến trình Streamlit của dự án PCGD, tuyệt đối không
+  dừng toàn bộ python.exe và không làm ảnh hưởng đến các ứng dụng khác đang chạy trên máy tính.
+
+6. VẤN ĐỀ NGHIỆP VỤ ĐANG CHỜ XÁC MINH CỦA BIỂU 0.M5 (TÀI CHÍNH GDMN)
+-----------------------------------------------------------------------------------------
+- Thực trạng: Biểu mẫu chuẩn ghi đơn vị tính là "Tr.đg" (Triệu đồng), tuy nhiên khi các trường 
+  và xã nộp lên thì số liệu không đồng nhất:
+  + Nhiều xã nhập theo đơn vị Đồng (VD: 8,956,817 nghìn đồng ~ 8.9 tỷ VNĐ).
+  + Một số xã nhập theo đơn vị Triệu đồng (VD: 12,832.9 triệu đồng ~ 12.8 tỷ VNĐ).
+  + Một số xã nhập số tượng trưng (1.0 hoặc 0.0).
+- Xử lý kỹ thuật: Tuân thủ nguyên tắc bảo toàn dữ liệu, hệ thống GIỮ NGUYÊN trạng số liệu cộng thô
+  (Tổng chi NS 2026 là 12,304,024,943.24) và TUYỆT ĐỐI KHÔNG TỰ Ý CHIA HỆ SỐ khi chưa có văn bản
+  hướng dẫn quy đổi chính thức từ Sở GDĐT Thái Nguyên. Toàn bộ các xã có số liệu đột biến đều được
+  liệt kê chi tiết trong Báo cáo đối soát.
+
+=========================================================================================
+  Bộ phận hỗ trợ kỹ thuật: Antigravity AI (AG)
+=========================================================================================

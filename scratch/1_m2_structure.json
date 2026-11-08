@@ -1,0 +1,541 @@
+{
+  "headers": {
+    "J2": "THỐNG KÊ ĐỘI NGŨ GIÁO VIÊN PHỔ CẬP GIÁO DỤC VÀ GIÁO DỤC BẮT BUỘC ĐỐI VỚI TIỂU HỌC\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "AB2": "Mẫu: TH-01-GV",
+    "A3": "Thời điểm:  Ngày  tháng năm 2026",
+    "A4": "TT",
+    "B4": "Đơn vị",
+    "G4": "Số lượng CBQL",
+    "I4": "Giáo viên",
+    "AE4": "Nhân viên",
+    "B5": "Trường trong xã",
+    "C5": "Hạng trường",
+    "F5": "2 buổi/ngày",
+    "G5": "Hiệu trưởng",
+    "H5": "P.Hiệu trưởng",
+    "I5": "Tổng số",
+    "J5": "Biên chế",
+    "K5": "Hợp đồng",
+    "L5": "Nữ",
+    "M5": "Dân tộc",
+    "N5": "Tỉ lệ GV/Lớp",
+    "O5": "Trình độ đào tạo",
+    "S5": "Loại hình đào tạo",
+    "Z5": "Chuẩn nghề nghiệp",
+    "AD5": "TPT.Đội",
+    "AE5": "Văn phòng",
+    "AF5": "T.Viện-TBDH"
+  },
+  "rows": [
+    {
+      "row": 6,
+      "stt": null,
+      "content": null,
+      "sample_cells": {
+        "C": "Hạng 1",
+        "D": "Hạng 2",
+        "E": "Hạng 3",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "None",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 7,
+      "stt": 1.0,
+      "content": "2.0",
+      "sample_cells": {
+        "C": "3.0",
+        "D": "4.0",
+        "E": "5.0",
+        "F": "6.0",
+        "G": "8.0",
+        "H": "9.0",
+        "I": "10.0",
+        "J": "11.0",
+        "K": "12.0",
+        "L": "13.0"
+      }
+    },
+    {
+      "row": 8,
+      "stt": null,
+      "content": "Cộng toàn xã",
+      "sample_cells": {
+        "C": "=sum(C9:C29)",
+        "D": "=sum(D9:D29)",
+        "E": "=sum(E9:E29)",
+        "F": "=sum(F9:F29)",
+        "G": "=sum(G9:G29)",
+        "H": "=sum(H9:H29)",
+        "I": "=sum(I9:I29)",
+        "J": "=sum(J9:J29)",
+        "K": "=sum(K9:K29)",
+        "L": "=sum(L9:L29)"
+      }
+    },
+    {
+      "row": 9,
+      "stt": 1.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J9+K9",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 10,
+      "stt": 2.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J10+K10",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 11,
+      "stt": 3.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J11+K11",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 12,
+      "stt": 13.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J12+K12",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 13,
+      "stt": 14.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J13+K13",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 14,
+      "stt": 15.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J14+K14",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 15,
+      "stt": 16.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J15+K15",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 16,
+      "stt": 17.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J16+K16",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 17,
+      "stt": 18.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J17+K17",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 18,
+      "stt": 19.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J18+K18",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 19,
+      "stt": 20.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J19+K19",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 20,
+      "stt": 21.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J20+K20",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 21,
+      "stt": 22.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J21+K21",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 22,
+      "stt": 23.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J22+K22",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 23,
+      "stt": 24.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J23+K23",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 24,
+      "stt": 25.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J24+K24",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 25,
+      "stt": 26.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J25+K25",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 26,
+      "stt": 27.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J26+K26",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 27,
+      "stt": 28.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J27+K27",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 28,
+      "stt": 29.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J28+K28",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 29,
+      "stt": 30.0,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=J29+K29",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 30,
+      "stt": null,
+      "content": "Cộng toàn xã",
+      "sample_cells": {
+        "C": "=sum(C9:C11)",
+        "D": "=sum(D9:D11)",
+        "E": "=sum(E9:E11)",
+        "F": "=sum(F9:F11)",
+        "G": "=sum(G9:G11)",
+        "H": "=sum(H9:H11)",
+        "I": "=sum(I9:I11)",
+        "J": "=sum(J9:J11)",
+        "K": "=sum(K9:K11)",
+        "L": "=sum(L9:L11)"
+      }
+    },
+    {
+      "row": 31,
+      "stt": null,
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "None",
+        "J": "None",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 32,
+      "stt": "Tiêu chí",
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "SL",
+        "J": "Tỷ lệ%",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 33,
+      "stt": "GV đạt trình độ đào tạo đại học",
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=P30",
+        "J": "=if(I33<>0,round(I33/sum(O30+P30+Q30+R30)*100,2),0)",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 34,
+      "stt": "GV đạt trình độ đào tạo từ thạc sĩ trở lên",
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=O30",
+        "J": "=if(I34<>0,round(I34/sum(O30+P30+Q30+R30)*100,2),0)",
+        "K": "None",
+        "L": "None"
+      }
+    },
+    {
+      "row": 35,
+      "stt": "GV đạt yêu cầu chuẩn nghề nghiệp mức đạt trở lên",
+      "content": null,
+      "sample_cells": {
+        "C": "None",
+        "D": "None",
+        "E": "None",
+        "F": "None",
+        "G": "None",
+        "H": "None",
+        "I": "=sum(AB30+AA30+Z30)",
+        "J": "=if(I35<>0,I35/sum(Z30:AC30),0)",
+        "K": "None",
+        "L": "None"
+      }
+    }
+  ]
+}

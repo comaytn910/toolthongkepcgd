@@ -1,76 +1,92 @@
+"""
+Script tạo bản sao lưu dự phòng an toàn (Backup)
+cho toàn bộ mã nguồn, cấu hình, tài liệu bàn giao và các sản phẩm xuất sắc.
+"""
+
 import os
 import sys
-import shutil
-import datetime
 import zipfile
+import time
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-def create_project_backup():
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    timestamp_str = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    backup_root = os.path.join(base_dir, "backups")
-    os.makedirs(backup_root, exist_ok=True)
-    
-    backup_name = f"backup_{timestamp_str}"
-    target_backup_dir = os.path.join(backup_root, backup_name)
-    os.makedirs(target_backup_dir, exist_ok=True)
-    
-    # Danh sách các thư mục cần sao lưu
-    dirs_to_copy = ['core', 'processors', 'exporters', 'ui', 'config', 'tests', 'outputs', 'scripts']
-    
-    # Danh sách các tệp riêng lẻ ở thư mục gốc
-    files_to_copy = [
-        'AGENTS.md',
-        'PROJECT_REQUIREMENTS.md',
-        'PROGRESS.md',
-        'HANDOFF.md',
-        'danhmuc_92_xa.json',
-        'all_sheets_structure.json',
-        'sheets_summary.json'
-    ]
-    
-    copied_files_count = 0
-    
-    # 1. Sao chép các tệp riêng lẻ
-    for fname in files_to_copy:
-        src = os.path.join(base_dir, fname)
-        if os.path.exists(src):
-            dst = os.path.join(target_backup_dir, fname)
-            shutil.copy2(src, dst)
-            copied_files_count += 1
-            
-    # 2. Sao chép các thư mục (loại trừ __pycache__ và cache)
-    def ignore_patterns(path, names):
-        ignored = []
-        for n in names:
-            if n in ['__pycache__', '.pytest_cache', '.git']:
-                ignored.append(n)
-            elif n.endswith('.pyc') or n.endswith('.pyo'):
-                ignored.append(n)
-        return ignored
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BACKUP_DIR = os.path.join(BASE_DIR, 'backups')
+os.makedirs(BACKUP_DIR, exist_ok=True)
 
-    for dname in dirs_to_copy:
-        src_d = os.path.join(base_dir, dname)
-        if os.path.exists(src_d):
-            dst_d = os.path.join(target_backup_dir, dname)
-            shutil.copytree(src_d, dst_d, ignore=ignore_patterns, dirs_exist_ok=True)
-            for root, _, files in os.walk(dst_d):
-                copied_files_count += len(files)
-                
-    # 3. Tạo thêm file nén zip dự phòng
-    zip_filename = os.path.join(backup_root, f"{backup_name}.zip")
-    with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_DEFLATED) as zf:
-        for root, _, files in os.walk(target_backup_dir):
-            for file in files:
-                full_path = os.path.join(root, file)
-                rel_path = os.path.relpath(full_path, target_backup_dir)
-                zf.write(full_path, rel_path)
-                
-    print(f"Đã tạo bản sao lưu thành công tại thư mục: {target_backup_dir}")
-    print(f"Đã tạo file zip sao lưu: {zip_filename} ({os.path.getsize(zip_filename):,} bytes)")
-    print(f"Tổng số tệp được sao lưu: {copied_files_count} tệp.")
-    return target_backup_dir, zip_filename
+timestamp = "20261019_012500"
+ZIP_NAME = f"backup_{timestamp}.zip"
+ZIP_PATH = os.path.join(BACKUP_DIR, ZIP_NAME)
 
-if __name__ == '__main__':
-    create_project_backup()
+ITEMS_TO_BACKUP = [
+    'core',
+    'processors',
+    'exporters',
+    'config',
+    'ui',
+    'scripts',
+    'tests',
+    'AGENTS.md',
+    'PROJECT_REQUIREMENTS.md',
+    'PROGRESS.md',
+    'HANDOFF.md',
+    'requirements.txt',
+    'outputs/SO_CAI_TONG_HOP_PCGD_2026_THAI_NGUYEN.xlsx',
+    'outputs/BAO_CAO_DOI_SOAT_63_QUY_TAC_PCGD_2026.xlsx'
+]
+
+print("==========================================================================")
+print(f"BẮT ĐẦU TẠO BẢN SAO LƯU: {ZIP_NAME}")
+print("==========================================================================")
+t0 = time.time()
+
+file_count = 0
+total_uncompressed_bytes = 0
+
+with zipfile.ZipFile(ZIP_PATH, 'w', compression=zipfile.ZIP_DEFLATED) as zf:
+    for item in ITEMS_TO_BACKUP:
+        full_path = os.path.join(BASE_DIR, item)
+        if not os.path.exists(full_path):
+            print(f"   [CẢNH BÁO] Không tìm thấy: {item}")
+            continue
+
+        if os.path.isfile(full_path):
+            arcname = item
+            zf.write(full_path, arcname)
+            sz = os.path.getsize(full_path)
+            total_uncompressed_bytes += sz
+            file_count += 1
+            print(f"   + [Tệp] {item:<50} ({sz/1024:.1f} KB)")
+        elif os.path.isdir(full_path):
+            for root, dirs, files in os.walk(full_path):
+                # Bỏ qua __pycache__
+                if '__pycache__' in root:
+                    continue
+                for f in files:
+                    if f.endswith('.pyc') or f.endswith('.tmp'):
+                        continue
+                    file_full = os.path.join(root, f)
+                    rel_path = os.path.relpath(file_full, BASE_DIR)
+                    zf.write(file_full, rel_path)
+                    sz = os.path.getsize(file_full)
+                    total_uncompressed_bytes += sz
+                    file_count += 1
+            print(f"   + [Thư mục] {item}/")
+
+zip_size = os.path.getsize(ZIP_PATH)
+dur = time.time() - t0
+
+print("\n--- KIỂM TRA TÍNH TOÀN VẸN BẢN SAO LƯU ---")
+with zipfile.ZipFile(ZIP_PATH, 'r') as zf_test:
+    bad_file = zf_test.testzip()
+    if bad_file:
+        print(f"   [LỖI CRC] Tệp hỏng trong zip: {bad_file}")
+        sys.exit(1)
+    else:
+        print(f"   [PASS] 100% {len(zf_test.namelist())} tệp trong zip đều toàn vẹn, kiểm tra CRC thành công!")
+
+print("==========================================================================")
+print(f"TẠO BẢN SAO LƯU THÀNH CÔNG TRONG {dur:.2f} GIÂY!")
+print(f"Tệp sao lưu: {ZIP_PATH}")
+print(f"Tổng số tệp: {file_count} tệp | Kích thước gốc: {total_uncompressed_bytes/1024/1024:.2f} MB | Nén: {zip_size/1024/1024:.2f} MB")
+print("==========================================================================\n")

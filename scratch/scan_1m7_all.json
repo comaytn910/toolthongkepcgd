@@ -1,0 +1,5223 @@
+{
+  "total_files": 92,
+  "has_1m7": 92,
+  "missing_1m7": [],
+  "row_structures": {
+    "tot:7_p1:34_p2:68": 72,
+    "tot:7_p1:11_p2:15": 3,
+    "tot:7_p1:34_p2:67": 1,
+    "tot:7_p1:10_p2:13": 4,
+    "tot:7_p1:12_p2:17": 1,
+    "tot:7_p1:11_p2:14": 1,
+    "tot:7_p1:14_p2:22": 1,
+    "tot:7_p1:25_p2:39": 1,
+    "tot:7_p1:41_p2:75": 1,
+    "tot:7_p1:22_p2:41": 1,
+    "tot:7_p1:24_p2:28": 1,
+    "tot:7_p1:27_p2:40": 1,
+    "tot:7_p1:41_p2:73": 1,
+    "tot:7_p1:25_p2:29": 1,
+    "tot:7_p1:18_p2:21": 1,
+    "tot:7_p1:13_p2:17": 1
+  },
+  "communes_data": [
+    {
+      "commune": "01_01. Xã Yên Trạch - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 150.0,
+        "sum_p1_caq": 150.0,
+        "schools_p1_count": 2,
+        "p2_ar": 17.0,
+        "sum_p2_caq": 17.0,
+        "schools_p2_count": 2,
+        "tot_ar": 167.0,
+        "sum_tot_caq": 167.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH Yên Đổ",
+          "sum": 124.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH Yên Trạch",
+          "sum": 26.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường TH Yên Đổ",
+          "sum": 8.0
+        },
+        {
+          "row": 37,
+          "name": "Trường TH Yên Trạch",
+          "sum": 9.0
+        }
+      ]
+    },
+    {
+      "commune": "02_02. Xã Yên Thịnh - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 10.0,
+        "sum_p1_caq": 10.0,
+        "schools_p1_count": 6,
+        "p2_ar": 7.0,
+        "sum_p2_caq": 7.0,
+        "schools_p2_count": 4,
+        "tot_ar": 17.0,
+        "sum_tot_caq": 17.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH Quyết Thắng",
+          "sum": 1.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH&THCS Bạch Thông",
+          "sum": 5.0
+        },
+        {
+          "row": 11,
+          "name": "Na Rì",
+          "sum": 1.0
+        },
+        {
+          "row": 12,
+          "name": "Ba Bể",
+          "sum": 1.0
+        },
+        {
+          "row": 13,
+          "name": "TH Thanh Mai, Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 14,
+          "name": "An Thọ, Thái Nguyên",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường TH Yên Lập, Tuyên Quang",
+          "sum": 4.0
+        },
+        {
+          "row": 37,
+          "name": "Trường TH Yên Sơn, Tuyên Quang",
+          "sum": 1.0
+        },
+        {
+          "row": 38,
+          "name": "Trường TH Mỹ Lâm, Tuyên Quang",
+          "sum": 1.0
+        },
+        {
+          "row": 39,
+          "name": "Trường TH Tân Thanh, Tuyên Quang",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "03_03. Xã Yên Phong - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 12.0,
+        "sum_p1_caq": 12.0,
+        "schools_p1_count": 1,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 12.0,
+        "sum_tot_caq": 12.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH&THCS Yên Phong",
+          "sum": 12.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "04_04. Xã Yên Bình - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 34.0,
+        "sum_p1_caq": 34.0,
+        "schools_p1_count": 2,
+        "p2_ar": 2.0,
+        "sum_p2_caq": 2.0,
+        "schools_p2_count": 1,
+        "tot_ar": 36.0,
+        "sum_tot_caq": 36.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường PTDTBT Tiểu học Yên Cư",
+          "sum": 17.0
+        },
+        {
+          "row": 10,
+          "name": "Trường Tiểu học Yên Hân",
+          "sum": 17.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học Yên Hân",
+          "sum": 2.0
+        }
+      ]
+    },
+    {
+      "commune": "05_05. Xã Xuân Dương - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 20.0,
+        "sum_p1_caq": 20.0,
+        "schools_p1_count": 2,
+        "p2_ar": 4.0,
+        "sum_p2_caq": 4.0,
+        "schools_p2_count": 2,
+        "tot_ar": 24.0,
+        "sum_tot_caq": 24.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH&THCS Xuân Dương",
+          "sum": 10.0
+        },
+        {
+          "row": 10,
+          "name": "Trường PTDTBT TH&THCS Xuân Dương",
+          "sum": 10.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường TH&THCS Xuân Dương",
+          "sum": 0.0
+        },
+        {
+          "row": 37,
+          "name": "Trường PTDTBT TH&THCS Xuân Dương",
+          "sum": 4.0
+        }
+      ]
+    },
+    {
+      "commune": "06_06. Xã Vô Tranh - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 11,
+        "p2_head": 12,
+        "p2": 15
+      },
+      "vals": {
+        "p1_ar": 90.0,
+        "sum_p1_caq": 90.0,
+        "schools_p1_count": 2,
+        "p2_ar": 14.0,
+        "sum_p2_caq": 14.0,
+        "schools_p2_count": 2,
+        "tot_ar": 104.0,
+        "sum_tot_caq": 104.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH Vô Tranh 1",
+          "sum": 55.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH Vô Tranh 2",
+          "sum": 35.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 13,
+          "name": "Trường TH Vô Tranh 1",
+          "sum": 10.0
+        },
+        {
+          "row": 14,
+          "name": "Trường TH Vô Tranh 2",
+          "sum": 4.0
+        }
+      ]
+    },
+    {
+      "commune": "07_07. Xã Võ Nhai - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 40.0,
+        "sum_p1_caq": 40.0,
+        "schools_p1_count": 1,
+        "p2_ar": 2.0,
+        "sum_p2_caq": 2.0,
+        "schools_p2_count": 1,
+        "tot_ar": 42.0,
+        "sum_tot_caq": 42.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Võ Nhai",
+          "sum": 40.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Võ Nhai",
+          "sum": 2.0
+        }
+      ]
+    },
+    {
+      "commune": "08_08. Xã Vĩnh Thông - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 8.0,
+        "sum_p1_caq": 8.0,
+        "schools_p1_count": 1,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 8.0,
+        "sum_tot_caq": 8.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH&THCS Vĩnh Thông",
+          "sum": 8.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "09_09. Xã Vạn Phú - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 8.0,
+        "sum_p1_caq": 8.0,
+        "schools_p1_count": 1,
+        "p2_ar": 2.0,
+        "sum_p2_caq": 2.0,
+        "schools_p2_count": 1,
+        "tot_ar": 10.0,
+        "sum_tot_caq": 10.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Vạn Phú",
+          "sum": 8.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Vạn Phú",
+          "sum": 2.0
+        }
+      ]
+    },
+    {
+      "commune": "10_10. Xã Văn Lăng - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 24.0,
+        "sum_p1_caq": 24.0,
+        "schools_p1_count": 10,
+        "p2_ar": 2.0,
+        "sum_p2_caq": 2.0,
+        "schools_p2_count": 2,
+        "tot_ar": 26.0,
+        "sum_tot_caq": 26.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Văn Hán",
+          "sum": 1.0
+        },
+        {
+          "row": 10,
+          "name": "Quang Sơn",
+          "sum": 15.0
+        },
+        {
+          "row": 11,
+          "name": "Dân Tiến",
+          "sum": 1.0
+        },
+        {
+          "row": 12,
+          "name": "Đồng Hỷ",
+          "sum": 2.0
+        },
+        {
+          "row": 13,
+          "name": "Phú Lương",
+          "sum": 1.0
+        },
+        {
+          "row": 14,
+          "name": "Yên Trạch",
+          "sum": 1.0
+        },
+        {
+          "row": 15,
+          "name": "Phan Đình Phùng",
+          "sum": 1.0
+        },
+        {
+          "row": 16,
+          "name": "Phổ Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "Yên Bình",
+          "sum": 1.0
+        },
+        {
+          "row": 18,
+          "name": "La Hiên",
+          "sum": 0.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Đông Ngạc, TP Hà Nội",
+          "sum": 1.0
+        },
+        {
+          "row": 37,
+          "name": "Tân Phước, TP Hồ Chí Minh",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "11_11. Xã Văn Lang - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 67
+      },
+      "vals": {
+        "p1_ar": 11.0,
+        "sum_p1_caq": 11.0,
+        "schools_p1_count": 2,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 2,
+        "tot_ar": 12.0,
+        "sum_tot_caq": 12.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường PTBT TH&THCS Kim Hỷ",
+          "sum": 1.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH&THCS Văn Lang",
+          "sum": 10.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường PTBT TH&THCS Kim Hỷ",
+          "sum": 0.0
+        },
+        {
+          "row": 37,
+          "name": "Trường TH&THCS Văn Lang",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "12_12. Xã Văn Hán - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 14.0,
+        "sum_p1_caq": 14.0,
+        "schools_p1_count": 9,
+        "p2_ar": 6.0,
+        "sum_p2_caq": 6.0,
+        "schools_p2_count": 5,
+        "tot_ar": 20.0,
+        "sum_tot_caq": 20.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Phường Quan Triều",
+          "sum": 1.0
+        },
+        {
+          "row": 10,
+          "name": "Xã Tân Cương",
+          "sum": 1.0
+        },
+        {
+          "row": 11,
+          "name": "Phường Linh Sơn",
+          "sum": 2.0
+        },
+        {
+          "row": 12,
+          "name": "Xã Đồng Hỷ",
+          "sum": 3.0
+        },
+        {
+          "row": 13,
+          "name": "Xã La Hiên",
+          "sum": 3.0
+        },
+        {
+          "row": 14,
+          "name": "Xã Đại Từ",
+          "sum": 1.0
+        },
+        {
+          "row": 15,
+          "name": "Phường Phan Đình Phùng",
+          "sum": 1.0
+        },
+        {
+          "row": 16,
+          "name": "Xã Nam Hoà",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "Xã Phủ Thông",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Thành phố HCM",
+          "sum": 1.0
+        },
+        {
+          "row": 37,
+          "name": "Thanh Hoá",
+          "sum": 1.0
+        },
+        {
+          "row": 38,
+          "name": "Nam ĐỊnh",
+          "sum": 1.0
+        },
+        {
+          "row": 39,
+          "name": "Lào Cai",
+          "sum": 2.0
+        },
+        {
+          "row": 40,
+          "name": "Bắc Ninh",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "13_13. Xã Trung Hội - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 48.0,
+        "sum_p1_caq": 48.0,
+        "schools_p1_count": 1,
+        "p2_ar": 11.0,
+        "sum_p2_caq": 11.0,
+        "schools_p2_count": 1,
+        "tot_ar": 59.0,
+        "sum_tot_caq": 59.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường tiểu học Trung Hội",
+          "sum": 48.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường tiểu học Trung Hội",
+          "sum": 11.0
+        }
+      ]
+    },
+    {
+      "commune": "14_14. Xã Tràng Xá - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 31.0,
+        "sum_p1_caq": 31.0,
+        "schools_p1_count": 2,
+        "p2_ar": 3.0,
+        "sum_p2_caq": 3.0,
+        "schools_p2_count": 1,
+        "tot_ar": 34.0,
+        "sum_tot_caq": 34.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TrườngTH Tràng Xá",
+          "sum": 26.0
+        },
+        {
+          "row": 10,
+          "name": "TrườngTH Liên Minh",
+          "sum": 5.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TrườngTH Tràng Xá",
+          "sum": 3.0
+        }
+      ]
+    },
+    {
+      "commune": "15_15. Xã Trần Phú - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 7.0,
+        "sum_p1_caq": 7.0,
+        "schools_p1_count": 25,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 32,
+        "tot_ar": 7.0,
+        "sum_tot_caq": 7.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Trần Phú",
+          "sum": 7.0
+        },
+        {
+          "row": 10,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 11,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 12,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 13,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 14,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 15,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 16,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 17,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 18,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 19,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 20,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 21,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 22,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 23,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 24,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 25,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 26,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 27,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 28,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 29,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 30,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 31,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 32,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 33,
+          "name": "K",
+          "sum": 0.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học Trần Phú",
+          "sum": 0.0
+        },
+        {
+          "row": 37,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 38,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 39,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 40,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 41,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 42,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 43,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 44,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 45,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 46,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 47,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 48,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 49,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 50,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 51,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 52,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 53,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 54,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 55,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 56,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 57,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 58,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 59,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 60,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 61,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 62,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 63,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 64,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 65,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 66,
+          "name": "K",
+          "sum": 0.0
+        },
+        {
+          "row": 67,
+          "name": "K",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "16_16. Xã Trại Cau - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 10,
+        "p2_head": 11,
+        "p2": 13
+      },
+      "vals": {
+        "p1_ar": 102.0,
+        "sum_p1_caq": 102.0,
+        "schools_p1_count": 1,
+        "p2_ar": 4.0,
+        "sum_p2_caq": 4.0,
+        "schools_p2_count": 1,
+        "tot_ar": 106.0,
+        "sum_tot_caq": 106.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Trại Cau",
+          "sum": 102.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 12,
+          "name": "Trường Tiểu học Trại Cau",
+          "sum": 4.0
+        }
+      ]
+    },
+    {
+      "commune": "17_17. Xã Thượng Quan - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 12.0,
+        "sum_p1_caq": 12.0,
+        "schools_p1_count": 1,
+        "p2_ar": 4.0,
+        "sum_p2_caq": 4.0,
+        "schools_p2_count": 1,
+        "tot_ar": 16.0,
+        "sum_tot_caq": 16.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường PTDTBT Tiểu học và THCS Thượng Quan",
+          "sum": 12.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường PTDTBT Tiểu học và THCS Thượng Quan",
+          "sum": 4.0
+        }
+      ]
+    },
+    {
+      "commune": "18_18. Xã Thượng Minh - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 12,
+        "p2_head": 13,
+        "p2": 17
+      },
+      "vals": {
+        "p1_ar": 22.0,
+        "sum_p1_caq": 22.0,
+        "schools_p1_count": 3,
+        "p2_ar": 3.0,
+        "sum_p2_caq": 3.0,
+        "schools_p2_count": 3,
+        "tot_ar": 25.0,
+        "sum_tot_caq": 25.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH&THCS Yến Dương",
+          "sum": 20.0
+        },
+        {
+          "row": 10,
+          "name": "TH&THCS Chu Hương",
+          "sum": 1.0
+        },
+        {
+          "row": 11,
+          "name": "TH&THCS Mỹ Phương",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 14,
+          "name": "TH&THCS Mỹ Phương",
+          "sum": 3.0
+        },
+        {
+          "row": 15,
+          "name": "TH&THCS Yến Dương",
+          "sum": 0.0
+        },
+        {
+          "row": 16,
+          "name": "TH&THCS Chu Hương",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "19_19. Xã Thanh Thịnh - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 22.0,
+        "sum_p1_caq": 22.0,
+        "schools_p1_count": 1,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 1,
+        "tot_ar": 23.0,
+        "sum_tot_caq": 23.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Thanh Thịnh",
+          "sum": 22.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học Thanh Thịnh",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "20_20. Xã Thanh Mai - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 4.0,
+        "sum_p1_caq": 4.0,
+        "schools_p1_count": 1,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 4.0,
+        "sum_tot_caq": 4.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH&THCS THanh Mai",
+          "sum": 4.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "21_21. Xã Thành Công - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 7.0,
+        "sum_p1_caq": 7.0,
+        "schools_p1_count": 2,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 7.0,
+        "sum_tot_caq": 7.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Phường Phổ Yên",
+          "sum": 4.0
+        },
+        {
+          "row": 10,
+          "name": "Phường Phúc Thuận",
+          "sum": 3.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "22_22. Xã Thần Sa - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 7.0,
+        "sum_p1_caq": 7.0,
+        "schools_p1_count": 1,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 7.0,
+        "sum_tot_caq": 7.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Thần Sa",
+          "sum": 7.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "23_23. Xã Tân Thành - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 24.0,
+        "sum_p1_caq": 24.0,
+        "schools_p1_count": 1,
+        "p2_ar": 9.0,
+        "sum_p2_caq": 9.0,
+        "schools_p2_count": 1,
+        "tot_ar": 33.0,
+        "sum_tot_caq": 33.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "",
+          "sum": 24.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "",
+          "sum": 9.0
+        }
+      ]
+    },
+    {
+      "commune": "24_24. Xã Tân Kỳ - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 11.0,
+        "sum_p1_caq": 11.0,
+        "schools_p1_count": 1,
+        "p2_ar": 3.0,
+        "sum_p2_caq": 3.0,
+        "schools_p2_count": 1,
+        "tot_ar": 14.0,
+        "sum_tot_caq": 14.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH Tân Kỳ",
+          "sum": 11.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TH Tân Kỳ",
+          "sum": 3.0
+        }
+      ]
+    },
+    {
+      "commune": "25_25. Xã Tân Khánh - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 11,
+        "p2_head": 12,
+        "p2": 14
+      },
+      "vals": {
+        "p1_ar": 37.0,
+        "sum_p1_caq": 37.0,
+        "schools_p1_count": 2,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 37.0,
+        "sum_tot_caq": 37.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH Tân Khánh 1",
+          "sum": 18.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH Tân Khánh 2",
+          "sum": 19.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "26_26. Xã Tân Cương - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 59.0,
+        "sum_p1_caq": 59.0,
+        "schools_p1_count": 1,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 59.0,
+        "sum_tot_caq": 59.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Tân Cương",
+          "sum": 59.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "27_27. Xã Sảng Mộc - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 11,
+        "p2_head": 12,
+        "p2": 15
+      },
+      "vals": {
+        "p1_ar": 6.0,
+        "sum_p1_caq": 6.0,
+        "schools_p1_count": 2,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 2,
+        "tot_ar": 7.0,
+        "sum_tot_caq": 7.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường PTDTBT TH & THCS Sảng Mộc",
+          "sum": 6.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH & THCS\n Tiên Sơn",
+          "sum": 0.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 13,
+          "name": "Trường PTDTBT TH & THCS Sảng Mộc",
+          "sum": 1.0
+        },
+        {
+          "row": 14,
+          "name": "Trường TH & THCS\n Tiên Sơn",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "28_28. Xã Quang Sơn - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 26.0,
+        "sum_p1_caq": 26.0,
+        "schools_p1_count": 2,
+        "p2_ar": 12.0,
+        "sum_p2_caq": 12.0,
+        "schools_p2_count": 2,
+        "tot_ar": 38.0,
+        "sum_tot_caq": 38.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH Tân Long",
+          "sum": 8.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH&THCS Quang Sơn",
+          "sum": 18.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường TH Tân Long",
+          "sum": 5.0
+        },
+        {
+          "row": 37,
+          "name": "Trường TH&THCS Quang Sơn",
+          "sum": 7.0
+        }
+      ]
+    },
+    {
+      "commune": "29_29. Xã Quảng Bạch - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 8.0,
+        "sum_p1_caq": 8.0,
+        "schools_p1_count": 1,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 1,
+        "tot_ar": 9.0,
+        "sum_tot_caq": 9.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu hoc Quảng Bạch",
+          "sum": 8.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu hoc Quảng Bạch",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "30_30. Xã Quân Chu- Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 25.0,
+        "sum_p1_caq": 25.0,
+        "schools_p1_count": 2,
+        "p2_ar": 13.0,
+        "sum_p2_caq": 13.0,
+        "schools_p2_count": 2,
+        "tot_ar": 38.0,
+        "sum_tot_caq": 38.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TRƯỜNG TH&THCS PHẠM HỒNG THÁI",
+          "sum": 12.0
+        },
+        {
+          "row": 10,
+          "name": "TRƯỜNG TH&THCS CÁT NÊ",
+          "sum": 13.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TRƯỜNG TH&THCS PHẠM HỒNG THÁI",
+          "sum": 7.0
+        },
+        {
+          "row": 37,
+          "name": "TRƯỜNG TH&THCS CÁT NÊ",
+          "sum": 6.0
+        }
+      ]
+    },
+    {
+      "commune": "31_31. Xã Phượng Tiến - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 14,
+        "p2_head": 15,
+        "p2": 22
+      },
+      "vals": {
+        "p1_ar": 2.0,
+        "sum_p1_caq": 2.0,
+        "schools_p1_count": 5,
+        "p2_ar": 2.0,
+        "sum_p2_caq": 2.0,
+        "schools_p2_count": 6,
+        "tot_ar": 4.0,
+        "sum_tot_caq": 4.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "xã Đại Từ",
+          "sum": 1.0
+        },
+        {
+          "row": 10,
+          "name": "Xã Trung Hội",
+          "sum": 1.0
+        },
+        {
+          "row": 11,
+          "name": "x",
+          "sum": 0.0
+        },
+        {
+          "row": 12,
+          "name": "x",
+          "sum": 0.0
+        },
+        {
+          "row": 13,
+          "name": "x",
+          "sum": 0.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 16,
+          "name": "Thanh Hoá",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "Hải Phòng",
+          "sum": 1.0
+        },
+        {
+          "row": 18,
+          "name": "x",
+          "sum": 0.0
+        },
+        {
+          "row": 19,
+          "name": "x",
+          "sum": 0.0
+        },
+        {
+          "row": 20,
+          "name": "x",
+          "sum": 0.0
+        },
+        {
+          "row": 21,
+          "name": "x",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "32_32. Xã Phúc Lộc - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 14.0,
+        "sum_p1_caq": 14.0,
+        "schools_p1_count": 3,
+        "p2_ar": 9.0,
+        "sum_p2_caq": 9.0,
+        "schools_p2_count": 3,
+        "tot_ar": 23.0,
+        "sum_tot_caq": 23.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "PTDTBT TH&THCS Bành Trạch",
+          "sum": 2.0
+        },
+        {
+          "row": 10,
+          "name": "TH&THCS Hà Hiệu",
+          "sum": 9.0
+        },
+        {
+          "row": 11,
+          "name": "PTDTBT TH&THCS Phúc Lộc",
+          "sum": 3.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "PTDTBT TH&THCS Bành Trạch",
+          "sum": 0.0
+        },
+        {
+          "row": 37,
+          "name": "TH&THCS Hà Hiệu",
+          "sum": 4.0
+        },
+        {
+          "row": 38,
+          "name": "PTDTBT TH&THCS Phúc Lộc",
+          "sum": 5.0
+        }
+      ]
+    },
+    {
+      "commune": "33_33. Xã Phú Xuyên - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 201.0,
+        "sum_p1_caq": 201.0,
+        "schools_p1_count": 1,
+        "p2_ar": 16.0,
+        "sum_p2_caq": 16.0,
+        "schools_p2_count": 1,
+        "tot_ar": 217.0,
+        "sum_tot_caq": 217.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Việt  Ấn",
+          "sum": 201.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Việt  Ấn",
+          "sum": 16.0
+        }
+      ]
+    },
+    {
+      "commune": "34_34. Xã Phủ Thông - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 11,
+        "p2_head": 12,
+        "p2": 15
+      },
+      "vals": {
+        "p1_ar": 51.0,
+        "sum_p1_caq": 51.0,
+        "schools_p1_count": 2,
+        "p2_ar": 3.0,
+        "sum_p2_caq": 3.0,
+        "schools_p2_count": 2,
+        "tot_ar": 54.0,
+        "sum_tot_caq": 54.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Phủ Thông",
+          "sum": 44.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH&THCS Vi Hương",
+          "sum": 7.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 13,
+          "name": "Trường Tiểu học Phủ Thông",
+          "sum": 3.0
+        },
+        {
+          "row": 14,
+          "name": "Trường TH&THCS Vi Hương",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "35_35. Xã Phú Thịnh - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 25,
+        "p2_head": 26,
+        "p2": 39
+      },
+      "vals": {
+        "p1_ar": 119.0,
+        "sum_p1_caq": 119.0,
+        "schools_p1_count": 16,
+        "p2_ar": 17.0,
+        "sum_p2_caq": 17.0,
+        "schools_p2_count": 12,
+        "tot_ar": 136.0,
+        "sum_tot_caq": 136.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Đức Lương",
+          "sum": 17.0
+        },
+        {
+          "row": 10,
+          "name": "Định Hóa",
+          "sum": 4.0
+        },
+        {
+          "row": 11,
+          "name": "Phường Quan Triều",
+          "sum": 1.0
+        },
+        {
+          "row": 12,
+          "name": "Đại Phúc",
+          "sum": 5.0
+        },
+        {
+          "row": 13,
+          "name": "Nam Cường",
+          "sum": 1.0
+        },
+        {
+          "row": 14,
+          "name": "Phú Đình",
+          "sum": 1.0
+        },
+        {
+          "row": 15,
+          "name": "Linh Sơn",
+          "sum": 1.0
+        },
+        {
+          "row": 16,
+          "name": "Phú Lạc",
+          "sum": 21.0
+        },
+        {
+          "row": 17,
+          "name": "Xã La Bằng",
+          "sum": 13.0
+        },
+        {
+          "row": 18,
+          "name": "Xã Phú Xuyên",
+          "sum": 47.0
+        },
+        {
+          "row": 19,
+          "name": "Văn Lăng",
+          "sum": 1.0
+        },
+        {
+          "row": 20,
+          "name": "Tân Cương",
+          "sum": 1.0
+        },
+        {
+          "row": 21,
+          "name": "Vạn Phú",
+          "sum": 1.0
+        },
+        {
+          "row": 22,
+          "name": "Xã Đại Từ",
+          "sum": 2.0
+        },
+        {
+          "row": 23,
+          "name": "Xã Văn Lang",
+          "sum": 2.0
+        },
+        {
+          "row": 24,
+          "name": "Xã Bình Thành",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 27,
+          "name": "Hà Nam",
+          "sum": 1.0
+        },
+        {
+          "row": 28,
+          "name": "Bắc Hải Hà Nội",
+          "sum": 2.0
+        },
+        {
+          "row": 29,
+          "name": "Bắc Giang",
+          "sum": 2.0
+        },
+        {
+          "row": 30,
+          "name": "Trung Quốc",
+          "sum": 2.0
+        },
+        {
+          "row": 31,
+          "name": "Lâm Đồng",
+          "sum": 2.0
+        },
+        {
+          "row": 32,
+          "name": "Hưng Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 33,
+          "name": "Lào Cai",
+          "sum": 1.0
+        },
+        {
+          "row": 34,
+          "name": "Xã Bình Sơn - Ninh Bình",
+          "sum": 1.0
+        },
+        {
+          "row": 35,
+          "name": "Xã Quốc Việt - Lạng Sơn",
+          "sum": 1.0
+        },
+        {
+          "row": 36,
+          "name": "Xã Tiên Yên - Tuyên Quang",
+          "sum": 2.0
+        },
+        {
+          "row": 37,
+          "name": "Đại Thắng",
+          "sum": 1.0
+        },
+        {
+          "row": 38,
+          "name": "Bản Nguyên",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "36_36. Xã Phú Lương - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 41,
+        "p2_head": 42,
+        "p2": 75
+      },
+      "vals": {
+        "p1_ar": 241.0,
+        "sum_p1_caq": 241.0,
+        "schools_p1_count": 5,
+        "p2_ar": 2.0,
+        "sum_p2_caq": 2.0,
+        "schools_p2_count": 5,
+        "tot_ar": 243.0,
+        "sum_tot_caq": 243.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TRƯỜNG TH&THCS PHÚ LƯƠNG",
+          "sum": 16.0
+        },
+        {
+          "row": 10,
+          "name": "TRƯỜNG TH&THCS GIANG TIÊN",
+          "sum": 200.0
+        },
+        {
+          "row": 11,
+          "name": "TRƯỜNG TH&THCS PHẤN MỄ",
+          "sum": 0.0
+        },
+        {
+          "row": 12,
+          "name": "TRƯỜNG TH&THCS YÊN LẠC",
+          "sum": 25.0
+        },
+        {
+          "row": 13,
+          "name": "TRƯỜNG TH&THCS DƯƠNG TỰ MINH",
+          "sum": 0.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 43,
+          "name": "TRƯỜNG TH&THCS PHÚ LƯƠNG",
+          "sum": 0.0
+        },
+        {
+          "row": 44,
+          "name": "TRƯỜNG TH&THCS GIANG TIÊN",
+          "sum": 0.0
+        },
+        {
+          "row": 45,
+          "name": "TRƯỜNG TH&THCS PHẤN MỄ",
+          "sum": 0.0
+        },
+        {
+          "row": 46,
+          "name": "TRƯỜNG TH&THCS YÊN LẠC",
+          "sum": 2.0
+        },
+        {
+          "row": 47,
+          "name": "TRƯỜNG TH&THCS DƯƠNG TỰ MINH",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "37_37. Xã Phú Lạc - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 22,
+        "p2_head": 23,
+        "p2": 41
+      },
+      "vals": {
+        "p1_ar": 61.0,
+        "sum_p1_caq": 61.0,
+        "schools_p1_count": 13,
+        "p2_ar": 19.0,
+        "sum_p2_caq": 19.0,
+        "schools_p2_count": 17,
+        "tot_ar": 80.0,
+        "sum_tot_caq": 80.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "An Khánh, Thái Nguyên",
+          "sum": 15.0
+        },
+        {
+          "row": 10,
+          "name": "Đại Phúc, Thái Nguyên",
+          "sum": 6.0
+        },
+        {
+          "row": 11,
+          "name": "Đại Từ, Thái Nguyên",
+          "sum": 5.0
+        },
+        {
+          "row": 12,
+          "name": "Điềm Thụy, Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 13,
+          "name": "Đức Lương, Thái Nguyên",
+          "sum": 5.0
+        },
+        {
+          "row": 14,
+          "name": "Hiệp Lực, Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 15,
+          "name": "La Bằng, Thái Nguyên",
+          "sum": 3.0
+        },
+        {
+          "row": 16,
+          "name": "P. Bách Quang, T. Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "P. Phan Đình Phùng, TN",
+          "sum": 4.0
+        },
+        {
+          "row": 18,
+          "name": "P. Vạn Xuân, Thái Nguyên",
+          "sum": 2.0
+        },
+        {
+          "row": 19,
+          "name": "Phú Lương, Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 20,
+          "name": "Phú Thịnh, Thái Nguyên",
+          "sum": 14.0
+        },
+        {
+          "row": 21,
+          "name": "Vô Tranh, Thái Nguyên",
+          "sum": 3.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 24,
+          "name": "Bình Ca, Tuyên Quang",
+          "sum": 1.0
+        },
+        {
+          "row": 25,
+          "name": "Cốc San, Lào Cai",
+          "sum": 1.0
+        },
+        {
+          "row": 26,
+          "name": "Đoài Dương, Cao Bằng",
+          "sum": 1.0
+        },
+        {
+          "row": 27,
+          "name": "Gia Khánh, TP Hải Phòng",
+          "sum": 1.0
+        },
+        {
+          "row": 28,
+          "name": "Hoà An, Tuyên Quang",
+          "sum": 1.0
+        },
+        {
+          "row": 29,
+          "name": "Hương Cần, Phú Thọ",
+          "sum": 1.0
+        },
+        {
+          "row": 30,
+          "name": "Kiến Xương, Hưng Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 31,
+          "name": "Nghĩa Trung, Đồng Nai",
+          "sum": 3.0
+        },
+        {
+          "row": 32,
+          "name": "P Nam Đồ Sơn, Hải Phòng",
+          "sum": 1.0
+        },
+        {
+          "row": 33,
+          "name": "Phường Nhị Chiểu, TP HCM",
+          "sum": 1.0
+        },
+        {
+          "row": 34,
+          "name": "Quận 7, TP HCM",
+          "sum": 1.0
+        },
+        {
+          "row": 35,
+          "name": "Quang Minh, Hà Nội",
+          "sum": 1.0
+        },
+        {
+          "row": 36,
+          "name": "Quế Võ, Bắc Ninh",
+          "sum": 1.0
+        },
+        {
+          "row": 37,
+          "name": "Than Uyên, Lai Châu",
+          "sum": 1.0
+        },
+        {
+          "row": 38,
+          "name": "Thác Bà, Lào Cai",
+          "sum": 1.0
+        },
+        {
+          "row": 39,
+          "name": "Thanh Phong, Phú Thọ",
+          "sum": 1.0
+        },
+        {
+          "row": 40,
+          "name": "Thái Hoà, Tuyên Quang",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "38_38. Xã Phú Đình - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 10,
+        "p2_head": 11,
+        "p2": 13
+      },
+      "vals": {
+        "p1_ar": 78.0,
+        "sum_p1_caq": 78.0,
+        "schools_p1_count": 1,
+        "p2_ar": 8.0,
+        "sum_p2_caq": 8.0,
+        "schools_p2_count": 1,
+        "tot_ar": 86.0,
+        "sum_tot_caq": 86.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH Phú Đình",
+          "sum": 78.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 12,
+          "name": "Trường TH Phú Đình",
+          "sum": 8.0
+        }
+      ]
+    },
+    {
+      "commune": "39_39. Xã Phú Bình - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 170.0,
+        "sum_p1_caq": 170.0,
+        "schools_p1_count": 3,
+        "p2_ar": 26.0,
+        "sum_p2_caq": 26.0,
+        "schools_p2_count": 3,
+        "tot_ar": 196.0,
+        "sum_tot_caq": 196.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Hương Sơn",
+          "sum": 57.0
+        },
+        {
+          "row": 10,
+          "name": "Tiểu học Phú Bình I",
+          "sum": 74.0
+        },
+        {
+          "row": 11,
+          "name": "Tiểu học Phú Bình II",
+          "sum": 39.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Hương Sơn",
+          "sum": 10.0
+        },
+        {
+          "row": 37,
+          "name": "Tiểu học Phú Bình I",
+          "sum": 13.0
+        },
+        {
+          "row": 38,
+          "name": "Tiểu học Phú Bình II",
+          "sum": 3.0
+        }
+      ]
+    },
+    {
+      "commune": "40_40. Xã Phong Quang - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 13.0,
+        "sum_p1_caq": 13.0,
+        "schools_p1_count": 5,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 13.0,
+        "sum_tot_caq": 13.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Phường Bắc Kạn",
+          "sum": 7.0
+        },
+        {
+          "row": 10,
+          "name": "Xã Cẩm Giàng",
+          "sum": 1.0
+        },
+        {
+          "row": 11,
+          "name": "Xã Chợ Mới",
+          "sum": 1.0
+        },
+        {
+          "row": 12,
+          "name": "Phường Đức Xuân",
+          "sum": 3.0
+        },
+        {
+          "row": 13,
+          "name": "Xã Bạch Thông",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "41_41. Xã Nghinh Tường - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 5.0,
+        "sum_p1_caq": 5.0,
+        "schools_p1_count": 1,
+        "p2_ar": 2.0,
+        "sum_p2_caq": 2.0,
+        "schools_p2_count": 1,
+        "tot_ar": 7.0,
+        "sum_tot_caq": 8.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Nghinh Tường",
+          "sum": 6.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "",
+          "sum": 2.0
+        }
+      ]
+    },
+    {
+      "commune": "42_42. Xã Nghiên Loan - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 24,
+        "p2_head": 25,
+        "p2": 28
+      },
+      "vals": {
+        "p1_ar": 32.0,
+        "sum_p1_caq": 32.0,
+        "schools_p1_count": 15,
+        "p2_ar": 2.0,
+        "sum_p2_caq": 2.0,
+        "schools_p2_count": 2,
+        "tot_ar": 34.0,
+        "sum_tot_caq": 34.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Xã Văn Lang",
+          "sum": 3.0
+        },
+        {
+          "row": 10,
+          "name": "Xã Ba Bể",
+          "sum": 3.0
+        },
+        {
+          "row": 11,
+          "name": "Xã Chợ Rã",
+          "sum": 7.0
+        },
+        {
+          "row": 12,
+          "name": "Xã Phủ Thông",
+          "sum": 1.0
+        },
+        {
+          "row": 13,
+          "name": "Xã Thượng Minh",
+          "sum": 1.0
+        },
+        {
+          "row": 14,
+          "name": "Xã Quang Sơn",
+          "sum": 1.0
+        },
+        {
+          "row": 15,
+          "name": "Xã Phúc Lộc",
+          "sum": 2.0
+        },
+        {
+          "row": 16,
+          "name": "Na Rì",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "Xã Yên Phong",
+          "sum": 1.0
+        },
+        {
+          "row": 18,
+          "name": "Xã Bằng Vân",
+          "sum": 1.0
+        },
+        {
+          "row": 19,
+          "name": "Xã Cao Minh",
+          "sum": 3.0
+        },
+        {
+          "row": 20,
+          "name": "Xã Bằng Thành",
+          "sum": 5.0
+        },
+        {
+          "row": 21,
+          "name": "Xã Côn Minh",
+          "sum": 1.0
+        },
+        {
+          "row": 22,
+          "name": "Xã Cường Lợi",
+          "sum": 1.0
+        },
+        {
+          "row": 23,
+          "name": "Xã Tân hơi",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 26,
+          "name": "Tuyên Quang",
+          "sum": 1.0
+        },
+        {
+          "row": 27,
+          "name": "Cao Bằng",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "43_43. Xã Nghĩa Tá - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 21.0,
+        "sum_p1_caq": 21.0,
+        "schools_p1_count": 3,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 1,
+        "tot_ar": 22.0,
+        "sum_tot_caq": 22.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH&THCS Nghĩa Tá",
+          "sum": 6.0
+        },
+        {
+          "row": 10,
+          "name": "TH&THCS Lương Bằng",
+          "sum": 5.0
+        },
+        {
+          "row": 11,
+          "name": "Tiểu học Bình Trung",
+          "sum": 10.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TH&THCS Nghĩa Tá",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "44_44. Xã Ngân Sơn - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 115.0,
+        "sum_p1_caq": 115.0,
+        "schools_p1_count": 2,
+        "p2_ar": 8.0,
+        "sum_p2_caq": 8.0,
+        "schools_p2_count": 2,
+        "tot_ar": 123.0,
+        "sum_tot_caq": 123.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH Ngân Sơn",
+          "sum": 109.0
+        },
+        {
+          "row": 10,
+          "name": "Trường PTDTBT TH & THCS Cốc Đán",
+          "sum": 6.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường TH Ngân Sơn",
+          "sum": 7.0
+        },
+        {
+          "row": 37,
+          "name": "Trường PTDTBT TH & THCS Cốc Đán",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "45_45. Xã Nam Hòa - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 138.0,
+        "sum_p1_caq": 138.0,
+        "schools_p1_count": 1,
+        "p2_ar": 8.0,
+        "sum_p2_caq": 8.0,
+        "schools_p2_count": 1,
+        "tot_ar": 146.0,
+        "sum_tot_caq": 146.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Nam Hoà",
+          "sum": 138.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học Nam Hoà",
+          "sum": 8.0
+        }
+      ]
+    },
+    {
+      "commune": "46_46. Xã Nam Cường - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 34.0,
+        "sum_p1_caq": 34.0,
+        "schools_p1_count": 2,
+        "p2_ar": 4.0,
+        "sum_p2_caq": 4.0,
+        "schools_p2_count": 2,
+        "tot_ar": 38.0,
+        "sum_tot_caq": 38.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường tiểu học Xuân Lạc",
+          "sum": 11.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH&THCS Nam Cường",
+          "sum": 23.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường tiểu học Xuân Lạc",
+          "sum": 4.0
+        },
+        {
+          "row": 37,
+          "name": "Trường TH&THCS Nam Cường",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "47_47. Xã Na Rì - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 215.0,
+        "sum_p1_caq": 215.0,
+        "schools_p1_count": 2,
+        "p2_ar": 16.0,
+        "sum_p2_caq": 16.0,
+        "schools_p2_count": 2,
+        "tot_ar": 231.0,
+        "sum_tot_caq": 231.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH&THCS Na Rì 1_Na Rì_TNG",
+          "sum": 201.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH&THCS Na Rì 2_Na Rì_TNG",
+          "sum": 14.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường TH&THCS Na Rì 1_Na Rì_TNG",
+          "sum": 16.0
+        },
+        {
+          "row": 37,
+          "name": "Trường TH&THCS Na Rì 2_Na Rì_TNG",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "48_48. Xã Nà Phặc - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 28.0,
+        "sum_p1_caq": 28.0,
+        "schools_p1_count": 2,
+        "p2_ar": 4.0,
+        "sum_p2_caq": 4.0,
+        "schools_p2_count": 2,
+        "tot_ar": 32.0,
+        "sum_tot_caq": 32.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường PTDTBT Tiểu học Nà Phặc",
+          "sum": 24.0
+        },
+        {
+          "row": 10,
+          "name": "Trường PTDTBT TH&THCS Nà Khoang",
+          "sum": 4.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường PTDTBT Tiểu học Nà Phặc",
+          "sum": 4.0
+        },
+        {
+          "row": 37,
+          "name": "Trường PTDTBT TH&THCS Nà Khoang",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "49_49. Xã Lam Vỹ - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 18.0,
+        "sum_p1_caq": 18.0,
+        "schools_p1_count": 4,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 1,
+        "tot_ar": 19.0,
+        "sum_tot_caq": 19.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Kim Phượng",
+          "sum": 9.0
+        },
+        {
+          "row": 10,
+          "name": "Tiểu học Phượng Tiến",
+          "sum": 7.0
+        },
+        {
+          "row": 11,
+          "name": "Tiểu học Vạn Phú",
+          "sum": 1.0
+        },
+        {
+          "row": 12,
+          "name": "Tiểu học Nghiêm Loan",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TH Liên Châu, Phú Thọ",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "50_50. Xã La Hiên - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 116.0,
+        "sum_p1_caq": 116.0,
+        "schools_p1_count": 1,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 1,
+        "tot_ar": 117.0,
+        "sum_tot_caq": 117.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học La Hiên",
+          "sum": 116.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học La Hiên",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "51_51. Xã La Bằng - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 10,
+        "p2_head": 11,
+        "p2": 13
+      },
+      "vals": {
+        "p1_ar": 130.0,
+        "sum_p1_caq": 130.0,
+        "schools_p1_count": 1,
+        "p2_ar": 17.0,
+        "sum_p2_caq": 17.0,
+        "schools_p2_count": 1,
+        "tot_ar": 147.0,
+        "sum_tot_caq": 147.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học La Bằng",
+          "sum": 130.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 12,
+          "name": "Trường Tiểu học La Bằng",
+          "sum": 17.0
+        }
+      ]
+    },
+    {
+      "commune": "52_52. Xã Kim Phượng - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 8.0,
+        "sum_p1_caq": 8.0,
+        "schools_p1_count": 3,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 8.0,
+        "sum_tot_caq": 8.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Lam Vỹ",
+          "sum": 6.0
+        },
+        {
+          "row": 10,
+          "name": "Trường Tiểu học Bình Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 11,
+          "name": "Trường Tiểu học Bình Thành",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "53_53. Xã Kha Sơn - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 71.0,
+        "sum_p1_caq": 71.0,
+        "schools_p1_count": 11,
+        "p2_ar": 39.0,
+        "sum_p2_caq": 39.0,
+        "schools_p2_count": 7,
+        "tot_ar": 110.0,
+        "sum_tot_caq": 110.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Phương Phan Đình Phùng",
+          "sum": 1.0
+        },
+        {
+          "row": 10,
+          "name": "Xã Phú Bình",
+          "sum": 13.0
+        },
+        {
+          "row": 11,
+          "name": "Xã Điềm Thụy",
+          "sum": 4.0
+        },
+        {
+          "row": 12,
+          "name": "Xã Tân Thành",
+          "sum": 44.0
+        },
+        {
+          "row": 13,
+          "name": "Xã Vạn Xuân",
+          "sum": 2.0
+        },
+        {
+          "row": 14,
+          "name": "Xã La Hiên",
+          "sum": 1.0
+        },
+        {
+          "row": 15,
+          "name": "Xã La Bằng",
+          "sum": 1.0
+        },
+        {
+          "row": 16,
+          "name": "Vô Tranh",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "Xã Phú Lạc",
+          "sum": 1.0
+        },
+        {
+          "row": 18,
+          "name": "Xã Thành Công",
+          "sum": 2.0
+        },
+        {
+          "row": 19,
+          "name": "Phường Gia Sàng",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TP Hà Nội",
+          "sum": 2.0
+        },
+        {
+          "row": 37,
+          "name": "Tỉnh Bắc Ninh",
+          "sum": 31.0
+        },
+        {
+          "row": 38,
+          "name": "Tỉnh Phú Thọ",
+          "sum": 2.0
+        },
+        {
+          "row": 39,
+          "name": "Tỉnh Lạng Sơn",
+          "sum": 1.0
+        },
+        {
+          "row": 40,
+          "name": "TP Hải Phòng",
+          "sum": 1.0
+        },
+        {
+          "row": 41,
+          "name": "Tỉnh Hưng Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 42,
+          "name": "Tỉnh Thanh Hóa",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "54_54. Xã Hợp Thành - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 34.0,
+        "sum_p1_caq": 34.0,
+        "schools_p1_count": 1,
+        "p2_ar": 2.0,
+        "sum_p2_caq": 2.0,
+        "schools_p2_count": 1,
+        "tot_ar": 36.0,
+        "sum_tot_caq": 36.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Hợp Thành",
+          "sum": 34.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Hợp Thành",
+          "sum": 2.0
+        }
+      ]
+    },
+    {
+      "commune": "55_55. Xã Hiệp Lực - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 19.0,
+        "sum_p1_caq": 19.0,
+        "schools_p1_count": 6,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 1,
+        "tot_ar": 20.0,
+        "sum_tot_caq": 20.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Kim Vân, Xã Văn Lang",
+          "sum": 8.0
+        },
+        {
+          "row": 10,
+          "name": "Vằng Quan, Xã Phúc Lộc",
+          "sum": 1.0
+        },
+        {
+          "row": 11,
+          "name": "Văn Minh, Trần Phú",
+          "sum": 1.0
+        },
+        {
+          "row": 12,
+          "name": "Nà Phặc",
+          "sum": 5.0
+        },
+        {
+          "row": 13,
+          "name": "Bằng Vân",
+          "sum": 1.0
+        },
+        {
+          "row": 14,
+          "name": "Thượng Quan",
+          "sum": 3.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Hà quảng, Cao Bằng",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "56_56. Xã Đức Lương - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 70.0,
+        "sum_p1_caq": 70.0,
+        "schools_p1_count": 2,
+        "p2_ar": 6.0,
+        "sum_p2_caq": 6.0,
+        "schools_p2_count": 2,
+        "tot_ar": 76.0,
+        "sum_tot_caq": 76.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH&THCS Minh Tiến",
+          "sum": 52.0
+        },
+        {
+          "row": 10,
+          "name": "TH&THCS Đức Lương",
+          "sum": 18.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TH&THCS Minh Tiến",
+          "sum": 2.0
+        },
+        {
+          "row": 37,
+          "name": "TH&THCS Đức Lương",
+          "sum": 4.0
+        }
+      ]
+    },
+    {
+      "commune": "57_57. Xã Đồng Phúc - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 24.0,
+        "sum_p1_caq": 24.0,
+        "schools_p1_count": 1,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 1,
+        "tot_ar": 24.0,
+        "sum_tot_caq": 24.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Đồng Phúc",
+          "sum": 24.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Đồng Phúc",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "58_58. Xã Đồng Hỷ - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 248.0,
+        "sum_p1_caq": 248.0,
+        "schools_p1_count": 2,
+        "p2_ar": 18.0,
+        "sum_p2_caq": 18.0,
+        "schools_p2_count": 2,
+        "tot_ar": 266.0,
+        "sum_tot_caq": 266.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Đồng Hỷ 1",
+          "sum": 195.0
+        },
+        {
+          "row": 10,
+          "name": "Trường Tiểu học Đồng Hỷ 2",
+          "sum": 53.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học Đồng Hỷ 1",
+          "sum": 7.0
+        },
+        {
+          "row": 37,
+          "name": "Trường Tiểu học Đồng Hỷ 2",
+          "sum": 11.0
+        }
+      ]
+    },
+    {
+      "commune": "59_59. Xã Định Hóa - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 231.0,
+        "sum_p1_caq": 231.0,
+        "schools_p1_count": 2,
+        "p2_ar": 13.0,
+        "sum_p2_caq": 13.0,
+        "schools_p2_count": 2,
+        "tot_ar": 244.0,
+        "sum_tot_caq": 244.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Bảo Cường",
+          "sum": 71.0
+        },
+        {
+          "row": 10,
+          "name": "Tiểu học Chợ Chu",
+          "sum": 160.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Bảo Cường",
+          "sum": 5.0
+        },
+        {
+          "row": 37,
+          "name": "Tiểu học Chợ Chu",
+          "sum": 8.0
+        }
+      ]
+    },
+    {
+      "commune": "60_60. Xã Điềm Thụy - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 27,
+        "p2_head": 28,
+        "p2": 40
+      },
+      "vals": {
+        "p1_ar": 131.0,
+        "sum_p1_caq": 131.0,
+        "schools_p1_count": 16,
+        "p2_ar": 17.0,
+        "sum_p2_caq": 17.0,
+        "schools_p2_count": 9,
+        "tot_ar": 148.0,
+        "sum_tot_caq": 148.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Phường Phổ Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 10,
+          "name": "Phường Vạn Xuân",
+          "sum": 5.0
+        },
+        {
+          "row": 11,
+          "name": "Phường Tích Lương",
+          "sum": 1.0
+        },
+        {
+          "row": 12,
+          "name": "Xã Tân Thành",
+          "sum": 2.0
+        },
+        {
+          "row": 13,
+          "name": "Xã Phú Bình",
+          "sum": 32.0
+        },
+        {
+          "row": 14,
+          "name": "Xã Tân Khánh",
+          "sum": 77.0
+        },
+        {
+          "row": 15,
+          "name": "Xã Đại Phúc",
+          "sum": 1.0
+        },
+        {
+          "row": 16,
+          "name": "Xã Phú Lương",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "La Hiên",
+          "sum": 1.0
+        },
+        {
+          "row": 18,
+          "name": "Phượng Tiến",
+          "sum": 1.0
+        },
+        {
+          "row": 19,
+          "name": "Nghinh Tường",
+          "sum": 1.0
+        },
+        {
+          "row": 20,
+          "name": "Phú Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 21,
+          "name": "Võ Nhai",
+          "sum": 1.0
+        },
+        {
+          "row": 22,
+          "name": "Đại Từ",
+          "sum": 2.0
+        },
+        {
+          "row": 23,
+          "name": "Xã Vạn Phú",
+          "sum": 2.0
+        },
+        {
+          "row": 24,
+          "name": "Xã Kha Sơn",
+          "sum": 2.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 29,
+          "name": "Hưng Yên",
+          "sum": 3.0
+        },
+        {
+          "row": 30,
+          "name": "Hải Phòng",
+          "sum": 1.0
+        },
+        {
+          "row": 31,
+          "name": "Đồng Nai",
+          "sum": 1.0
+        },
+        {
+          "row": 32,
+          "name": "Lạng Sơn",
+          "sum": 1.0
+        },
+        {
+          "row": 33,
+          "name": "Hà Nội",
+          "sum": 3.0
+        },
+        {
+          "row": 34,
+          "name": "Phú Thọ",
+          "sum": 2.0
+        },
+        {
+          "row": 35,
+          "name": "Cao Bằng",
+          "sum": 1.0
+        },
+        {
+          "row": 36,
+          "name": "Thanh Hoá",
+          "sum": 2.0
+        },
+        {
+          "row": 37,
+          "name": "Bắc Ninh",
+          "sum": 3.0
+        }
+      ]
+    },
+    {
+      "commune": "61_61. Xã Dân Tiến - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 3.0,
+        "sum_p1_caq": 3.0,
+        "schools_p1_count": 3,
+        "p2_ar": 10.0,
+        "sum_p2_caq": 10.0,
+        "schools_p2_count": 3,
+        "tot_ar": 13.0,
+        "sum_tot_caq": 13.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH&THCS Bình Long",
+          "sum": 3.0
+        },
+        {
+          "row": 10,
+          "name": "TH&THCS Dân Tiến",
+          "sum": 0.0
+        },
+        {
+          "row": 11,
+          "name": "TH&THCS Phươmg Giao",
+          "sum": 0.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TH&THCS Bình Long",
+          "sum": 10.0
+        },
+        {
+          "row": 37,
+          "name": "TH&THCS Dân Tiến",
+          "sum": 0.0
+        },
+        {
+          "row": 38,
+          "name": "TH&THCS Phươmg Giao",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "62_62. Xã Đại Từ - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 41,
+        "p2_head": 42,
+        "p2": 73
+      },
+      "vals": {
+        "p1_ar": 56.0,
+        "sum_p1_caq": 56.0,
+        "schools_p1_count": 31,
+        "p2_ar": 24.0,
+        "sum_p2_caq": 24.0,
+        "schools_p2_count": 20,
+        "tot_ar": 80.0,
+        "sum_tot_caq": 80.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Yên Trạch - Phú Lương - Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 10,
+          "name": "Vạn Phú - Thái Nguyên",
+          "sum": 12.0
+        },
+        {
+          "row": 11,
+          "name": "Phú Lạc - Thái Nguyên",
+          "sum": 3.0
+        },
+        {
+          "row": 12,
+          "name": "Đại Phúc - Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 13,
+          "name": "Phú Xuyên - Thái Nguyên",
+          "sum": 2.0
+        },
+        {
+          "row": 14,
+          "name": "Chợ mới - Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 15,
+          "name": "Đức lương - Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 16,
+          "name": "Dân Tiến - Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "Tích Lương - Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 18,
+          "name": "Thôn 3 - xã Trại Cau - TN",
+          "sum": 1.0
+        },
+        {
+          "row": 19,
+          "name": "Xóm Hùng Cường - Phú Thịnh -TN",
+          "sum": 1.0
+        },
+        {
+          "row": 20,
+          "name": "Yên Trạch - Phú Lương - TN",
+          "sum": 1.0
+        },
+        {
+          "row": 21,
+          "name": "La Bằng - Thái Nguyên",
+          "sum": 1.0
+        },
+        {
+          "row": 22,
+          "name": "Thôn Búc 2 - Định Hóa",
+          "sum": 1.0
+        },
+        {
+          "row": 23,
+          "name": "Xóm Đồng Khuân - La Bằng",
+          "sum": 1.0
+        },
+        {
+          "row": 24,
+          "name": "Xóm Tiền Phong - Đức Lương",
+          "sum": 1.0
+        },
+        {
+          "row": 25,
+          "name": "Đại Phúc- TN",
+          "sum": 2.0
+        },
+        {
+          "row": 26,
+          "name": "Phú Thịnh - TN",
+          "sum": 4.0
+        },
+        {
+          "row": 27,
+          "name": "Hợp Thành- TN",
+          "sum": 1.0
+        },
+        {
+          "row": 28,
+          "name": "Yên Trung- Nghệ An",
+          "sum": 1.0
+        },
+        {
+          "row": 29,
+          "name": "Đại Phúc-TN",
+          "sum": 3.0
+        },
+        {
+          "row": 30,
+          "name": "Vạn Xuân-TN",
+          "sum": 1.0
+        },
+        {
+          "row": 31,
+          "name": "La Bằng-TN",
+          "sum": 2.0
+        },
+        {
+          "row": 32,
+          "name": "Bạch Thông -BK",
+          "sum": 1.0
+        },
+        {
+          "row": 33,
+          "name": "Phú Bình-TN",
+          "sum": 1.0
+        },
+        {
+          "row": 34,
+          "name": "Gia Sàng-TN",
+          "sum": 1.0
+        },
+        {
+          "row": 35,
+          "name": "Phan Đình Phùng",
+          "sum": 2.0
+        },
+        {
+          "row": 36,
+          "name": "Quan Triều",
+          "sum": 2.0
+        },
+        {
+          "row": 37,
+          "name": "Đức Lương-TN",
+          "sum": 2.0
+        },
+        {
+          "row": 38,
+          "name": "Quân Chu-TN",
+          "sum": 2.0
+        },
+        {
+          "row": 39,
+          "name": "An Khánh-TN",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 43,
+          "name": "Tuyên Quang",
+          "sum": 1.0
+        },
+        {
+          "row": 44,
+          "name": "Phú Thọ",
+          "sum": 2.0
+        },
+        {
+          "row": 45,
+          "name": "Hà Nội",
+          "sum": 2.0
+        },
+        {
+          "row": 46,
+          "name": "Hải Phòng",
+          "sum": 2.0
+        },
+        {
+          "row": 47,
+          "name": "Bắc Ninh",
+          "sum": 0.0
+        },
+        {
+          "row": 48,
+          "name": "Thôn Trăng - Bình Yên - Lạng Sơn",
+          "sum": 1.0
+        },
+        {
+          "row": 49,
+          "name": "Cẩm Hoàn - Kiến Thụy - Hải Phòng",
+          "sum": 1.0
+        },
+        {
+          "row": 50,
+          "name": "TP HCM",
+          "sum": 1.0
+        },
+        {
+          "row": 51,
+          "name": "Xã Hà Sơn -Thanh Hoá",
+          "sum": 2.0
+        },
+        {
+          "row": 52,
+          "name": "Phúc Lộc-HN",
+          "sum": 2.0
+        },
+        {
+          "row": 53,
+          "name": "Vĩnh Lộc-Thanh Hóa",
+          "sum": 1.0
+        },
+        {
+          "row": 54,
+          "name": "Liên Minh-Hà Nội",
+          "sum": 1.0
+        },
+        {
+          "row": 55,
+          "name": "Lạc Phương-Hải Dương",
+          "sum": 1.0
+        },
+        {
+          "row": 56,
+          "name": "Tây Hồ-Hà Nội",
+          "sum": 1.0
+        },
+        {
+          "row": 57,
+          "name": "Minh Quang-Tuyên Quang",
+          "sum": 1.0
+        },
+        {
+          "row": 58,
+          "name": "Thanh Miếu-Phú Thọ",
+          "sum": 1.0
+        },
+        {
+          "row": 59,
+          "name": "Nam Dương-Bắc Ninh",
+          "sum": 1.0
+        },
+        {
+          "row": 60,
+          "name": "Hợp Minh - Nghệ An",
+          "sum": 1.0
+        },
+        {
+          "row": 61,
+          "name": "Quỳ Hợp -Nghệ An",
+          "sum": 1.0
+        },
+        {
+          "row": 62,
+          "name": "Hưng Yên- Nghệ An",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "63_63. Xã Đại Phúc - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 390.0,
+        "sum_p1_caq": 390.0,
+        "schools_p1_count": 3,
+        "p2_ar": 18.0,
+        "sum_p2_caq": 18.0,
+        "schools_p2_count": 3,
+        "tot_ar": 408.0,
+        "sum_tot_caq": 408.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH Đại Phúc",
+          "sum": 34.0
+        },
+        {
+          "row": 10,
+          "name": "TH Đồng Doãn Khuê",
+          "sum": 354.0
+        },
+        {
+          "row": 11,
+          "name": "TH&THCS Huỳnh Thúc Kháng",
+          "sum": 2.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TH Đại Phúc",
+          "sum": 1.0
+        },
+        {
+          "row": 37,
+          "name": "TH Đồng Doãn Khuê",
+          "sum": 15.0
+        },
+        {
+          "row": 38,
+          "name": "TH&THCS Huỳnh Thúc Kháng",
+          "sum": 2.0
+        }
+      ]
+    },
+    {
+      "commune": "64_64. Xã Cường Lợi - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 26.0,
+        "sum_p1_caq": 26.0,
+        "schools_p1_count": 2,
+        "p2_ar": 4.0,
+        "sum_p2_caq": 4.0,
+        "schools_p2_count": 2,
+        "tot_ar": 30.0,
+        "sum_tot_caq": 30.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "PTDTBT TH&THCS Văn Vũ",
+          "sum": 18.0
+        },
+        {
+          "row": 10,
+          "name": "TH&THCS Cường Lợi",
+          "sum": 8.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "PTDTBT TH&THCS Văn Vũ",
+          "sum": 1.0
+        },
+        {
+          "row": 37,
+          "name": "TH&THCS Cường Lợi",
+          "sum": 3.0
+        }
+      ]
+    },
+    {
+      "commune": "65_65. Xã Côn Minh - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 19.0,
+        "sum_p1_caq": 19.0,
+        "schools_p1_count": 1,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 1,
+        "tot_ar": 20.0,
+        "sum_tot_caq": 20.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH&THCS Côn Minh",
+          "sum": 19.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường TH&THCS Côn Minh",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "66_66. Xã Chợ Rã - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 21.0,
+        "sum_p1_caq": 21.0,
+        "schools_p1_count": 1,
+        "p2_ar": 5.0,
+        "sum_p2_caq": 5.0,
+        "schools_p2_count": 1,
+        "tot_ar": 26.0,
+        "sum_tot_caq": 26.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Chợ Rã",
+          "sum": 21.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học Chợ Rã",
+          "sum": 5.0
+        }
+      ]
+    },
+    {
+      "commune": "67_67. Xã Chợ Mới - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 94.0,
+        "sum_p1_caq": 94.0,
+        "schools_p1_count": 1,
+        "p2_ar": 12.0,
+        "sum_p2_caq": 12.0,
+        "schools_p2_count": 1,
+        "tot_ar": 106.0,
+        "sum_tot_caq": 106.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Chợ Mới",
+          "sum": 94.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Chợ Mới",
+          "sum": 12.0
+        }
+      ]
+    },
+    {
+      "commune": "68_68. Xã Chợ Đồn - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 237.0,
+        "sum_p1_caq": 237.0,
+        "schools_p1_count": 1,
+        "p2_ar": 23.0,
+        "sum_p2_caq": 23.0,
+        "schools_p2_count": 1,
+        "tot_ar": 260.0,
+        "sum_tot_caq": 260.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Chợ Đồn",
+          "sum": 237.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học Chợ Đồn",
+          "sum": 23.0
+        }
+      ]
+    },
+    {
+      "commune": "69_69. Xã Cao Minh - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 10,
+        "p2_head": 11,
+        "p2": 13
+      },
+      "vals": {
+        "p1_ar": 34.0,
+        "sum_p1_caq": 34.0,
+        "schools_p1_count": 1,
+        "p2_ar": 14.0,
+        "sum_p2_caq": 14.0,
+        "schools_p2_count": 1,
+        "tot_ar": 48.0,
+        "sum_tot_caq": 48.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường PTDTBT TH Cao Minh",
+          "sum": 34.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 12,
+          "name": "Trường PTDTBT TH Cao Minh",
+          "sum": 14.0
+        }
+      ]
+    },
+    {
+      "commune": "70_70. Xã Cẩm Giàng - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 31.0,
+        "sum_p1_caq": 31.0,
+        "schools_p1_count": 2,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 31.0,
+        "sum_tot_caq": 31.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH&THCS Cẩm Giàng",
+          "sum": 3.0
+        },
+        {
+          "row": 10,
+          "name": "Tiểu học Cẩm Giàng",
+          "sum": 28.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "71_71. Xã Bình Yên - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 72.0,
+        "sum_p1_caq": 72.0,
+        "schools_p1_count": 2,
+        "p2_ar": 13.0,
+        "sum_p2_caq": 13.0,
+        "schools_p2_count": 2,
+        "tot_ar": 85.0,
+        "sum_tot_caq": 85.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Bình Yên",
+          "sum": 45.0
+        },
+        {
+          "row": 10,
+          "name": "TH & THCS Bình Yên",
+          "sum": 27.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Bình Yên",
+          "sum": 10.0
+        },
+        {
+          "row": 37,
+          "name": "TH & THCS Bình Yên",
+          "sum": 3.0
+        }
+      ]
+    },
+    {
+      "commune": "72_72. Xã Bình Thành - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 31.0,
+        "sum_p1_caq": 31.0,
+        "schools_p1_count": 1,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 1,
+        "tot_ar": 32.0,
+        "sum_tot_caq": 32.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Bình Thành",
+          "sum": 31.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Tiểu học Bình Thành",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "73_73. Xã Bằng Vân - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 34.0,
+        "sum_p1_caq": 34.0,
+        "schools_p1_count": 2,
+        "p2_ar": 9.0,
+        "sum_p2_caq": 9.0,
+        "schools_p2_count": 2,
+        "tot_ar": 43.0,
+        "sum_tot_caq": 43.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "PTDTBT TH&THCS Thượng Ân",
+          "sum": 4.0
+        },
+        {
+          "row": 10,
+          "name": "TH&THCS Bằng Vân",
+          "sum": 30.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "PTDTBT TH&THCS Thượng Ân",
+          "sum": 1.0
+        },
+        {
+          "row": 37,
+          "name": "TH&THCS Bằng Vân",
+          "sum": 8.0
+        }
+      ]
+    },
+    {
+      "commune": "74_74. Xã Bằng Thành - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 76.0,
+        "sum_p1_caq": 76.0,
+        "schools_p1_count": 1,
+        "p2_ar": 13.0,
+        "sum_p2_caq": 13.0,
+        "schools_p2_count": 1,
+        "tot_ar": 89.0,
+        "sum_tot_caq": 89.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường PTDTBT TH Bằng Thành",
+          "sum": 76.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường PTDTBT TH Bằng Thành",
+          "sum": 13.0
+        }
+      ]
+    },
+    {
+      "commune": "75_75. Xã Bạch Thông - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 6.0,
+        "sum_p1_caq": 6.0,
+        "schools_p1_count": 1,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 1,
+        "tot_ar": 6.0,
+        "sum_tot_caq": 6.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH&THCS Bạch Thông",
+          "sum": 6.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường TH&THCS Bạch Thông",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "76_76. Xã Ba Bể - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 49.0,
+        "sum_p1_caq": 49.0,
+        "schools_p1_count": 2,
+        "p2_ar": 13.0,
+        "sum_p2_caq": 13.0,
+        "schools_p2_count": 2,
+        "tot_ar": 62.0,
+        "sum_tot_caq": 62.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường PTDTBT TH&THCS Cao Thượng",
+          "sum": 4.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH&THCS Ba Bể",
+          "sum": 45.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường PTDTBT TH&THCS Cao Thượng",
+          "sum": 2.0
+        },
+        {
+          "row": 37,
+          "name": "Trường TH&THCS Ba Bể",
+          "sum": 11.0
+        }
+      ]
+    },
+    {
+      "commune": "77_77. Xã An Khánh - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 53.0,
+        "sum_p1_caq": 53.0,
+        "schools_p1_count": 2,
+        "p2_ar": 8.0,
+        "sum_p2_caq": 8.0,
+        "schools_p2_count": 2,
+        "tot_ar": 61.0,
+        "sum_tot_caq": 61.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH&THCS An Khánh 1",
+          "sum": 2.0
+        },
+        {
+          "row": 10,
+          "name": "TH&THCS An Khánh 2",
+          "sum": 51.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "TH&THCS An Khánh 1",
+          "sum": 1.0
+        },
+        {
+          "row": 37,
+          "name": "TH&THCS An Khánh 2",
+          "sum": 7.0
+        }
+      ]
+    },
+    {
+      "commune": "78_78. Phường Vạn Xuân - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 98.0,
+        "sum_p1_caq": 98.0,
+        "schools_p1_count": 3,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 98.0,
+        "sum_tot_caq": 98.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Vạn Xuân 1",
+          "sum": 77.0
+        },
+        {
+          "row": 10,
+          "name": "Tiểu học Vạn Xuân 2",
+          "sum": 15.0
+        },
+        {
+          "row": 11,
+          "name": "Tiểu học Vạn Xuân 3",
+          "sum": 6.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "79_79. Phường Trung Thành - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 9.0,
+        "sum_p1_caq": 9.0,
+        "schools_p1_count": 2,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 9.0,
+        "sum_tot_caq": 9.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Trung Thành 1",
+          "sum": 5.0
+        },
+        {
+          "row": 10,
+          "name": "Tiểu học Trung Thành 2",
+          "sum": 4.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "80_80. Phường Tích Lương - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 25,
+        "p2_head": 26,
+        "p2": 29
+      },
+      "vals": {
+        "p1_ar": 373.0,
+        "sum_p1_caq": 373.0,
+        "schools_p1_count": 16,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 373.0,
+        "sum_tot_caq": 373.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Phường Bách Quang",
+          "sum": 180.0
+        },
+        {
+          "row": 10,
+          "name": "Phường Gia Sàng",
+          "sum": 130.0
+        },
+        {
+          "row": 11,
+          "name": "Phường Linh Sơn",
+          "sum": 4.0
+        },
+        {
+          "row": 12,
+          "name": "Phường Phan Đình Phùng",
+          "sum": 16.0
+        },
+        {
+          "row": 13,
+          "name": "Xã Phú Bình",
+          "sum": 3.0
+        },
+        {
+          "row": 14,
+          "name": "Phường Quan Triều",
+          "sum": 3.0
+        },
+        {
+          "row": 15,
+          "name": "Phường Quyết Thắng",
+          "sum": 27.0
+        },
+        {
+          "row": 16,
+          "name": "Xã Vô Tranh",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "Xã An Khánh",
+          "sum": 2.0
+        },
+        {
+          "row": 18,
+          "name": "Xã Đồng Hỷ",
+          "sum": 1.0
+        },
+        {
+          "row": 19,
+          "name": "Phường Phổ Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 20,
+          "name": "Phường Sông Công",
+          "sum": 1.0
+        },
+        {
+          "row": 21,
+          "name": "Xã Tân Cương",
+          "sum": 1.0
+        },
+        {
+          "row": 22,
+          "name": "Xã Yên Thịnh",
+          "sum": 1.0
+        },
+        {
+          "row": 23,
+          "name": "Xã La Bằng",
+          "sum": 1.0
+        },
+        {
+          "row": 24,
+          "name": "Xã La Hiên",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "81_81. Phường Sông Công - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 309.0,
+        "sum_p1_caq": 309.0,
+        "schools_p1_count": 3,
+        "p2_ar": 1.0,
+        "sum_p2_caq": 1.0,
+        "schools_p2_count": 1,
+        "tot_ar": 310.0,
+        "sum_tot_caq": 310.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Sông Công",
+          "sum": 110.0
+        },
+        {
+          "row": 10,
+          "name": "Phân hiệu Phố Cò",
+          "sum": 81.0
+        },
+        {
+          "row": 11,
+          "name": "Phân hiệu Lý Tự Trọng",
+          "sum": 118.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Phân hiệu Phố Cò",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "82_82. Phường Quyết Thắng - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 18,
+        "p2_head": 19,
+        "p2": 21
+      },
+      "vals": {
+        "p1_ar": 69.0,
+        "sum_p1_caq": 69.0,
+        "schools_p1_count": 9,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 69.0,
+        "sum_tot_caq": 69.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Phường Linh Sơn",
+          "sum": 1.0
+        },
+        {
+          "row": 10,
+          "name": "Phường Tân Cương",
+          "sum": 21.0
+        },
+        {
+          "row": 11,
+          "name": "Phường Phan Đình Phùng",
+          "sum": 5.0
+        },
+        {
+          "row": 12,
+          "name": "Phường Đại Phúc",
+          "sum": 15.0
+        },
+        {
+          "row": 13,
+          "name": "Phường Thành Công",
+          "sum": 1.0
+        },
+        {
+          "row": 14,
+          "name": "Xã An Khánh",
+          "sum": 23.0
+        },
+        {
+          "row": 15,
+          "name": "Phường Quan Triều",
+          "sum": 1.0
+        },
+        {
+          "row": 16,
+          "name": "Xã Đại Từ",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "Phường Tích Lương",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "83_83. Phường Quan Triều - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 199.0,
+        "sum_p1_caq": 199.0,
+        "schools_p1_count": 24,
+        "p2_ar": 18.0,
+        "sum_p2_caq": 18.0,
+        "schools_p2_count": 15,
+        "tot_ar": 217.0,
+        "sum_tot_caq": 217.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Phường Phan Đình Phùng",
+          "sum": 41.0
+        },
+        {
+          "row": 10,
+          "name": "Phường Đức Xuân",
+          "sum": 3.0
+        },
+        {
+          "row": 11,
+          "name": "Phường Gia Sàng",
+          "sum": 3.0
+        },
+        {
+          "row": 12,
+          "name": "Phương Linh Sơn",
+          "sum": 4.0
+        },
+        {
+          "row": 13,
+          "name": "Phường Quyết Thắng",
+          "sum": 46.0
+        },
+        {
+          "row": 14,
+          "name": "Phường Tích Lương",
+          "sum": 5.0
+        },
+        {
+          "row": 15,
+          "name": "Xã Điềm Thụy",
+          "sum": 1.0
+        },
+        {
+          "row": 16,
+          "name": "Xã Đồng Hỷ",
+          "sum": 4.0
+        },
+        {
+          "row": 17,
+          "name": "Xã Phú Lạc",
+          "sum": 2.0
+        },
+        {
+          "row": 18,
+          "name": "Xã Phú Lương",
+          "sum": 3.0
+        },
+        {
+          "row": 19,
+          "name": "Xã Vô Tranh",
+          "sum": 48.0
+        },
+        {
+          "row": 20,
+          "name": "Xã An Khánh",
+          "sum": 24.0
+        },
+        {
+          "row": 21,
+          "name": "Xã Bình Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 22,
+          "name": "Xã Đại Từ",
+          "sum": 2.0
+        },
+        {
+          "row": 23,
+          "name": "Xã Đại Phúc",
+          "sum": 2.0
+        },
+        {
+          "row": 24,
+          "name": "Xã Định Hóa",
+          "sum": 1.0
+        },
+        {
+          "row": 25,
+          "name": "xã La Bằng",
+          "sum": 1.0
+        },
+        {
+          "row": 26,
+          "name": "xã Phú Bình",
+          "sum": 2.0
+        },
+        {
+          "row": 27,
+          "name": "xã Phú Xuyên",
+          "sum": 1.0
+        },
+        {
+          "row": 28,
+          "name": "xã Quang Sơn",
+          "sum": 1.0
+        },
+        {
+          "row": 29,
+          "name": "xã Quân Chu",
+          "sum": 1.0
+        },
+        {
+          "row": 30,
+          "name": "xá Tràng Xá",
+          "sum": 1.0
+        },
+        {
+          "row": 31,
+          "name": "xã Võ Nhai",
+          "sum": 1.0
+        },
+        {
+          "row": 32,
+          "name": "xã Tân Khánh",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Xã Bích Hòa",
+          "sum": 1.0
+        },
+        {
+          "row": 37,
+          "name": "Xã Bảo Ái",
+          "sum": 1.0
+        },
+        {
+          "row": 38,
+          "name": "Phường Tự Lạn",
+          "sum": 1.0
+        },
+        {
+          "row": 39,
+          "name": "Phường Trần Lãm",
+          "sum": 1.0
+        },
+        {
+          "row": 40,
+          "name": "Phường Chí Linh",
+          "sum": 2.0
+        },
+        {
+          "row": 41,
+          "name": "Phường Phố Hiến",
+          "sum": 1.0
+        },
+        {
+          "row": 42,
+          "name": "Xã Bình Xuyên",
+          "sum": 1.0
+        },
+        {
+          "row": 43,
+          "name": "Xã Đại Xuyên",
+          "sum": 1.0
+        },
+        {
+          "row": 44,
+          "name": "Xã Tiên Lục",
+          "sum": 2.0
+        },
+        {
+          "row": 45,
+          "name": "Xã Thọ Long",
+          "sum": 1.0
+        },
+        {
+          "row": 46,
+          "name": "Xã Xuân Lãng",
+          "sum": 2.0
+        },
+        {
+          "row": 47,
+          "name": "Xã Ý Yên",
+          "sum": 1.0
+        },
+        {
+          "row": 48,
+          "name": "Xã Tam Đảo",
+          "sum": 1.0
+        },
+        {
+          "row": 49,
+          "name": "Xã Thiệu Hóa",
+          "sum": 1.0
+        },
+        {
+          "row": 50,
+          "name": "Xã Thanh Sơn",
+          "sum": 1.0
+        }
+      ]
+    },
+    {
+      "commune": "84_84. Phường Phúc Thuận - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 8.0,
+        "sum_p1_caq": 8.0,
+        "schools_p1_count": 2,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 2,
+        "tot_ar": 8.0,
+        "sum_tot_caq": 8.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Phúc Thuận 1",
+          "sum": 8.0
+        },
+        {
+          "row": 10,
+          "name": "Trường Tiểu học Phúc Thuận 2",
+          "sum": 0.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học Phúc Thuận 1",
+          "sum": 0.0
+        },
+        {
+          "row": 37,
+          "name": "Trường Tiểu học Phúc Thuận 2",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "85_85. Phường Phổ Yên - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 195.0,
+        "sum_p1_caq": 195.0,
+        "schools_p1_count": 6,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 195.0,
+        "sum_tot_caq": 195.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Phường Vạn Xuân",
+          "sum": 184.0
+        },
+        {
+          "row": 10,
+          "name": "Thành Công",
+          "sum": 3.0
+        },
+        {
+          "row": 11,
+          "name": "Trung Thành",
+          "sum": 1.0
+        },
+        {
+          "row": 12,
+          "name": "Sông Công",
+          "sum": 1.0
+        },
+        {
+          "row": 13,
+          "name": "Phường Bách Quang",
+          "sum": 4.0
+        },
+        {
+          "row": 14,
+          "name": "Xã Điềm Thụy",
+          "sum": 2.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "86_86. Phường Phan Đình Phùng - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 1458.0,
+        "sum_p1_caq": 1458.0,
+        "schools_p1_count": 8,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 1458.0,
+        "sum_tot_caq": 1458.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Nha Trang",
+          "sum": 157.0
+        },
+        {
+          "row": 10,
+          "name": "Tiểu học Nguyễn Viết Xuân",
+          "sum": 159.0
+        },
+        {
+          "row": 11,
+          "name": "Tiểu học Trưng Vương",
+          "sum": 278.0
+        },
+        {
+          "row": 12,
+          "name": "Tiểu học Đội Cấn",
+          "sum": 350.0
+        },
+        {
+          "row": 13,
+          "name": "Tiểu học Nguyễn Huệ",
+          "sum": 249.0
+        },
+        {
+          "row": 14,
+          "name": "Tiểu học Lê Văn Tám",
+          "sum": 241.0
+        },
+        {
+          "row": 15,
+          "name": "Tiểu học Hoa Trạng Nguyên",
+          "sum": 24.0
+        },
+        {
+          "row": 16,
+          "name": "TH &THCS Nguyễn Trãi",
+          "sum": 0.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "87_87. Phường Linh Sơn - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 13,
+        "p2_head": 14,
+        "p2": 17
+      },
+      "vals": {
+        "p1_ar": 300.0,
+        "sum_p1_caq": 300.0,
+        "schools_p1_count": 4,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 2,
+        "tot_ar": 300.0,
+        "sum_tot_caq": 300.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường TH&THCS Linh Sơn",
+          "sum": 4.0
+        },
+        {
+          "row": 10,
+          "name": "Trường TH &THCS Chiến Thắng",
+          "sum": 142.0
+        },
+        {
+          "row": 11,
+          "name": "Trường TH Linh Sơn",
+          "sum": 43.0
+        },
+        {
+          "row": 12,
+          "name": "Trường TH DPA",
+          "sum": 111.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 15,
+          "name": "Không",
+          "sum": 0.0
+        },
+        {
+          "row": 16,
+          "name": "Không",
+          "sum": 0.0
+        }
+      ]
+    },
+    {
+      "commune": "88_88. Phường Gia Sàng - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 469.0,
+        "sum_p1_caq": 469.0,
+        "schools_p1_count": 3,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 469.0,
+        "sum_tot_caq": 469.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học và THCS 915 Gia Sàng",
+          "sum": 254.0
+        },
+        {
+          "row": 10,
+          "name": "Trường Tiểu học Gia Sàng",
+          "sum": 11.0
+        },
+        {
+          "row": 11,
+          "name": "Trường TH, THCS và THPT Singma",
+          "sum": 204.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "89_89. Phường Đức Xuân - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 159.0,
+        "sum_p1_caq": 159.0,
+        "schools_p1_count": 2,
+        "p2_ar": 9.0,
+        "sum_p2_caq": 9.0,
+        "schools_p2_count": 2,
+        "tot_ar": 168.0,
+        "sum_tot_caq": 168.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Trường Tiểu học Đức Xuân",
+          "sum": 69.0
+        },
+        {
+          "row": 10,
+          "name": "Trường Tiểu học Nguyễn Thị Minh Khai",
+          "sum": 90.0
+        }
+      ],
+      "schools_p2": [
+        {
+          "row": 36,
+          "name": "Trường Tiểu học Đức Xuân",
+          "sum": 7.0
+        },
+        {
+          "row": 37,
+          "name": "Trường Tiểu học Nguyễn Thị Minh Khai",
+          "sum": 2.0
+        }
+      ]
+    },
+    {
+      "commune": "90_90. Phường Bách Quang - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 32.0,
+        "sum_p1_caq": 32.0,
+        "schools_p1_count": 2,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 32.0,
+        "sum_tot_caq": 32.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Tiểu học Bách Quang",
+          "sum": 28.0
+        },
+        {
+          "row": 10,
+          "name": "TH&THCS Bách Quang",
+          "sum": 4.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "91_91. Phường Bắc Kạn - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 182.0,
+        "sum_p1_caq": 182.0,
+        "schools_p1_count": 2,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 182.0,
+        "sum_tot_caq": 182.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "TH Bắc Kạn",
+          "sum": 154.0
+        },
+        {
+          "row": 10,
+          "name": "TH & THCS Bắc Kạn",
+          "sum": 28.0
+        }
+      ],
+      "schools_p2": []
+    },
+    {
+      "commune": "92_92. Phường Bá Xuyên - Nhập hoàn chỉnh PCGD 2026",
+      "rows": {
+        "tot": 7,
+        "p1_head": 8,
+        "p1": 34,
+        "p2_head": 35,
+        "p2": 68
+      },
+      "vals": {
+        "p1_ar": 210.0,
+        "sum_p1_caq": 210.0,
+        "schools_p1_count": 10,
+        "p2_ar": 0.0,
+        "sum_p2_caq": 0.0,
+        "schools_p2_count": 0,
+        "tot_ar": 210.0,
+        "sum_tot_caq": 210.0
+      },
+      "schools_p1": [
+        {
+          "row": 9,
+          "name": "Bách Quang",
+          "sum": 89.0
+        },
+        {
+          "row": 10,
+          "name": "Sông Công",
+          "sum": 71.0
+        },
+        {
+          "row": 11,
+          "name": "Tân Cương",
+          "sum": 40.0
+        },
+        {
+          "row": 12,
+          "name": "Phổ Yên",
+          "sum": 2.0
+        },
+        {
+          "row": 13,
+          "name": "Thành Công",
+          "sum": 1.0
+        },
+        {
+          "row": 14,
+          "name": "Tích Lương",
+          "sum": 3.0
+        },
+        {
+          "row": 15,
+          "name": "Vạn Xuân",
+          "sum": 1.0
+        },
+        {
+          "row": 16,
+          "name": "An Khánh",
+          "sum": 1.0
+        },
+        {
+          "row": 17,
+          "name": "Điềm Thuỵ",
+          "sum": 1.0
+        },
+        {
+          "row": 18,
+          "name": "Phú Bình",
+          "sum": 1.0
+        }
+      ],
+      "schools_p2": []
+    }
+  ]
+}

@@ -1,0 +1,754 @@
+{
+  "total_communes": 92,
+  "prov_tot_src": {
+    "C": 39.0,
+    "D": 230681.0,
+    "E": 3600.0,
+    "H": 101237.0,
+    "I": 98765.0,
+    "K": 93280.0,
+    "M": 3602.0,
+    "N": 2919.0,
+    "O": 2881.0
+  },
+  "prov_tot_detail": {
+    "C": 374.0,
+    "D": 230681.0,
+    "E": 3600.0,
+    "H": 101237.0,
+    "I": 98765.0,
+    "K": 93280.0,
+    "M": 3602.0,
+    "N": 2919.0,
+    "O": 2881.0
+  },
+  "rates_src": {
+    "J_rate_TN_THCS": 97.55820500409929,
+    "L_rate_hoc_tiep": 92.1402254116578,
+    "P_rate_KT_tiep_can": 98.69818430969511
+  },
+  "rates_detail": {
+    "J_rate_TN_THCS": 97.55820500409929,
+    "L_rate_hoc_tiep": 92.1402254116578,
+    "P_rate_KT_tiep_can": 98.69818430969511
+  },
+  "s_standard_counts": {
+    "3.0": 35,
+    "[Trống]": 28,
+    "8.0": 1,
+    "Mức độ 3": 9,
+    "MĐ3": 3,
+    "Đạt": 5,
+    "2.0": 4,
+    "Mức 3": 5,
+    "MĐ 3": 1,
+    "Mức độ 2": 1
+  },
+  "discrepancies_count": 64,
+  "discrepancies": [
+    {
+      "commune": "01_01. Xã Yên Trạch - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 34,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "02_02. Xã Yên Thịnh - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "04_04. Xã Yên Bình - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "05_05. Xã Xuân Dương - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "06_06. Xã Vô Tranh - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "07_07. Xã Võ Nhai - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 24.0,
+          "diff": -24.0
+        }
+      }
+    },
+    {
+      "commune": "09_09. Xã Vạn Phú - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "10_10. Xã Văn Lăng - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "11_11. Xã Văn Lang - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "12_12. Xã Văn Hán - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "13_13. Xã Trung Hội - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "16_16. Xã Trại Cau - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 17,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 3.0,
+          "diff": -3.0
+        }
+      }
+    },
+    {
+      "commune": "17_17. Xã Thượng Quan - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "19_19. Xã Thanh Thịnh - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 24.0,
+          "diff": -24.0
+        }
+      }
+    },
+    {
+      "commune": "20_20. Xã Thanh Mai - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "21_21. Xã Thành Công - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 23,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "22_22. Xã Thần Sa - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 20,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "23_23. Xã Tân Thành - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 23,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 16.0,
+          "diff": -16.0
+        }
+      }
+    },
+    {
+      "commune": "24_24. Xã Tân Kỳ - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 22.0,
+          "diff": -22.0
+        }
+      }
+    },
+    {
+      "commune": "25_25. Xã Tân Khánh - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 22,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 15.0,
+          "diff": -15.0
+        }
+      }
+    },
+    {
+      "commune": "26_26. Xã Tân Cương - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "27_27. Xã Sảng Mộc - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 11,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "30_30. Xã Quân Chu- Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "34_34. Xã Phủ Thông - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "36_36. Xã Phú Lương - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 7.0,
+          "diff": -7.0
+        }
+      }
+    },
+    {
+      "commune": "38_38. Xã Phú Đình - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 1.0,
+          "detail": 0.0,
+          "diff": 1.0
+        }
+      }
+    },
+    {
+      "commune": "40_40. Xã Phong Quang - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "41_41. Xã Nghinh Tường - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "43_43. Xã Nghĩa Tá - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "44_44. Xã Ngân Sơn - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 3.0,
+          "diff": -3.0
+        }
+      }
+    },
+    {
+      "commune": "46_46. Xã Nam Cường - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 14.0,
+          "diff": -14.0
+        }
+      }
+    },
+    {
+      "commune": "48_48. Xã Nà Phặc - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "49_49. Xã Lam Vỹ - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "50_50. Xã La Hiên - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "51_51. Xã La Bằng - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 21,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 14.0,
+          "diff": -14.0
+        }
+      }
+    },
+    {
+      "commune": "52_52. Xã Kim Phượng - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 19,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 3.0,
+          "diff": -3.0
+        }
+      }
+    },
+    {
+      "commune": "53_53. Xã Kha Sơn - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 5.0,
+          "diff": -5.0
+        }
+      }
+    },
+    {
+      "commune": "54_54. Xã Hợp Thành - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "55_55. Xã Hiệp Lực - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 16,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "56_56. Xã Đức Lương - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "61_61. Xã Dân Tiến - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 3.0,
+          "detail": 0.0,
+          "diff": 3.0
+        }
+      }
+    },
+    {
+      "commune": "62_62. Xã Đại Từ - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 25,
+      "diffs": {
+        "C": {
+          "src": 2.0,
+          "detail": 36.0,
+          "diff": -34.0
+        }
+      }
+    },
+    {
+      "commune": "63_63. Xã Đại Phúc - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 40,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 3.0,
+          "diff": -3.0
+        }
+      }
+    },
+    {
+      "commune": "64_64. Xã Cường Lợi - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "66_66. Xã Chợ Rã - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "67_67. Xã Chợ Mới - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 3.0,
+          "diff": -3.0
+        }
+      }
+    },
+    {
+      "commune": "68_68. Xã Chợ Đồn - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "69_69. Xã Cao Minh - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "70_70. Xã Cẩm Giàng - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "71_71. Xã Bình Yên - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 4.0,
+          "diff": -4.0
+        }
+      }
+    },
+    {
+      "commune": "74_74. Xã Bằng Thành - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 16.0,
+          "diff": -16.0
+        }
+      }
+    },
+    {
+      "commune": "76_76. Xã Ba Bể - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "77_77. Xã An Khánh - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "78_78. Phường Vạn Xuân - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "79_79. Phường Trung Thành - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 4.0,
+          "diff": -4.0
+        }
+      }
+    },
+    {
+      "commune": "80_80. Phường Tích Lương - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "81_81. Phường Sông Công - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "82_82. Phường Quyết Thắng - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 19.0,
+          "diff": -19.0
+        }
+      }
+    },
+    {
+      "commune": "83_83. Phường Quan Triều - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 2.0,
+          "diff": -2.0
+        }
+      }
+    },
+    {
+      "commune": "85_85. Phường Phổ Yên - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 40.0,
+          "diff": -40.0
+        }
+      }
+    },
+    {
+      "commune": "87_87. Phường Linh Sơn - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 4.0,
+          "diff": -4.0
+        }
+      }
+    },
+    {
+      "commune": "89_89. Phường Đức Xuân - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "91_91. Phường Bắc Kạn - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    },
+    {
+      "commune": "92_92. Phường Bá Xuyên - Nhập hoàn chỉnh PCGD 2026",
+      "tot_row": 46,
+      "diffs": {
+        "C": {
+          "src": 0.0,
+          "detail": 1.0,
+          "diff": -1.0
+        }
+      }
+    }
+  ]
+}

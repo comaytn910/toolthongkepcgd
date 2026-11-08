@@ -4,12 +4,23 @@ __pycache__/
 *$py.class
 .pytest_cache/
 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+setup_error.log
+
 # Office temporary lock files
 ~$*.xlsx
 ~$*.xls
 
 # Temp / test files
 test_*.xlsx
+test_in.txt
 0_*_sample.json
 0_*_analysis.json
 
@@ -19,3 +30,4 @@ test_*.xlsx
 
 # Large backup archives
 backups/*.zip
+
